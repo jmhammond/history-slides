@@ -27,6 +27,7 @@
 * Day 1
 ** Before class
 No readings; welcome to class
+Reply on Discourse to the About Me post.
 ** Activities
 ** After class
 - Read:
@@ -92,7 +93,7 @@ All of this /should be already done before starting class!/
 
 -  Quipu keepers in urban areas prepared, read, and stored quipu records
    for the government.
-   [[https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Quipu_detalles.jpg/640px-Quipu_detalles.jpg]][fn:2]
+   [[https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Quipu_detalles.jpg/640px-Quipu_detalles.jpg]][fn:quipudetail]
 
 #+REVEAL: split
 **** Quipu and an abacus
@@ -109,12 +110,6 @@ https://upload.wikimedia.org/wikipedia/commons/f/f0/Nueva_cor%C3%B3nica_y_buen_g
 - Counting Beads (small objects)
 - Sheet for a yupana
 
-** Sketch 2: Reading and Writing Arithmetic: The Basic Symbols
-*** Discussing the homework questions
-* Day 3
-** Before class
-** Activities
-** After class
 ** "Nutshell" pages 5-25
 
 *** Egyptian Arithmetic
@@ -188,6 +183,12 @@ https://upload.wikimedia.org/wikipedia/commons/f/f0/Nueva_cor%C3%B3nica_y_buen_g
 
 [[https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Bisotun_Iran_Relief_Achamenid_Period.JPG/800px-Bisotun_Iran_Relief_Achamenid_Period.JPG]] [fn:cuineiform]
 
+* Day 3
+** Before class
+** Activities
+** After class
+** Sketch 2: Reading and Writing Arithmetic: The Basic Symbols
+*** Discussing the homework questions
 ** Sketch 4: Broken Numbers: Writing Fractions
 *** Egyptian Fractions and Arithmetic
    :PROPERTIES:
@@ -248,11 +249,24 @@ museum goes as follows:
 | 1,20 | 45 |
 | 1,21 | 44,26,40 |
 - Remember we have to determine number "place"
+*** Simon Stevin and Symbolism
+   :PROPERTIES:
+   :CUSTOM_ID: simon-stevin-and-symbolism
+   :END:
+
+#+ATTR_REVEAL: :frag (appear)
+- 1548-1620 (modern Belgium), wrote in Dutch
+- Decimal Fractions (in Europe)
+  - Published /De Thiende/ ('The Tenth') in 1585
+    - [[https://books.google.com/books?id=aVdIAQAAMAAJ&pg=PA9&ci=99%252C363%252C407%252C298&source=bookclip#v=onepage&q&f=false][You can find it here]] (a 1606 English edition)
+  - Operations with decimals; circle-number notation for place value
+    - (me: do an example specifically, and also look at the link above)
+  - ... Napier would use decimals in his work on logarithms soon after
 * Day 4
 ** Before class
 ** Activities
 ** After class
-
+- Try to find about 70 pennies (we want consistent-sized small circular discs)
 
 ** Sketch 12: A Cheerful Fact: The Pythagorean Theorem
 *** A Mesopotamian question:
@@ -400,15 +414,107 @@ Tables from  cite:Eves1990 (pgs 45, 46)
    -  no reliance on angles.
    -  ... due to use of base 60, no need to approximate fractions
 
+*** Pythagorean Number Theory
+   :PROPERTIES:
+   :CUSTOM_ID: number-theory
+   :END:
+
+   #+ATTR_REVEAL: :frag (appear)
+-  Pythagoreans loved numbers!
+-  Special number properties (composite numbers)
+-  Pythagorean triples (from Mesopotamia?)
+-  Triangular, square, pentagonal, etc. numbers
+-  “Perfect” numbers (along with “Deficient” and “Abundant” numbers)
+-  “Amicable”/"Friendly" numbers[fn:friendly]
+
+
+**** Examples of Figurate Numbers
+   :PROPERTIES:
+   :CUSTOM_ID: examples-of-figurate-numbers
+   :END:
+
+#+ATTR_REVEAL: :frag (appear)
+-  Triangular Numbers: $1, 3, 6, 10, 15, 21, \dots$
+   -  The third triangular number, denoted $T_3$, is 6.
+-  Square Numbers: $1, 4, 9, 16, 25, \dots$
+   -  The fourth square number, $S_4$, is 16.
+-  Pentagonal numbers: $1, 5, 12, 22, 35, \dots$
+   -  The second pentagonal number, $P_2$, is 5
+
+#+REVEAL: split
+
+[[https://upload.wikimedia.org/wikipedia/commons/b/b5/Pentagonal_number.gif]] [fn:pentagonal]
+
+**** Figurate number relations
+
+#+ATTR_REVEAL: :frag (appear)
+  - Square in terms of triangular numbers
+  - Square in terms of "gnomons"
+  - from Pythagoras, according to Proclus cite:Heath1921v1:
+    #+ATTR_REVEAL: :frag (appear)
+    - Take a square number that is odd
+    - Add this to the square which is the sum of all preceding odd numbers.
+    - This makes the square of all odd numbers up to the original
+      - $m^2 + \left( \dfrac{m^2 -1}{2} \right)^2 = \left(\dfrac{m^2 +1}{2}\right)^2$
+  - Pentagonal numbers in terms of squares and triangles
+
+**** Perfect, Abundant, Deficient
+   :PROPERTIES:
+   :CUSTOM_ID: perfect-abundant-deficient
+   :END:
+
+#+ATTR_REVEAL: :frag (appear)
+-  First, we need to be comfortable with finding divisors:
+   -  What are the divisors of: 6? 18? 28? 39?
+-  /Proper divisors/ are those divisors which are not equal to the
+   number itself.
+-  A /perfect number/ one that equals the sum of its proper divisors.
+   -  After we talk about Euclid, we might come back to this. It's
+      remarkable!
+-  An /abundant number/ is one such that the sum of the proper divisors
+   is greater than the number.
+-  A /deficient number/ is one such that the sum of the proper divisors
+   is less than the number.
+
+**** Amicable Numbers
+   :PROPERTIES:
+   :CUSTOM_ID: amicable-numbers
+   :END:
+
+#+ATTR_REVEAL: :frag (appear)
+-  What are the proper divisors of 220 and 284?
+-  220:
+   -  1, 2, 4, 5, 10, 11, 20, 22, 44, 55 and 110
+-  284:
+   -  1, 2, 4, 71 and 142
+
+-  What neat thing do you observe?
+
 
 * Day 5
 ** Before class
 ** Activities
+Fill a circle with pennies
 ** After class
 
 
 ** Sketch 7: Measuring the Circle: The story of $\pi$
+*** TODO Archimedes and double exhaustion
+*** TODO Hippocrates: Quest to Square the Circle
+   :]PROPERTIES:
+   :CUSTOM_ID: hippocrates-quest-to-square-the-circle
+   :END:
 
+-  450 B.C. Hippocrates finds the area of a curved figure called a lune
+   (crescent moon shape).
+-  The Geogebra activity!
+
+*** Irrationality of $\pi$
+- Is $\pi$ irrational?
+- Search for digits of $\pi$.
+- Approximations of Egyptians and Archimedes
+- (Let's use blocks to try an Egyptian problem!)
+- If you find a repeating pattern, $\pi$ is rational.
 * Day 6
 ** Before class
 ** Activities
@@ -538,6 +644,52 @@ Process:
 
 
 **** Sketch 8: The Cossic Art: Writing Algebra with Symbols
+
+*** Linear Systems in Babylon
+   :PROPERTIES:
+   :CUSTOM_ID: linear-systems-in-babylon
+   :END:
+
+Solving a system of two equations and two unknowns. As quoted in Katz
+cite:Katz2003
+
+#+BEGIN_QUOTE
+  from the Old Babylonian text VAT 8389: One of two fields yields 2/3
+  sila per sar, the second yields 1/2 sila per sar (sila and sar are
+  measures for capacity and area, respectively). The yield of the first
+  field was 500 sila more than that of the second; the areas of the two
+  fields were together 1800 sar. How large is each field?
+#+END_QUOTE
+
+#+ATTR_REVEAL: :frag (appear)
+-  Write this in modern notation
+-  How would you solve it?
+
+
+*** Linear Systems in Babylon
+   :PROPERTIES:
+   :CUSTOM_ID: linear-systems-in-babylon-1
+   :END:
+
+-  The scribe's solution:
+
+#+ATTR_REVEAL: :frag (appear)
+1. $x = y = 900$.
+2. $2/3 \cdot 900 - 1/2 \cdot 900 = 150$
+3. ... off by 350!
+4. Multiply 350 by $6/7$ to find 300.
+5. Answer: $x=900+300=1200$ and $y=900-300=600$.
+
+*** Why $6/7$?
+   :PROPERTIES:
+   :CUSTOM_ID: why-67
+   :END:
+
+#+ATTR_REVEAL: :frag (appear)
+-  $2/3 (1) - 1/2(-1) = 7/6$,
+-  ... so each increase of $x$ increases the output by $7/6$.
+-  What increase, $s$, should we do for $x$?
+-  $7/6s = 350$ or $s= 300$.
 * Day 7
 ** Before class
 ** Activities
@@ -545,12 +697,79 @@ Process:
 
 ** Sketch 28: Any Way You Slice It: Conic Sections
 ** Sketch 10: A Square and Things: Quadratic Equations
+*** Another particular case of al-Kwharizmi: $ax^2 + c = bx$
+   :PROPERTIES:
+   :CUSTOM_ID: another-particular-case-ax2-c-bx
+   :END:
+
+#+ATTR_REVEAL: :frag (appear)
+-  We follow a similar method
+-  But we can have more than one solution
+-  Or no solution.
+-  (Me) read the translation from cite:Levy2002
 *** A Mesopotamian story problem:
 Old Babylonian Story Problem ca. 1700 B.C, the solution to the question: "I have taken the area and two thirds of the side of my square and it is 0;35."
 
 #+BEGIN_QUOTE
    You take 1 the “coefficient”. Two thirds of 1, the coefficient, is 0;40. Half of this, 0;20, you multiply by 0;20 (and the result) 0;6,40 you add to 0;35 and (the result) 0;41, 40 has 0;50 as its square root. 0;20, which you multiplied by itself, you subtract from 0;50 and 0;30 is the (side of) the square.”
 #+END_QUOTE
+
+*** Algebra of Greece (Euclid)
+  :PROPERTIES:
+  :CUSTOM_ID: algebra-of-greece-euclid
+  :END:
+
+**** Book II of Elements
+   :PROPERTIES:
+   :CUSTOM_ID: book-ii-of-elements
+   :END:
+
+-  Definition:
+
+#+BEGIN_QUOTE
+  Any rectangular parallelogram is said to be contained by the two straight lines containing the right angle.
+#+END_QUOTE
+
+#+REVEAL: split
+
+-  Proposition II.4:
+
+#+BEGIN_QUOTE
+  If a straight line be cut at random, the square on the whole is equal to the squares on the segments and twice the rectangle contained by the segments.
+#+END_QUOTE
+
+[[file:images/euclid_ii_4.png]][fn:http://math.furman.edu/~jpoole/euclidselements/eubk2/props.htm]
+
+#+REVEAL: split
+
+-  Proposition II.5:
+
+#+BEGIN_QUOTE
+  If a straight line be cut into equal and unequal segments, the rectangle contained by the unequal segments of the whole together with the square on the straight line between the points of section is equal to the square on the half.
+#+END_QUOTE
+
+[[file:images/euclid_ii_5.png]][fn:http://math.furman.edu/~jpoole/euclidselements/eubk2/props.htm]
+
+#+REVEAL: split
+
+-  Proposition II.6:
+
+#+BEGIN_QUOTE
+  If a straight line be bisected and a straight line be added to it in a straight line, the rectangle contained by the whole with the added straight line and the added straight line together with the square on the half is equal to the square on the straight line made up of the half and the added straight line.
+#+END_QUOTE
+
+[[file:images/euclid_ii_6.png]][fn:http://math.furman.edu/~jpoole/euclidselements/eubk2/props.htm]
+
+#+REVEAL: split
+
+
+-  Proposition II.11:
+
+#+BEGIN_QUOTE
+  To cut a given straight line so that the rectangle contained by the whole and one of the segments is equal to the square on the remaining segment.
+#+END_QUOTE
+
+[[file:images/euclid_ii_11.png]][fn:http://math.furman.edu/~jpoole/euclidselements/eubk2/props.htm]
 * Day 8
 ** Before class
 ** Activities
@@ -558,6 +777,216 @@ Old Babylonian Story Problem ca. 1700 B.C, the solution to the question: "I have
 
 ** Sketch 5: Less than nothing?: Negative numbers
 ** Sketch 11: Intrigue in Renaissance Italy: Solving Cubic Equations
+*** Omar Khayyam - Solutions to Cubics
+   :PROPERTIES:
+   :CUSTOM_ID: omar-khayyam---solutions-to-cubics
+   :END:
+- Khayyam discovered and extended a geometrical argument for solving cubics
+- Leads to finding the real solution to cubic equations
+
+- In /Treatise on Demonstrations of Problems of al-jabra and
+  al-muqabala/:
+
+  - "he emphasizes that the reader needs to be thoroughly familiar
+    with the work of Euclid, Appolonius, and al-Khwarizmi in order to
+    follow the solutions." cite:Laubenbacher1998
+  - Showed strong mastery of geometry
+
+#+REVEAL: split
+- Classification of solutions of some cubics (from cite:Joseph2001)
+
+| Type               | Method                                   |
+|--------------------+------------------------------------------|
+| $x^3 = c$          | Intersection of two parabolas            |
+| $x^3 + ax = c$     | Intersection of circle and parabola      |
+| $x^3 \pm c = ax$   | Intersection of hyperbola and parabola   |
+| $x^3 = ax + c$     | Intersection of two hyperbolas           |
+
+*** The general solution to the cubic
+  :PROPERTIES:
+  :CUSTOM_ID: the-solution-to-the-cubic
+  :END:
+
+**** The people
+   :PROPERTIES:
+   :CUSTOM_ID: the-people
+   :END:
+
+#+ATTR_REVEAL: :frag (appear)
+-  Antonio Maria Fior
+   -  Student of Scipio Ferro
+-  Nicolo Fontana (1506-1557)
+   #+ATTR_REVEAL: :frag (appear)
+   -  Poor family
+   -  two weeks of formal schooling
+   -  self taught
+      -  Taught math Venice, Verona, and Brescia
+      -  Translated Euclid's /Elements/ among other works
+   -  Called Nicolo Tartaglia
+      -  French attack in 1512
+      -  Disfigurement
+      -  /Tartaglia/ (the stammerer)
+
+#+REVEAL: split
+
+#+ATTR_REVEAL: :frag (appear)
+-  Girolamo Cardano (1501 - 1576)
+   -  well-educated
+   -  medical doctor and mathematician
+-  Ludovico Ferrari (1522-1565)
+   -  Poor family
+   -  Came to work for Cardano
+      -  Showed his brilliance
+
+**** The ... math battles(?)
+   :PROPERTIES:
+   :CUSTOM_ID: the-...-math-battles
+   :END:
+
+#+ATTR_REVEAL: :frag (appear)
+-  Battles of science and mathematics
+-  Sample questions from Fior to Tartaglia cite:Nordgaard1938:
+   #+ATTR_REVEAL: :frag (appear)
+   -  "Find three numbers in triple proportion [x, 3x, 9x] such that if the square of the smallest is multiplied by the largest and the product be added to the mean number, the result is 7"
+   -  "Find a number which added to twice its cube root gives 13"
+   -  "Divide twenty into two parts such that one is the cube root of
+      the other"
+   -  ...
+-  These are all forms of $x^3 + mx = n$
+-  Tartaglia defeats Fior.
+   #+ATTR_REVEAL: :frag (appear)
+   -  Goodbye Fior
+
+**** Please... please... please?
+   :PROPERTIES:
+   :CUSTOM_ID: please...-please...-please
+   :END:
+
+-  Cardano wants Tartaglia's solution.
+   -  [Stage direction: Read from cite:Nordgaard1938]
+
+**** Cardano finds another way
+   :PROPERTIES:
+   :CUSTOM_ID: cardano-finds-another-way
+   :END:
+
+To solve $x^3 + mx = n$, from Cardano's /Ars Magna/, as quoted in
+cite:Dunham1991:
+
+#+BEGIN_QUOTE
+  Cube one-third the coefficient of $x$; add to it the square of one-half the constant of the equation; and take the square root of the whole. You will duplicate [repeat] this, and to one of the two you add one-half the number you have already squared and from the other you subtract one-half the same... Then, subtracting the cube root of the first from the cube root of the second, the remainder which is left is the value of $x$.
+#+END_QUOTE
+
+**** Cardano's Formula
+   :PROPERTIES:
+   :CUSTOM_ID: cardanos-formula
+   :END:
+
+If $x^3 + mx = n$, then
+
+$$x = \sqrt[3]{\frac{n}{2} + \sqrt{\frac{n^2}{4} + \frac{m^3}{27}}} - \sqrt[3]{-\frac{n}{2} + \sqrt{\frac{n^2}{4} + \frac{m^3}{27}}}$$
+
+#+ATTR_REVEAL: :frag (appear)
+# -  He didn't write this (this is us translating)
+# -  Let's derive this formula!
+# -  Future todo: Math 531 folks - let's derive this formula!
+# -  ... or you 300 folks... interested in where it came from?
+#    -  I didn't think you would be
+#    -  I knew you would!
+#    -  (Pick which sentence applies)
+
+**** The different "types" of cubics
+   :PROPERTIES:
+   :CUSTOM_ID: the-different-types-of-cubics
+   :END:
+
+Cardano only dealt with positive quantities - negative numbers are still uncomfortable in the 16th century!
+#+ATTR_REVEAL: :frag (appear)
+-  Cube and first power equal to a number (what we did)
+-  Cube and number equal to first power
+-  Cube, square and first power equal to a number
+-  Cube equal to the square and first power
+-  ...
+
+**** What about general cubics?
+   :PROPERTIES:
+   :CUSTOM_ID: what-about-general-cubics
+   :END:
+
+-  Depressing a polynomial.
+#+ATTR_REVEAL: :frag (appear)
+   -  Take $ax^2 + bx + c = 0$
+   -  [[http://www.wolframalpha.com/input/?i=expand+a(y-b%2F(2a))%5E2+%2B+b(y-b%2F(2a))+%2B+c][Substitute $x = y - \frac{b}{2a}$]] (Link to WolframAlpha).
+   -  Observation?
+   -  Take $ax^3 + bx^2 + cx + d = 0$
+   -  [[http://www.wolframalpha.com/input/?i=expand+a(y-b%2F(3a))%5E3+%2B+b(y-b%2F(3a))%5E2+%2B+c(y-b%2F(3a))+%2B+d][Substitute $x = y-\frac{b}{3a}$]] (Link to WolframAlpha)
+   -  Observation?
+
+**** Another Cardano example:
+   :PROPERTIES:
+   :CUSTOM_ID: another-cardano-example
+   :END:
+
+#+ATTR_REVEAL: :frag (appear)
+-  Solve $x^3 - 15x = 4$
+-  Cardano's formula: $m = -15$, $n=4$.
+-  ...
+-  $x=\sqrt[3]{2+\sqrt{-121}} - \sqrt[3]{-2+\sqrt{-121}}$
+
+**** "But $\sqrt{-121}$ is meaningless," you say.
+   :PROPERTIES:
+   :CUSTOM_ID: but-sqrt-121-is-meaningless-you-say.
+   :END:
+
+-  This is /casus irreducibilis/
+-  $\sqrt{-121}$ has no geometric meaning
+   -  there is no square whose area is -121
+-  Let's play for a moment, though:
+   #+ATTR_REVEAL: :frag (appear)
+   -  Cube $2 + \sqrt{-1}$.
+   -  $(2 + \sqrt{-1})^3 = 8 + 12\sqrt{-1} - 6 - \sqrt{-1}$
+   -  $= 2 + 11\sqrt{-1}$
+   -  $= 2 + \sqrt{-121}$
+
+#+ATTR_REVEAL: :frag (appear)
+-  So $\sqrt[3]{2 + \sqrt{-121}} = 2 + \sqrt{-1}$
+-  Similarly, $\sqrt[3]{-2 + \sqrt{-121}} = -2 + \sqrt{-1}$
+
+
+#+REVEAL: split
+
+#+ATTR_REVEAL: :frag (appear)
+-  So $\sqrt[3]{2 + \sqrt{-121}} = 2 + \sqrt{-1}$
+-  Similarly, $\sqrt[3]{-2 + \sqrt{-121}} = -2 + \sqrt{-1}$
+-  Coming back to Cardano's solution to $x^3- 15x = 4$
+   #+ATTR_REVEAL: :frag (appear)
+   -  $x=\sqrt[3]{2+\sqrt{-121}} - \sqrt[3]{-2+\sqrt{-121}}$
+   -  $x=(2+\sqrt{-1}) - (-2 + \sqrt{-1})$
+   -  $x=4$
+-  So using $\sqrt{-121}$ as an object gives a /real/ solution.
+-  Mind-blow.
+-  Cardano called the solutions /sophistic/ (from /sophism/ meaning an argument designed to deceive)
+
+**** Ferrari solves the quartic
+   :PROPERTIES:
+   :CUSTOM_ID: ferrari-solves-the-quartic
+   :END:
+
+Cardano writes in /Ars Magna/ (as recounted in cite:Dunham1991):
+#+BEGIN_QUOTE
+  There is another rule, more noble than the preceding. It is Lodovico Ferrari's, who gave it to me on my request. Through it we have all the solutions for equations of the fourth power.
+#+END_QUOTE
+
+#+REVEAL: split
+
+General idea:
+#+ATTR_REVEAL: :frag (appear)
+-  Starting with a general quartic $$ax^4 + bx^3 + cx^2 + dx + e = 0$$
+-  Depress it using the substitution $y=x-\frac{b}{4a}$, giving: $$y^4 + my^2 + ny = p$$
+-  Then cleverly introduce substitutions to turn it into a cubic.
+   -  We can solve every cubic using Cardano's method.
+
+
 * Day 9
 ** Before class
 ** Activities
@@ -580,6 +1009,228 @@ presentation note: use two-finger pinch-out trackpad gesture to zoom on the chro
 
 ** Sketch 14: On Beauty Bare: Euclid's Plane Geometry
 ** Sketch 13: A Marvelous Proof: Fermat's Last Theorem
+*** Diophantus
+   :PROPERTIES:
+   :CUSTOM_ID: diophantus
+   :END:
+
+#+ATTR_REVEAL: :frag (appear)
+-  Diophantus of Alexandria lives around 3rd century AD (probably)
+-  He quotes Hypsicles (150BC) and is quoted by Theon of Alexandria
+   (350AD)
+-  A book by the Bishop of Laodicia dedicated a book to Diophantus
+   around 278AD
+
+-  What we know is a puzzle:
+
+#+ATTR_REVEAL: :frag (appear)
+#+BEGIN_QUOTE
+  Diophantus passed 1/6 of his life in childhood, 1/12 in youth, and 1/7
+  more as a bachelor. Five years after his marriage was born a son who
+  died 4 years before his father, at 1/2 his father's [final] age
+  (quoted from cite:Eves1990)
+#+END_QUOTE
+
+#+REVEAL: split
+
+
+What did he do?
+
+#+ATTR_REVEAL: :frag (appear)
+-  Wrote three works: /Arithmetica/, /On Polygonal Numbers/, and
+   /Porisms/.
+-  The first we have a lot of (6 of 13 books)
+-  Second we have fragments
+-  Third is completely lost.
+
+*** /Arithmetica/
+   :PROPERTIES:
+   :CUSTOM_ID: arithmetica
+   :END:
+
+#+ATTR_REVEAL: :frag (appear)
+-  A book on what we now call algebraic number theory
+-  Deals with 130 problems and solutions
+-  Problems involved 1st and 2nd degree equations (requiring positive
+   rational solutions)
+-  No general methods, just solving individually (with clever tricks)
+-  The Greek contribution to algebra (to be picked up in a couple weeks)
+
+*** Diophantus - Example Problems (from cite:Eves1990 page 181)
+   :PROPERTIES:
+   :CUSTOM_ID: diophantus---example-problems-from-eves1990-page-181
+   :END:
+
+-  Book II, Problem 28
+#+BEGIN_QUOTE
+  Find two numbers such that their product added to either gives a
+  square number.
+#+END_QUOTE
+
+#+ATTR_REVEAL: :frag (appear)
+-  His answer is
+   $\displaystyle \left(\frac34\right)^2, \left(\frac7{24}\right)^2$.
+
+#+REVEAL: split
+
+
+-  Book III, Problem 6
+#+BEGIN_QUOTE
+  Find three numbers such that their sum is a square and the sum of any
+  pair is a square.
+#+END_QUOTE
+
+#+ATTR_REVEAL: :frag (appear)
+-  His answer is $80, 320, 41$.
+
+*** After verifying his answers
+   :PROPERTIES:
+   :CUSTOM_ID: after-verifying-his-answers
+   :END:
+
+#+ATTR_REVEAL: :frag (appear)
+-  ... do you think you'd try to find more?
+-  Are there more answers to a problem? A general formula?
+
+*** Diophantus - A historical problem
+   :PROPERTIES:
+   :CUSTOM_ID: diophantus---a-historical-problem
+   :END:
+
+-  Book II, problem 8: To divide a given square number into two squares.
+   As quoted in cite:Katz2003, pg 177:
+
+#+BEGIN_QUOTE
+  Let it be required to divide 16 into two squares. And let the first
+  square = $x^2$; then the other will be $16-x^2$; it shall be required
+  therefore to make $16-x^2=$ a square. I take a square of the form
+  $(ax-4)^2$, a being any integer and 4 the root of 16; for example, let
+  the side be $2x-4$, and the square itself $4x^2 + 16 - 16x$. Then
+  $4x^2 + 16 - 16x = 16 - x^2$. Add to both sides the negative terms and
+  take like from like. Then $5x^2 = 16x$, and $x=16/5$. One number will
+  therefore be 256/25, the other 144/25, and their sum is 400/25 or 16,
+  and each is a square.
+#+END_QUOTE
+
+*** Diophantus - A historical problem
+   :PROPERTIES:
+   :CUSTOM_ID: diophantus---a-historical-problem-1
+   :END:
+
+#+CAPTION: Diophantus and Fermat
+[[file:images/Diophantus-II-8-Fermat.jpg]]
+
+*** Diophantus - A historical problem
+   :PROPERTIES:
+   :CUSTOM_ID: diophantus---a-historical-problem-2
+   :END:
+
+Solution to Book II, problem 8 suggests general method:
+
+#+ATTR_REVEAL: :frag (appear)
+-  To find two numbers $x$ and $y$ so that $x^2 + y^2 = b^2$:
+-  Pick $a$ to be any number.
+-  Set $y=ax-b$
+-  Then $b^2 - x^2 = a^2 x^2 -2abx + b^2$
+-  ... $2abx = (a^2+1)x^2$
+-  ... $\displaystyle x = \frac{2ab}{a^2+1}$.
+-  What about other powers?
+# -  (That's a teaser. We'll talk about it when we get to number theory later)
+*** Hypatia of Alexandria
+
+#+ATTR_REVEAL: :frag (appear)
+- Teacher at the University at Alexandria
+- Her commentaries:
+     #+ATTR_REVEAL: :frag (appear)
+     - /Conics/ of Appollonius
+     - Edited /Almagest/ of Ptolemy (astronomy / trig) (/Almagest/ is from the Arabic for "Greatest")
+     - Edited Theon's commentary of /The Elements/
+     - /Arithmetica/ by Diophantus
+- Diophantus: "Father of algebra" and Hypatia: "Mother of algebra"
+
+
+*** Diophantus' Work Lives On
+
+#+ATTR_REVEAL: :frag (appear)
+- 1463 - Regiomontanus:
+   Called for a Latin translation of the remaining Greek texts
+- 1570 Rafael Bombelli finds the manuscript in the Vatican
+  #+ATTR_REVEAL: :frag (appear)
+  - with Antonio Maria Pazzi translates it
+  - ... doesn't publish it
+  - uses the problems in his /Algebra/ 1572
+- 1575 - Xylander (formerly Wilhelm Holzmann)
+    Translated the Greek and added his commentary
+- 1621 - Bachet de Meziriac
+    Published the Greek and Latin together with notes
+- 1670 - Clement-Samuel Fermat
+    "A second, carelessly printed, edition was brought out in 1670" cite:Eves1990  pg 180.  This version included his father's marginal notes.
+  #+ATTR_REVEAL: :frag (appear)
+  - Who was his father?
+***  Pierre de Fermat
+
+#+ATTR_REVEAL: :frag (appear)
+   - Lived 1601-1665
+   - French lawyer
+   - Mathematician as a hobby
+   - Contributions include:
+     - Calculus
+     - Probability
+     - Number Theory
+
+
+#+REVEAL: split
+   [[./images/Diophantus-II-8-Fermat.jpg]]
+   Marginal notes in Diophantus' /Arithmetica/
+
+*** Proving ALL the things
+
+#+ATTR_REVEAL: :frag (appear)
+- Christian Goldbach and Leonhard Euler
+- Fermat's most famous note:
+
+#+ATTR_REVEAL: :frag (appear)
+#+BEGIN_QUOTE
+ Cubum autem in duos cubos, aut quadratoquadratum in duos quadratoquadratos, et generaliter nullam in infinitum ultra quadratum potestatem in duos eiusdem nominis fas est dividere cuius rei demonstrationem mirabilem sane detexi. Hanc marginis exiguitas non caperet.[fn:  http://www.textkit.com/greek-latin-forum/viewtopic.php?f=3&t=7108]
+#+END_QUOTE
+
+*** Fermat's Last Theorem(?)
+
+#+ATTR_REVEAL: :frag (appear)
+- Conjecture: The expression $x^n + y^n = z^n$ has no integer solutions for $n>2$.
+
+
+*** Taniyama-Shimura Conjecture
+
+#+ATTR_REVEAL: :frag (appear)
+- Conjecture: All elliptic curves are modular.
+    - Conjectured by Yukata Taniyama and Goro Shimura in 1955.
+- (I intended this slide to seem jarring and out of place)
+
+
+
+*** Andrew Wiles (1953-present)
+#+ATTR_REVEAL: :frag (appear)
+    - As a boy (of about 12) read about Fermat's Conjecture
+    - ... so he gets his PhD in Mathematics
+    - Becomes and still is a Professor of Mathematics at Oxford
+    - Worked in a specialized field involving elliptic curves
+    - Fermat's Conjecture is a hard problem, don't work on it
+
+*** Fermat's Last Theorem
+
+
+#+ATTR_REVEAL: :frag (appear)
+- 1987: "The Epsilon Conjecture"
+    The Taniyama-Shimura conjecture implies Fermat's Last Theorem.
+- Wiles learns about this result...
+- ... and spends the next seven years of his professional life proving one of the most difficult results in modern mathematics.
+- Proven. 1993.
+- ... an error.
+- Patched up (100ish? pages later) 1994.
+    Completely correct.
+- BBC/Horizon's Documentary on Fermat's Last Theorem. You can find it on YouTube or Vimeo.
+- Accolades for Wiles
 * Day 11
 ** Before class
 ** Activities
@@ -605,14 +1256,252 @@ presentation note: use two-finger pinch-out trackpad gesture to zoom on the chro
 ** Activities
 ** After class
 ** Sketch 18: Half is better: Sine and Cosine
+
+*** Hipparchus
+   :PROPERTIES:
+   :CUSTOM_ID: hipparchus
+   :END:
+
+#+attr_reveal: :frag (appear)
+- circa 180-125bc
+- 'Father of Trigonometry'
+- Created a table of chords
+- ... we don't have them
+  - Theon tells us there were 12 books
+- Used $\pi = 3;8,30$
+- Used a circle's circumference divided into 360*60 parts, measured in minutes
+  #+attr_reveal: :frag (appear)
+  - This is (likely) the reason we use 360 parts of a circle
+  - possibly due to the zodiac
+  - also Babylonian fractions are better than others
+    - Egyptian unit fractions were cumbersome
+    - Greek fractions weren't convenient otherwise
+  - ... gives diameter of about 6875'
+  - and radius of about 3438'
+    - [ ] or $57^\circ 60'$
+
+*** Cladius Ptolemy's /Almagest/
+   :PROPERTIES:
+   :CUSTOM_ID: cladius-ptolemys-almagest
+   :END:
+
+#+attr_reveal: :frag (appear)
+- Ptolemy (circa 100-170AD)
+- Actual Greek name of the book is is /Mathematica Syntaxis/
+- Becomes /Almagest/ in Arabic
+
+*** Astronomical aside
+- Astronomical model:
+  #+attr_reveal: :frag (appear)
+  - the heavens are spherical and rotate as a sphere
+  - the Earth is a sphere
+  - the Earth is the center of the cosmos
+  - the distance from the Earth to the heavens is so big that Earth can be treated as a geometrical point
+  - the Earth does not move
+#+reveal: split
+[[./images/ptolemaicsystem.jpg]]
+
+#+reveal: split
+#+attr_reveal: :frag (appear)
+- Motion kind of makes sense
+- Observed /retrograde/ motion of Mars
+  #+attr_reveal: :frag (appear)
+  - [[https://www.geogebra.org/m/ajt8tfgf][Geogebra applet to see it]]
+  - Ptolemy's explanation (draw diagram)
+  - [[https://www.geogebra.org/m/Vqudwzvz][Geogebra applet to observe his explanation]]
+- ... Copernicus explains it later with the Sun at the center.
+  - [[https://www.geogebra.org/m/bnHNYejX][Geogebra applet showing the Heliocentric model]]
+*** Back to Ptolemy's math
+- Suggests his approach is similar to Hipparchus
+- Also uses 360 subdivisions of a circle's circumference
+  - Further divides into (later Latin translation):
+    - degree into sixty /partes minutae primae/
+    - and these into sixty /partes minutae secundae/
+*** Ptolemy's Theorem and sums of chords
+For any quadrilateral inscribed in a circle:
+$$BD\cdot AC = AB \cdot CD + BC \cdot AD$$ [[./images/PtolemyTheorem.png]][fn:By Dicklyon (Wikipedia en Inglés) [Public domain], via Wikimedia Commons]
+#+attr_reveal: :frag (appear)
+- The side-lengths of the quadrilateral are chords
+- ...
+- The side-lengths of the quadrilateral are sines of the angles!
+  [[./images/PtolemySine.png]][fn:Kmhkmh (Own work) [CC BY 4.0 (http://creativecommons.org/licenses/by/4.0)], via Wikimedia Commons]
+- ... you'll get into Ptolemy's theorem and the "Star Trek" lemma next month
+
+*** Ptolemy's Computation:
+   :PROPERTIES:
+   :CUSTOM_ID: ptolemys-computation
+   :END:
+
+#+attr_reveal: :frag (appear)
+-  Working in base-60, sexagesimal.
+-  Letting the diameter of the circle be 120
+-  This makes the radius 60, which is a unit in sexagesimal
+-  First, find the chord for $36^\circ$
+   #+attr_reveal: :frag (appear)
+   -  Side of a regular decagon inscribed in the circle
+   -  Using Euclid II.6 (discussed in class in the algebra notes)
+   -  He finds the chord is $37;4,55$
+#+attr_reveal: :frag (appear)
+- Second, he found the chord for $72^\circ$, being $70; 32, 3$
+- Next, the chord for $60^\circ$ is $60$.
+- It's worth remembering: $\mbox{crd} \alpha = 2R \sin\dfrac\alpha2$
+- ... and the values are [[https://www.wolframalpha.com/input/?i=sin(18+degrees)+*+120++-++(37+%2B+4%2F60+%2B+55%2F60%5E2)][pretty close]]
+- We also need the Pythagorean Theorem! (To find supplement chords / complementary sines)
+#+reveal: split
+
+#+attr_reveal: :frag (appear)
+-  To this point, we have sines for
+| Arc $\alpha$   | $\alpha/2$   | Chord / Sine $\alpha/2$   |
+|----------------+--------------+---------------------------|
+| $72^\circ$     | $36^\circ$   | 70;32,3                   |
+| $60^\circ$     | $30^\circ$   | 60;0,0                    |
+| $36^\circ$     | $18^\circ$   | 37;4,55                   |
+| $144^\circ$    | $72^\circ$   | 114;7,37                  |
+| $120^\circ$    | $60^\circ$   | 103;55,22                 |
+| $108^\circ$    | $54^\circ$   | 97; 4, 55                 |
+#+attr_reveal: :frag (appear)
+- ... he then repeatedly applies his half-angle formula and Pythagorean theorem and halves his way down to under $1^\circ$.
+- (I find this more delightful than you, perhaps...)
+- (... but if you want, we can actually do the computations! I have slides for that)
 ** Sketch 27: Counting Ratios: Logarithms
 
+*** John Napier
+- Scottish mathematician
+- His father was knighted and was Master of the Mint
+- Studied Theology
+  - [[https://archive.org/details/NapierJohn.APlaineDiscoveryOfTheWholeRevelationOfSaintJohnSet][A Plaine Discovery of the Whole Revelation of Saint John]]
+    - end of the world
+  - numerology
+- Published /Mirifici logarithmorum canonis descripto/ in 1614
+  - /A description of the wonderful table of logarithms/
+
+#+REVEAL: split
+#+BEGIN_QUOTE
+  Seeing there is nothing that is so troublesome to mathematical practice, nor that doth more molest and hinder calculators, than the multiplications, divisions, square and cubical extractions of great numbers ... I began therefore to consider in my mind by what certain and ready art I might remove those hindrances.[fn:http://www-history.mcs.st-and.ac.uk/Quotations/Napier.html]
+#+END_QUOTE
+
+*** Arithmetic Break!
+   :PROPERTIES:
+   :CUSTOM_ID: arithmetic-break
+   :END:
+
+#+attr_reveal: :frag (appear)
+-  $2^3 \cdot 2^2 = \dots$
+-  $10^3 \cdot 10^2 = \dots$
+-  $10^{-7} \cdot 10^{7} = \dots$
+-  $10^7\cdot \left( 1 - 10^{-7}\right) = \dots$
+
+*** Arithmetic Break!
+   :PROPERTIES:
+   :CUSTOM_ID: arithmetic-break-1
+   :END:
+
+Let's make a table! [fn:http://www.maa.org/press/periodicals/convergence/logarithms-the-early-history-of-a-familiar-function-john-napier-introduces-logarithms]
+
+| n   | $P_n$                               |    |
+|-----+-------------------------------------+----|
+| 0   | $10^7$                              |    |
+| 1   | $10^7\left(1 - 10^{-7} \right)$     |    |
+| 2   | $10^7\left(1 - 10^{-7} \right)^2$   |    |
+| 3   | $10^7\left(1 - 10^{-7} \right)^3$   |    |
+| 4   | $10^7\left(1 - 10^{-7} \right)^4$   |    |
+
+*** Arithmetic Break!
+   :PROPERTIES:
+   :CUSTOM_ID: arithmetic-break-2
+   :END:
+
+Let's compute a few things:
+
+#+attr_reveal: :frag (appear)
+-  $(\sin 90^\circ) \cdot 10,000,000$
+-  $(\sin 89^\circ 59') \cdot 10,000,000$
+-  $(\sin 89^\circ 58') \cdot 10,000,000$
+-  $(\sin 89^\circ 57') \cdot 10,000,000$
 * Day 15
 ** Before class
+Watch [[https://www.youtube.com/watch?v=axZTv5YJssA&feature=youtu.be][Watch the Calculus Controversy cartoon]]
 ** Activities
 ** After class
 ** Sketch 26: Out of the Shadows: The Tangent Function
 ** Sketch 30: Barely Touching: From Tangents to Derivatives
+
+*** "Precalculus"
+  :PROPERTIES:
+  :CUSTOM_ID: early-names
+  :END:
+
+#+attr_reveal: :frag (appear)
+- Eudoxus (408-355 B.C.)
+  - Pioneered the Exhaustion Proof
+- Archimedes (287-212 B.C.)
+  #+attr_reveal: :frag (appear)
+  - Took the Exhaustion Proof to the next level
+  - Found the area of a circle (and other curved geometric figures) in organized steps of regular polygons
+  - How was this done to find the area of the circle?
+  - Found area of a parabolic sector by a geometric argument of
+     \[\sum_{n=0}^\infty \dfrac{1}{4^n} = \dfrac{4}{3}\]
+- Liu Hui (China 3rd century, A.D.) used a similar method of exhaustion re: circles
+
+**** Simon Stevin (Flanders, 1548-1620)
+   :PROPERTIES:
+   :CUSTOM_ID: simon-stevin-flanders-1548-1620
+   :END:
+
+ #+attr_reveal: :frag (appear)
+ - Estimated the pressure on the vertical wall of a water vessel by mentally slicing the wall into thin, horizontal strips
+ - His work on decimals would later inspire Newton's Calculus
+   #+attr_reveal: :frag (appear)
+   - just as they were influential for Napier's logarithms
+
+**** Johannes Kepler (1571-1630)
+   :PROPERTIES:
+   :CUSTOM_ID: johannes-kepler-1571-1630
+   :END:
+
+ #+attr_reveal: :frag (appear)
+ - Volumes of solids of revolution.
+   #+attr_reveal: :frag (appear)
+   - Why?
+   - Wine barrels!
+   - Gauging rods were not always an accurate way to measure volume of wine barrels.
+ - Areas in elliptical orbits
+
+**** Bonaventura Cavalieri (1598-1647)
+   :PROPERTIES:
+   :CUSTOM_ID: bonaventura-cavalieri-1598-1647
+   :END:
+
+ #+attr_reveal: :frag (appear)
+ - Exchanged letters with Galileo Galilei
+ - Developed a new way to break objects into "infinitesimals"
+   #+attr_reveal: :frag (appear)
+   - Curves/lines are a collection of points
+   - Areas/planes are a collection of lines
+   - Volumes/solids are a collection of planes
+ - Controversial ideas
+   - Infinity was uncomfortable
+ - Galileo did not endorse his ideas
+   - Thought it could lead to a paradox
+
+**** Rene Descartes (1596-1650)
+#+attr_reveal: :frag (appear)
+- Invented "analytic geometry"
+  #+attr_reveal: :frag (appear)
+  - define coordinate axes
+  - represent a geometric curve on the axes in terms of variable expression
+- Method for finding tangent line to some curves
+
+**** Pierre de Fermat (1601-1665)
+#+attr_reveal: :frag (appear)
+- Invented "analytic geometry"  (also)
+- Found maximum and minimum values of curves
+  #+attr_reveal: :frag (appear)
+  - places where the slope of the tangent line is 0
+  - we call this "Fermat's theorem" in calculus
+- found area under some geometric curves
+- found connection between area and tangent questions for some curves
+
 
 * Day 16
 ** Before class
@@ -633,6 +1522,206 @@ presentation note: use two-finger pinch-out trackpad gesture to zoom on the chro
 ** Activities
 ** After class
 ** Sketch 19: Strange New Worlds: The Non-Euclidean Geometry
+
+*** Euclid's /Elements/
+  :PROPERTIES:
+  :CUSTOM_ID: euclids-elements
+  :END:
+
+**** The version we know and love
+   :PROPERTIES:
+   :CUSTOM_ID: the-version-we-know-and-love
+   :END:
+
+-  Playfair's axiom
+
+#+ATTR_REVEAL: :frag (appear)
+#+BEGIN_QUOTE
+  There is at most one line parallel to a given line passing through a
+  given point.
+#+END_QUOTE
+
+#+ATTR_REVEAL: :frag (appear)
+-  But this isn't the original version
+
+**** The five postulates
+   :PROPERTIES:
+   :CUSTOM_ID: the-five-postulates
+   :END:
+
+#+ATTR_REVEAL: :frag (appear)
+1. A straight line segment can be drawn joining any two points.
+2. Any straight line segment can be extended indefinitely in a straight line.
+3. Given any straight line segment, a circle can be drawn having the segment as radius and one endpoint as center.
+4. All right angles are congruent.
+5. If two lines are drawn which intersect a third in such a way that the sum of the inner angles on one side is less than two right angles, then the two lines inevitably must intersect each other on that side if extended far enough.
+
+**** The fifth postulate
+   :PROPERTIES:
+   :CUSTOM_ID: the-fifth-postulate
+   :END:
+
+#+ATTR_REVEAL: :frag (appear)
+-  Sure is really long...
+-  Euclid didn't even use the postulate until proving proposition I.29.
+-  Maybe it's not an axiom?
+
+**** Attempts to prove it
+   :PROPERTIES:
+   :CUSTOM_ID: attempts-to-prove-it
+   :END:
+
+#+ATTR_REVEAL: :frag (appear)
+-  Ptolemy attempted a proof
+   #+ATTR_REVEAL: :frag (appear)
+   -  Proclus tells us about it. That it's wrong.
+   -  Then Proclus writes an incorrect proof.
+-  Omar Khayyam attempts a proof
+-  ...
+-  Later Lambert attempted a proof
+
+*** Brief Bio of Carl Friedrich Gauss
+#+ATTR_REVEAL: :frag (appear)
+- 1777 - 1855 in Germany
+- School story (6 or 10 years old)
+- at 14, Duke of Brunswick gives financial support to him
+- Proves regular polygon of 17 sides can be constructed
+- 1801, published /Disquisitiones Arithmeticae/ foundation of modern number theory
+- Proof of the fundamental theorem of algebra (age 22)
+- Age 24, method of least squares and Ceres
+- Married Johanna Ostaf in 1805
+- Becomes director of Gottingen observatory in 1807
+- 1808, wife dies giving birth to second kid
+#+REVEAL: split
+#+ATTR_REVEAL: :frag (appear)
+- marries Minna, best friend of first wife.
+- 1809, work on celestial bodies
+- Work in analysis in 1816
+- 1818 geodesic (curved map) survey of Hanover;
+- (non-Euclidean geometry; we'll come back to this)
+- 1830s physics, for example gravitation, magnetism
+- as a hobby-ish, built a telegraph that could send over 5,000 feet
+- differential geometry
+- ... lots of other things
+- many famous students, including Riemann
+- Minna's death story
+
+*** Curvature
+   :PROPERTIES:
+   :CUSTOM_ID: lets-talk-curvature
+   :END:
+**** Two-dimensional curvature
+#+ATTR_REVEAL: :frag (appear)
+- Lines have zero curvature
+- Circles have constant curvature
+- Other "curves" (e.g. parabolas) have variable curvature
+- "hill" is positive curvature
+- "valley" is negative curvature
+
+**** Three-dimensional curvature
+#+ATTR_REVEAL: :frag (appear)
+- Planes have zero curvature (e.g. the floor)
+- Positive curvature
+#+ATTR_REVEAL: :frag (appear)
+[[https://upload.wikimedia.org/wikipedia/commons/7/7b/Orange-Whole-%26-Split.jpg]]  [fn:Evan-Amos [CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)]]
+#+REVEAL: split
+- Negative curvature
+#+ATTR_REVEAL: :frag (appear)
+[[https://upload.wikimedia.org/wikipedia/commons/4/4b/Kale-Bundle.jpg]][fn:3]
+
+**** Does an ant walking on a ball know it's walking on a ball?
+
+#+ATTR_REVEAL: :frag (appear)
+- In calc 3, we find the curvature of a sphere is $\dfrac{1}{R^2}$ with $R$ the radius
+- the bigger the sphere, the less curved the sphere
+- We see a ball is round because we're outside the ball, looking on
+- If you're standing on a surface, can you, without leaving it, determine its curvature?
+  - positive, negative, zero?
+
+**** Measuring "intrinsic curvature"
+
+#+ATTR_REVEAL: :frag (appear)
+- Here, "intrinsic" means a property that can be seen within the object itself
+  - not from a higher dimension
+
+- Gauss, as a surveyor; two approaches
+  #+ATTR_REVEAL: :frag (appear)
+  1. Circles:
+     #+ATTR_REVEAL: :frag (appear)
+     - put a stake in the ground
+     - tie a long rope around it.
+     - measure out the circumference of a circle centered at your stake.
+     - divide the circumference by two times the length of the rope (i.e. diameter)
+     - if ratio $= \pi$, it's flat: zero curvature
+     - if ratio $\lt \pi$, positive curvature
+     - if ratio $\gt \pi$, negative curvature
+
+  #+REVEAL: split
+  1. Triangles:
+     #+ATTR_REVEAL: :frag (appear)
+     - put three stakes on the ground, somewhat far apart
+     - tie ropes to each stake
+     - measure the angles between each rope.
+     - If the sum of the angles $=180^\circ$, it's flat; zero curvature
+     - If the sum of the angles $\lt 180^\circ$, it's negative curvature
+     - If the sum of the angles $\gt 180^\circ$, it's positive curvature
+
+*** Logically consistent geometries
+  :PROPERTIES:
+  :CUSTOM_ID: logically-consistent-geometries
+  :END:
+
+**** Janos Bolyai (1802-1860)
+#+ATTR_REVEAL: :frag (appear)
+ - His dad, Farkas Bolyai was a mathematician and friend of Gauss
+ - at age 12, Janos read first six books of Euclid's /Elements/
+ - accomplished violinist
+ - Studied at the Royal Engineering Academy
+   #+ATTR_REVEAL: :frag (appear)
+   - became an Engineer in the Austrian army
+   - retired after 10 years in 1833.
+ - ... while training with the army... Parallel...Postulate....
+ - Father's warning
+
+#+REVEAL: split
+#+ATTR_REVEAL: :frag (appear)
+ - Ignores dad.
+ - 1823:
+#+ATTR_REVEAL: :frag (appear)
+#+BEGIN_QUOTE
+   All I can say now is that I have created a new and different world out of nothing.
+#+END_QUOTE
+
+#+REVEAL: split
+[[https://upload.wikimedia.org/wikipedia/commons/4/46/The_two_Bolyai.jpg]] [fn:lacihobo [CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)]]
+
+#+REVEAL: split
+#+ATTR_REVEAL: :frag (appear)
+- Farkas, his dad, is excited. Publish immediately!
+- Farkas sends a copy to Gauss
+- Gauss' reply
+
+**** Nokolai Lobachevsky (1792 - 1856)
+#+ATTR_REVEAL: :frag (appear)
+- Studied at Kazan University under a former teacher and friend of Carl Gauss
+- Degrees in physics and mathematics, became math professor
+- in 1829, and in Russian
+  - replaces the parallel postulate with "more than one line"
+  - (independent of Gauss and Bolyai)
+- Shows sum of angles in a triangle is always less than two right angles
+- ... and gets smaller the larger the triangle
+
+**** Circle equations
+#+ATTR_REVEAL: :frag (appear)
+ - This is just a personal note to put them somewhere.
+ - In plane geometry, circle formulas are obvious:
+   \[ C(r) = 2\pi r \hspace{1em} A(r) = \pi r^2 \]
+ - In hyperbolic geometry (constant negative curvature):
+   \[ C(r) = 2\pi \sinh(r) \hspace{1em} A(r) = 4\pi\sinh^2\left(\frac{r}{2}\right) \]
+ - In elliptic geometry (with constant positive curvature - a sphere of radius $R$):
+   \[ C(r) = 2\pi R \sin\left(\frac{r}{R}\right) \hspace{1em} A(r) = 2\pi R^2 \left(1 - \cos\left(\frac{r}{R}\right)\right) \]
+
+
 ** Sketch 20: In the eye of the beholder: projective geometry
 
 * Day 19
@@ -646,7 +1735,7 @@ presentation note: use two-finger pinch-out trackpad gesture to zoom on the chro
 ** Before class
 ** Activities
 ** After class
-
+** Summary/Wrap-up
 
 * History of mathematics in a large nutshell
 
@@ -655,7 +1744,7 @@ presentation note: use two-finger pinch-out trackpad gesture to zoom on the chro
 bibliography:History.bib
 
 [fn:incanroads] By Manco Capac [CC BY-SA 3.0 (http://creativecommons.org/licenses/by-sa/3.0)], via Wikimedia Commons
-[fn:2] By Fedekuki (Own work) [CC BY-SA 3.0 (http://creativecommons.org/licenses/by-sa/3.0)], via Wikimedia Commons
+[fn:quipudetail] By Fedekuki (Own work) [CC BY-SA 3.0 (http://creativecommons.org/licenses/by-sa/3.0)], via Wikimedia Commons
 [fn:yupanaquipu] By Guaman Poma de Ayala [Public domain], via Wikimedia Commons
 
 [fn:11] © Mark Millmor, https://discoveringegypt.com/egyptian-hieroglyphic-writing/egyptian-mathematics-numbers-hieroglyphs/
@@ -671,3 +1760,6 @@ bibliography:History.bib
 [fn:ybc7289] YBC 7289 - Photo by Bill Casselman http://www.math.ubc.ca/~cass/Euclid/ybc/ybc.html from the Yale Babylonian Collection.
 
 [fn:plimpton] "Plimpton 322" by photo author unknown - image copied from http://www.math.ubc.ca/~cass/courses/m446-03/pl322/pl322.html. Licensed under Public domain via Wikimedia Commons 
+
+[fn:pentagonal] By Timrem [Public domain], from Wikimedia Commons
+[fn:friendly] ... actually "friendly" is attributed to Pythagoras according to Iamblicus
