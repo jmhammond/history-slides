@@ -400,6 +400,82 @@ Tables from  cite:Eves1990 (pgs 45, 46)
    -  no reliance on angles.
    -  ... due to use of base 60, no need to approximate fractions
 
+*** Pythagorean Number Theory
+   :PROPERTIES:
+   :CUSTOM_ID: number-theory
+   :END:
+
+   #+ATTR_REVEAL: :frag (appear)
+-  Pythagoreans loved numbers!
+-  Special number properties (composite numbers)
+-  Pythagorean triples (from Mesopotamia?)
+-  Triangular, square, pentagonal, etc. numbers
+-  “Perfect” numbers (along with “Deficient” and “Abundant” numbers)
+-  “Amicable”/"Friendly" numbers[fn:friendly]
+
+
+**** Examples of Figurate Numbers
+   :PROPERTIES:
+   :CUSTOM_ID: examples-of-figurate-numbers
+   :END:
+
+#+ATTR_REVEAL: :frag (appear)
+-  Triangular Numbers: $1, 3, 6, 10, 15, 21, \dots$
+   -  The third triangular number, denoted $T_3$, is 6.
+-  Square Numbers: $1, 4, 9, 16, 25, \dots$
+   -  The fourth square number, $S_4$, is 16.
+-  Pentagonal numbers: $1, 5, 12, 22, 35, \dots$
+   -  The second pentagonal number, $P_2$, is 5
+
+#+REVEAL: split
+
+[[https://upload.wikimedia.org/wikipedia/commons/b/b5/Pentagonal_number.gif]] [fn:pentagonal]
+
+**** Figurate number relations
+
+#+ATTR_REVEAL: :frag (appear)
+  - Square in terms of triangular numbers
+  - Square in terms of "gnomons"
+  - from Pythagoras, according to Proclus cite:Heath1921v1:
+    #+ATTR_REVEAL: :frag (appear)
+    - Take a square number that is odd
+    - Add this to the square which is the sum of all preceding odd numbers.
+    - This makes the square of all odd numbers up to the original
+      - $m^2 + \left( \dfrac{m^2 -1}{2} \right)^2 = \left(\dfrac{m^2 +1}{2}\right)^2$
+  - Pentagonal numbers in terms of squares and triangles
+
+**** Perfect, Abundant, Deficient
+   :PROPERTIES:
+   :CUSTOM_ID: perfect-abundant-deficient
+   :END:
+
+#+ATTR_REVEAL: :frag (appear)
+-  First, we need to be comfortable with finding divisors:
+   -  What are the divisors of: 6? 18? 28? 39?
+-  /Proper divisors/ are those divisors which are not equal to the
+   number itself.
+-  A /perfect number/ one that equals the sum of its proper divisors.
+   -  After we talk about Euclid, we might come back to this. It's
+      remarkable!
+-  An /abundant number/ is one such that the sum of the proper divisors
+   is greater than the number.
+-  A /deficient number/ is one such that the sum of the proper divisors
+   is less than the number.
+
+**** Amicable Numbers
+   :PROPERTIES:
+   :CUSTOM_ID: amicable-numbers
+   :END:
+
+#+ATTR_REVEAL: :frag (appear)
+-  What are the proper divisors of 220 and 284?
+-  220:
+   -  1, 2, 4, 5, 10, 11, 20, 22, 44, 55 and 110
+-  284:
+   -  1, 2, 4, 71 and 142
+
+-  What neat thing do you observe?
+
 
 * Day 5
 ** Before class
@@ -408,6 +484,15 @@ Tables from  cite:Eves1990 (pgs 45, 46)
 
 
 ** Sketch 7: Measuring the Circle: The story of $\pi$
+*** TODO Archimedes and double exhaustion
+*** TODO Hippocrates: Quest to Square the Circle
+   :]PROPERTIES:
+   :CUSTOM_ID: hippocrates-quest-to-square-the-circle
+   :END:
+
+-  450 B.C. Hippocrates finds the area of a curved figure called a lune
+   (crescent moon shape).
+-  The Geogebra activity!
 
 * Day 6
 ** Before class
@@ -538,6 +623,52 @@ Process:
 
 
 **** Sketch 8: The Cossic Art: Writing Algebra with Symbols
+
+*** Linear Systems in Babylon
+   :PROPERTIES:
+   :CUSTOM_ID: linear-systems-in-babylon
+   :END:
+
+Solving a system of two equations and two unknowns. As quoted in Katz
+cite:Katz2003
+
+#+BEGIN_QUOTE
+  from the Old Babylonian text VAT 8389: One of two fields yields 2/3
+  sila per sar, the second yields 1/2 sila per sar (sila and sar are
+  measures for capacity and area, respectively). The yield of the first
+  field was 500 sila more than that of the second; the areas of the two
+  fields were together 1800 sar. How large is each field?
+#+END_QUOTE
+
+#+ATTR_REVEAL: :frag (appear)
+-  Write this in modern notation
+-  How would you solve it?
+
+
+*** Linear Systems in Babylon
+   :PROPERTIES:
+   :CUSTOM_ID: linear-systems-in-babylon-1
+   :END:
+
+-  The scribe's solution:
+
+#+ATTR_REVEAL: :frag (appear)
+1. $x = y = 900$.
+2. $2/3 \cdot 900 - 1/2 \cdot 900 = 150$
+3. ... off by 350!
+4. Multiply 350 by $6/7$ to find 300.
+5. Answer: $x=900+300=1200$ and $y=900-300=600$.
+
+*** Why $6/7$?
+   :PROPERTIES:
+   :CUSTOM_ID: why-67
+   :END:
+
+#+ATTR_REVEAL: :frag (appear)
+-  $2/3 (1) - 1/2(-1) = 7/6$,
+-  ... so each increase of $x$ increases the output by $7/6$.
+-  What increase, $s$, should we do for $x$?
+-  $7/6s = 350$ or $s= 300$.
 * Day 7
 ** Before class
 ** Activities
@@ -551,6 +682,63 @@ Old Babylonian Story Problem ca. 1700 B.C, the solution to the question: "I have
 #+BEGIN_QUOTE
    You take 1 the “coefficient”. Two thirds of 1, the coefficient, is 0;40. Half of this, 0;20, you multiply by 0;20 (and the result) 0;6,40 you add to 0;35 and (the result) 0;41, 40 has 0;50 as its square root. 0;20, which you multiplied by itself, you subtract from 0;50 and 0;30 is the (side of) the square.”
 #+END_QUOTE
+
+*** Algebra of Greece (Euclid)
+  :PROPERTIES:
+  :CUSTOM_ID: algebra-of-greece-euclid
+  :END:
+
+**** Book II of Elements
+   :PROPERTIES:
+   :CUSTOM_ID: book-ii-of-elements
+   :END:
+
+-  Definition:
+
+#+BEGIN_QUOTE
+  Any rectangular parallelogram is said to be contained by the two straight lines containing the right angle.
+#+END_QUOTE
+
+#+REVEAL: split
+
+-  Proposition II.4:
+
+#+BEGIN_QUOTE
+  If a straight line be cut at random, the square on the whole is equal to the squares on the segments and twice the rectangle contained by the segments.
+#+END_QUOTE
+
+[[file:images/euclid_ii_4.png]][fn:http://math.furman.edu/~jpoole/euclidselements/eubk2/props.htm]
+
+#+REVEAL: split
+
+-  Proposition II.5:
+
+#+BEGIN_QUOTE
+  If a straight line be cut into equal and unequal segments, the rectangle contained by the unequal segments of the whole together with the square on the straight line between the points of section is equal to the square on the half.
+#+END_QUOTE
+
+[[file:images/euclid_ii_5.png]][fn:http://math.furman.edu/~jpoole/euclidselements/eubk2/props.htm]
+
+#+REVEAL: split
+
+-  Proposition II.6:
+
+#+BEGIN_QUOTE
+  If a straight line be bisected and a straight line be added to it in a straight line, the rectangle contained by the whole with the added straight line and the added straight line together with the square on the half is equal to the square on the straight line made up of the half and the added straight line.
+#+END_QUOTE
+
+[[file:images/euclid_ii_6.png]][fn:http://math.furman.edu/~jpoole/euclidselements/eubk2/props.htm]
+
+#+REVEAL: split
+
+
+-  Proposition II.11:
+
+#+BEGIN_QUOTE
+  To cut a given straight line so that the rectangle contained by the whole and one of the segments is equal to the square on the remaining segment.
+#+END_QUOTE
+
+[[file:images/euclid_ii_11.png]][fn:http://math.furman.edu/~jpoole/euclidselements/eubk2/props.htm]
 * Day 8
 ** Before class
 ** Activities
@@ -580,6 +768,228 @@ presentation note: use two-finger pinch-out trackpad gesture to zoom on the chro
 
 ** Sketch 14: On Beauty Bare: Euclid's Plane Geometry
 ** Sketch 13: A Marvelous Proof: Fermat's Last Theorem
+*** Diophantus
+   :PROPERTIES:
+   :CUSTOM_ID: diophantus
+   :END:
+
+#+ATTR_REVEAL: :frag (appear)
+-  Diophantus of Alexandria lives around 3rd century AD (probably)
+-  He quotes Hypsicles (150BC) and is quoted by Theon of Alexandria
+   (350AD)
+-  A book by the Bishop of Laodicia dedicated a book to Diophantus
+   around 278AD
+
+-  What we know is a puzzle:
+
+#+ATTR_REVEAL: :frag (appear)
+#+BEGIN_QUOTE
+  Diophantus passed 1/6 of his life in childhood, 1/12 in youth, and 1/7
+  more as a bachelor. Five years after his marriage was born a son who
+  died 4 years before his father, at 1/2 his father's [final] age
+  (quoted from cite:Eves1990)
+#+END_QUOTE
+
+#+REVEAL: split
+
+
+What did he do?
+
+#+ATTR_REVEAL: :frag (appear)
+-  Wrote three works: /Arithmetica/, /On Polygonal Numbers/, and
+   /Porisms/.
+-  The first we have a lot of (6 of 13 books)
+-  Second we have fragments
+-  Third is completely lost.
+
+*** /Arithmetica/
+   :PROPERTIES:
+   :CUSTOM_ID: arithmetica
+   :END:
+
+#+ATTR_REVEAL: :frag (appear)
+-  A book on what we now call algebraic number theory
+-  Deals with 130 problems and solutions
+-  Problems involved 1st and 2nd degree equations (requiring positive
+   rational solutions)
+-  No general methods, just solving individually (with clever tricks)
+-  The Greek contribution to algebra (to be picked up in a couple weeks)
+
+*** Diophantus - Example Problems (from cite:Eves1990 page 181)
+   :PROPERTIES:
+   :CUSTOM_ID: diophantus---example-problems-from-eves1990-page-181
+   :END:
+
+-  Book II, Problem 28
+#+BEGIN_QUOTE
+  Find two numbers such that their product added to either gives a
+  square number.
+#+END_QUOTE
+
+#+ATTR_REVEAL: :frag (appear)
+-  His answer is
+   $\displaystyle \left(\frac34\right)^2, \left(\frac7{24}\right)^2$.
+
+#+REVEAL: split
+
+
+-  Book III, Problem 6
+#+BEGIN_QUOTE
+  Find three numbers such that their sum is a square and the sum of any
+  pair is a square.
+#+END_QUOTE
+
+#+ATTR_REVEAL: :frag (appear)
+-  His answer is $80, 320, 41$.
+
+*** After verifying his answers
+   :PROPERTIES:
+   :CUSTOM_ID: after-verifying-his-answers
+   :END:
+
+#+ATTR_REVEAL: :frag (appear)
+-  ... do you think you'd try to find more?
+-  Are there more answers to a problem? A general formula?
+
+*** Diophantus - A historical problem
+   :PROPERTIES:
+   :CUSTOM_ID: diophantus---a-historical-problem
+   :END:
+
+-  Book II, problem 8: To divide a given square number into two squares.
+   As quoted in cite:Katz2003, pg 177:
+
+#+BEGIN_QUOTE
+  Let it be required to divide 16 into two squares. And let the first
+  square = $x^2$; then the other will be $16-x^2$; it shall be required
+  therefore to make $16-x^2=$ a square. I take a square of the form
+  $(ax-4)^2$, a being any integer and 4 the root of 16; for example, let
+  the side be $2x-4$, and the square itself $4x^2 + 16 - 16x$. Then
+  $4x^2 + 16 - 16x = 16 - x^2$. Add to both sides the negative terms and
+  take like from like. Then $5x^2 = 16x$, and $x=16/5$. One number will
+  therefore be 256/25, the other 144/25, and their sum is 400/25 or 16,
+  and each is a square.
+#+END_QUOTE
+
+*** Diophantus - A historical problem
+   :PROPERTIES:
+   :CUSTOM_ID: diophantus---a-historical-problem-1
+   :END:
+
+#+CAPTION: Diophantus and Fermat
+[[file:images/Diophantus-II-8-Fermat.jpg]]
+
+*** Diophantus - A historical problem
+   :PROPERTIES:
+   :CUSTOM_ID: diophantus---a-historical-problem-2
+   :END:
+
+Solution to Book II, problem 8 suggests general method:
+
+#+ATTR_REVEAL: :frag (appear)
+-  To find two numbers $x$ and $y$ so that $x^2 + y^2 = b^2$:
+-  Pick $a$ to be any number.
+-  Set $y=ax-b$
+-  Then $b^2 - x^2 = a^2 x^2 -2abx + b^2$
+-  ... $2abx = (a^2+1)x^2$
+-  ... $\displaystyle x = \frac{2ab}{a^2+1}$.
+-  What about other powers?
+# -  (That's a teaser. We'll talk about it when we get to number theory later)
+*** Hypatia of Alexandria
+
+#+ATTR_REVEAL: :frag (appear)
+- Teacher at the University at Alexandria
+- Her commentaries:
+     #+ATTR_REVEAL: :frag (appear)
+     - /Conics/ of Appollonius
+     - Edited /Almagest/ of Ptolemy (astronomy / trig) (/Almagest/ is from the Arabic for "Greatest")
+     - Edited Theon's commentary of /The Elements/
+     - /Arithmetica/ by Diophantus
+- Diophantus: "Father of algebra" and Hypatia: "Mother of algebra"
+
+
+*** Diophantus' Work Lives On
+
+#+ATTR_REVEAL: :frag (appear)
+- 1463 - Regiomontanus:
+   Called for a Latin translation of the remaining Greek texts
+- 1570 Rafael Bombelli finds the manuscript in the Vatican
+  #+ATTR_REVEAL: :frag (appear)
+  - with Antonio Maria Pazzi translates it
+  - ... doesn't publish it
+  - uses the problems in his /Algebra/ 1572
+- 1575 - Xylander (formerly Wilhelm Holzmann)
+    Translated the Greek and added his commentary
+- 1621 - Bachet de Meziriac
+    Published the Greek and Latin together with notes
+- 1670 - Clement-Samuel Fermat
+    "A second, carelessly printed, edition was brought out in 1670" cite:Eves1990  pg 180.  This version included his father's marginal notes.
+  #+ATTR_REVEAL: :frag (appear)
+  - Who was his father?
+***  Pierre de Fermat
+
+#+ATTR_REVEAL: :frag (appear)
+   - Lived 1601-1665
+   - French lawyer
+   - Mathematician as a hobby
+   - Contributions include:
+     - Calculus
+     - Probability
+     - Number Theory
+
+
+#+REVEAL: split
+   [[./images/Diophantus-II-8-Fermat.jpg]]
+   Marginal notes in Diophantus' /Arithmetica/
+
+*** Proving ALL the things
+
+#+ATTR_REVEAL: :frag (appear)
+- Christian Goldbach and Leonhard Euler
+- Fermat's most famous note:
+
+#+ATTR_REVEAL: :frag (appear)
+#+BEGIN_QUOTE
+ Cubum autem in duos cubos, aut quadratoquadratum in duos quadratoquadratos, et generaliter nullam in infinitum ultra quadratum potestatem in duos eiusdem nominis fas est dividere cuius rei demonstrationem mirabilem sane detexi. Hanc marginis exiguitas non caperet.[fn:  http://www.textkit.com/greek-latin-forum/viewtopic.php?f=3&t=7108]
+#+END_QUOTE
+
+*** Fermat's Last Theorem(?)
+
+#+ATTR_REVEAL: :frag (appear)
+- Conjecture: The expression $x^n + y^n = z^n$ has no integer solutions for $n>2$.
+
+
+*** Taniyama-Shimura Conjecture
+
+#+ATTR_REVEAL: :frag (appear)
+- Conjecture: All elliptic curves are modular.
+    - Conjectured by Yukata Taniyama and Goro Shimura in 1955.
+- (I intended this slide to seem jarring and out of place)
+
+
+
+*** Andrew Wiles (1953-present)
+#+ATTR_REVEAL: :frag (appear)
+    - As a boy (of about 12) read about Fermat's Conjecture
+    - ... so he gets his PhD in Mathematics
+    - Becomes and still is a Professor of Mathematics at Oxford
+    - Worked in a specialized field involving elliptic curves
+    - Fermat's Conjecture is a hard problem, don't work on it
+
+*** Fermat's Last Theorem
+
+
+#+ATTR_REVEAL: :frag (appear)
+- 1987: "The Epsilon Conjecture"
+    The Taniyama-Shimura conjecture implies Fermat's Last Theorem.
+- Wiles learns about this result...
+- ... and spends the next seven years of his professional life proving one of the most difficult results in modern mathematics.
+- Proven. 1993.
+- ... an error.
+- Patched up (100ish? pages later) 1994.
+    Completely correct.
+- BBC/Horizon's Documentary on Fermat's Last Theorem. You can find it on YouTube or Vimeo.
+- Accolades for Wiles
 * Day 11
 ** Before class
 ** Activities
@@ -671,3 +1081,6 @@ bibliography:History.bib
 [fn:ybc7289] YBC 7289 - Photo by Bill Casselman http://www.math.ubc.ca/~cass/Euclid/ybc/ybc.html from the Yale Babylonian Collection.
 
 [fn:plimpton] "Plimpton 322" by photo author unknown - image copied from http://www.math.ubc.ca/~cass/courses/m446-03/pl322/pl322.html. Licensed under Public domain via Wikimedia Commons 
+
+[fn:pentagonal] By Timrem [Public domain], from Wikimedia Commons
+[fn:friendly] ... actually "friendly" is attributed to Pythagoras according to Iamblicus
