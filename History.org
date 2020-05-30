@@ -1,0 +1,673 @@
+#+TITLE: Math History Notes for Math 300 Summer 2020
+#+AUTHOR: John Hammond
+
+# For the export to twbs
+# #+OPTIONS: whn:nil
+# #+EXPORT_FILE_NAME: ~/Downloads/history-class/01WelcomeAndMathInNumber-handout.html
+# For the export to the reveal.js slides
+#+OPTIONS: toc:nil num:nil
+#+EXPORT_FILE_NAME: ~/Nextcloud/John Hammond's Euclid Home/public_html/math300/history.html
+#
+#+OPTIONS: toc:nil num:nil
+#+REVEAL_THEME: solarized
+#+REVEAL_TRANS: linear
+#+REVEAL_EXTRA_CSS: slides.css
+# new settings for reveal 3.1, latest org-reveal
+#+REVEAL_INIT_OPTIONS: center:true, history:true, previewLinks:true
+#+REVEAL_TITLE_SLIDE: <h1>%t</h1><h3>%a</h3>
+#+REVEAL_DEFAULT_FRAG_STYLE: (appear)
+#+REVEAL_ROOT: ./reveal.js
+
+# Comments to myself:
+# #+ATTR_REVEAL: :frag (appear)
+
+# and to split
+# #+REVEAL: split
+
+* Day 1
+** Before class
+No readings; welcome to class
+** Activities
+** After class
+- Read:
+  - Sketch 1
+  - Sketch 2
+- Do:
+  - Sketch 1 questions 1-3
+  - Sketch 2 questions 1, 4, 5
+- Draw a grid [[https://docs.google.com/drawings/d/1WFRxfpXJwlwzkklCe_3v_Y6ZlBOTymED-OrIbstwywM/edit?usp=sharing][that looks like this or print this out]]
+- Find a lot of small things (pennies, dry corn, pebbles, rice). At least 30 of them.
+
+** Syllabus overview
+
+* Day 2
+** Before class
+All of this /should be already done before starting class!/
+- Read:
+  - Sketch 1
+  - Sketch 2
+- Do:
+  - Sketch 1 questions 1-3
+  - Sketch 2 questions 1, 4, 5
+- Draw a grid [[https://docs.google.com/drawings/d/1WFRxfpXJwlwzkklCe_3v_Y6ZlBOTymED-OrIbstwywM/edit?usp=sharing][that looks like this or print this out]]
+- Find a lot of small things (pennies, dry corn, pebbles, rice). At least 30 of them.
+
+** Activities
+- [[https://docs.google.com/document/d/14VKtMlfQPkJngOhvge18yTVzUW-bOkHdprqIacCHnBY/edit?usp=sharing][The /Yupana/ Incan Abacus]]
+** After class
+
+** Sketch 1: Keeping Count: Writing Whole Numbers
+*** Discussing the homework questions
+*** Another Meso-American Way of Representing Number
+  :PROPERTIES:
+  :CUSTOM_ID: the-inca-empire
+  :END:
+
+**** The Inca Empire
+   :PROPERTIES:
+   :CUSTOM_ID: the-inca-empire-1
+   :END:
+
+-  Where: Peru, Bolivia, Chile, Ecuador, Argentina
+-  Height of the empire in 15th century ~ 6 million people
+
+#+REVEAL: split
+
+[[https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Inca_roads-en.svg/341px-Inca_roads-en.svg.png]] [fn:incanroads]
+
+#+REVEAL: split
+**** Life and Math in the Inca Empire
+   :PROPERTIES:
+   :CUSTOM_ID: life-and-math-in-the-inca-empire
+   :END:
+
+   #+ATTR_REVEAL: :frag (appear)
+-  "Postal System" of runners (300 miles in 24 hours!)
+-  Decimal number system
+-  No (known) written language
+-  Number data recorded and transmitted with the /quipu/, a string of
+   knotted colored cords
+
+#+REVEAL: split
+
+-  Quipu keepers in urban areas prepared, read, and stored quipu records
+   for the government.
+   [[https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Quipu_detalles.jpg/640px-Quipu_detalles.jpg]][fn:2]
+
+#+REVEAL: split
+**** Quipu and an abacus
+   :PROPERTIES:
+   :CUSTOM_ID: quipu-and-an-abacus
+   :END:
+https://upload.wikimedia.org/wikipedia/commons/f/f0/Nueva_cor%C3%B3nica_y_buen_gobierno_%281936_facsimile%29_p360.png [fn:yupanaquipu]
+
+**** Inca Abacus Worksheet
+   :PROPERTIES:
+   :CUSTOM_ID: inca-abacus-worksheet
+   :END:
+- Really long walk through
+- Counting Beads (small objects)
+- Sheet for a yupana
+
+** Sketch 2: Reading and Writing Arithmetic: The Basic Symbols
+*** Discussing the homework questions
+* Day 3
+** Before class
+** Activities
+** After class
+** "Nutshell" pages 5-25
+
+*** Egyptian Arithmetic
+   :PROPERTIES:
+   :CUSTOM_ID: egyptian-arithmetic
+   :END:
+
+   Try the following multiplication and division problems using the Egyptian system of "doubling-and-halving":
+
+   #+ATTR_REVEAL: :frag (appear)
+   -  57 * 63
+   -  364 * 28
+   -  181 ÷ 12
+   -  213 ÷ 13
+
+*** The Rhind (Ahmes) Papyrus
+   :PROPERTIES:
+   :CUSTOM_ID: the-rhind-ahmes-papyrus
+   :END:
+
+   #+ATTR_REVEAL: :frag (appear)
+   - Ahmes was an Egyptian scribe, born about 1680 B.C.
+   - Wrote the papyrus
+   - ... says he copied from earlier work circa 2000 B.C.
+   - The papyrus contains math:
+     - division tables,
+     - problems of area and volume,
+     - methods for solving various types of problems and equations.
+   - Purchased in 1858 by Alexander Henry Rhind.
+   - Original likely 18 feet by 13 inches
+   - Rhind's fragment partial;
+      - rest found in New York Historical Society
+
+#+REVEAL: split
+
+   Quote from Burton's History of Mathematics cite:Burton2011
+
+   #+BEGIN_QUOTE
+   The Rhind Papyrus starts with a bold premise. Its content has to do
+   with “a thorough study of all things, insight into all that exists,
+   knowledge of all obscure secrets.” It soon becomes apparent that we
+   are dealing with a practical handbook of mathematical exercises, and
+   the only “secrets” are how to multiply and divide.
+   #+END_QUOTE
+
+#+REVEAL: split
+
+   #+ATTR_REVEAL: :frag (appear)
+   [[./images/rhindintro.jpg]][fn:rhind]
+
+#+REVEAL: split
+   [[https://upload.wikimedia.org/wikipedia/commons/d/d9/Rhind_Mathematical_Papyrus.jpg]][fn:papyrus]
+
+*** Translation of Cuineform:
+
+#+ATTR_REVEAL: :frag (appear)
+- Story of Darius I defeating a revolt in Persia in 516BC
+- Carved on Behistun Cliff in Iran
+- four-hundred feet above the ground
+- Written in Old Persian (Elamitic), Babylonian, and Persian
+  - (side note) this includes the word[fn:hind] :
+    #+ATTR_REVEAL: :frag (appear)
+    - "Hind" هند‎ in Persian
+    - "Hindush" 𐏃𐎡𐎯𐎢𐏁 in cuineiform
+    - similar word in Egyptian
+    - "Hind" refers to people from The Hind (Indus Valley)
+    - ... much later Arabic الهند  "Al-Hind" to mean Indian
+- Translated in 1846 by Henry Rawlinson
+
+#+REVEAL: split
+
+[[https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Bisotun_Iran_Relief_Achamenid_Period.JPG/800px-Bisotun_Iran_Relief_Achamenid_Period.JPG]] [fn:cuineiform]
+
+** Sketch 4: Broken Numbers: Writing Fractions
+*** Egyptian Fractions and Arithmetic
+   :PROPERTIES:
+   :CUSTOM_ID: egyptian-fractions-and-arithmetic
+   :END:
+
+   #+ATTR_REVEAL: :frag (appear)
+     - Unit fractions, and special symbols fractions
+     [[./images/egyptianfractions.png]][fn:11]
+     - Example: Write 5/6 as an Egyptian fraction.
+     - Example: Double 1 1/15
+
+*** An Exercise from the Ahmes (Rhind) Papyrus
+   :PROPERTIES:
+   :CUSTOM_ID: an-exercise-from-the-ahmes-rhind-papyrus
+   :END:
+
+   #+ATTR_REVEAL: :frag (appear)
+   -  How do you divide 9 loaves of bread between 10 men?
+      #+ATTR_REVEAL: :frag (appear)
+      -  Our way: 9 ÷ 10 = 9/10 of a loaf per man
+   -  Mathematically, this is fair, but the guy with 10 tenths is probably not too happy!
+
+*** The Ahmes Bread Problem
+   :PROPERTIES:
+   :CUSTOM_ID: the-ahmes-bread-problem
+   :END:
+
+   #+ATTR_REVEAL: :frag (appear)
+   -  The Egyptian way:
+- Example:
+A translation of a Babylonian tablet which is preserved in the British
+museum goes as follows:
+
+#+BEGIN_QUOTE
+  4 is the length and 5 the diagonal. What is the breadth ? Its size is
+  not known. 4 times 4 is 16. 5 times 5 is 25. You take 16 from 25 and
+  there remains 9. What times what shall I take in order to get 9 ? 3
+  times 3 is 9. 3 is the breadth.
+#+END_QUOTE
+      #+ATTR_REVEAL: :frag (appear)
+      -  9 ÷ 10 = 2/3 + 1/5 +1/30
+   -  The nine loaves of bread seem to be more “fairly” distributed this way!
+
+*** Mesopotamian Fractions
+  #+ATTR_REVEAL: :frag (appear)
+-  They avoided using fractions like 1/7 (why?)
+   -  Let's do the division in base 60 and see!
+-  Estimating fractions with denominators that are not factors of 60
+#+REVEAL: split
+- Reciprocal table:
+|$n$  | $n^{-1}$ |
+|---+---|
+| 2 |30 |
+| 3 | 20 |
+| 4 | 15 |
+|$\dots$ |   |
+| 1,20 | 45 |
+| 1,21 | 44,26,40 |
+- Remember we have to determine number "place"
+* Day 4
+** Before class
+** Activities
+** After class
+
+
+** Sketch 12: A Cheerful Fact: The Pythagorean Theorem
+*** A Mesopotamian question:
+A translation of a Babylonian tablet which is preserved in the British museum goes as follows:
+
+#+BEGIN_QUOTE
+  4 is the length and 5 the diagonal. What is the breadth ? Its size is not known. 4 times 4 is 16. 5 times 5 is 25. You take 16 from 25 and there remains 9. What times what shall I take in order to get 9 ? 3 times 3 is 9. 3 is the breadth.
+#+END_QUOTE
+
+*** Plimpton 322
+**** Plimpton 322
+   :PROPERTIES:
+   :CUSTOM_ID: plimpton-322
+   :END:
+
+ [[https://upload.wikimedia.org/wikipedia/commons/c/c2/Plimpton_322.jpg]][fn:plimpton]
+
+**** Plimpton 322
+   :PROPERTIES:
+   :CUSTOM_ID: plimpton-322-1
+   :END:
+
+#+CAPTION:Numeric translation in cite:Eves1990
+[[file:images/plimpton322-fig4-eves.jpg]]
+
+
+**** Seemingly unrelated fact:
+   :PROPERTIES:
+   :CUSTOM_ID: seemingly-unrelated-fact
+   :END:
+
+#+ATTR_REVEAL: :frag (appear)
+-  A /Pythagorean triple/ is a set of three numbers which satisfy the
+   Pythagorean theorem.
+-  A /primitive Pythagorean triple/ is a triple in which all three
+   numbers have no common factors other than one.
+-  Example: ...
+-  Non-example: ...
+
+**** Seemingly unrelated fact:
+   :PROPERTIES:
+   :CUSTOM_ID: seemingly-unrelated-fact-1
+   :END:
+
+#+ATTR_REVEAL: :frag (appear)
+-  A general fact is that all primitive Pythagorean triples, $a, b, c$
+   are given by the expression:
+   $a = 2uv, \hspace{2em} b = u^2 - v^2 , \hspace{2em} c = u^2 + v^2$
+
+-  where:
+-  $u$ and $v$ have no common factors other than 1,
+-  one or the other is even while the other is odd, and
+-  $u > v$
+
+-  Examples.
+
+**** Back to Plimpton
+   :PROPERTIES:
+   :CUSTOM_ID: back-to-plimpton
+   :END:
+# I needed some fine-grained control so the images line up side-by-side
+   #+BEGIN_EXPORT html
+   <img src="images/plimpton322-fig4-eves.jpg" width="45%"> <img src="images/plimpton322-table-eves.jpg" width="40%">
+   #+END_EXPORT
+Tables from  cite:Eves1990 (pgs 45, 46)
+
+#+ATTR_REVEAL: :frag (appear)
+-  Seems plausible: the numbers $u$ and $v$ (and so $a=2uv$) of the form
+   $n=2^a 3^b 5^c$ for non-negative integers $a, b,c$
+
+**** Back to Plimpton
+   :PROPERTIES:
+   :CUSTOM_ID: back-to-plimpton-1
+   :END:
+
+[[https://upload.wikimedia.org/wikipedia/commons/c/c2/Plimpton_322.jpg]][fn:plimpton]
+
+**** Back to Plimpton
+   :PROPERTIES:
+   :CUSTOM_ID: back-to-plimpton-2
+   :END:
+
+#+ATTR_REVEAL: :frag (appear)
+-  What about column 4?
+-  Entries in column 4 correspond to $(c/a)^2$.
+-  What is $c/a$ for a general right triangle?
+   #+ATTR_REVEAL: :frag (appear)
+   -  the secant of a base angle
+   -  Going down the table, cite:Eves1990 points out the value "decreases by almost exactly 1/60 as we pass from one line of the table to the next, and the corresponding angle decreases from $45^\circ$ to $31^\circ$."
+-  We have a secant table! in 1800BCish.
+
+**** Plimpton 322 - Counter Views
+   :PROPERTIES:
+   :CUSTOM_ID: plimpton-322---counter-views
+   :END:
+
+#+ATTR_REVEAL: :frag (appear)
+-  First - /Sherlock Holmes in Babylon/ cite:Buck1980
+
+   -  Fascinating case
+   -  Mysterious clues
+
+-  Eleanor Robson - /Neither Sherlock Holmes Nor Babylon/ cite:Robson2001
+
+#+ATTR_REVEAL: :frag (appear)
+   -  Not Sherlock Holmes:
+
+      -  Math is written by people
+
+         -  We need to view in historical setting
+         -  Not just "cherry-pick the 'cleverest' or
+            'most-sophisticated' mathematical procedures".
+
+      -  Can't just deduce like a locked room mystery
+
+         -  :-(
+
+**** Plimpton 322 - Counter Views
+   :PROPERTIES:
+   :CUSTOM_ID: plimpton-322---counter-views-1
+   :END:
+
+#+ATTR_REVEAL: :frag (appear)
+-  Nor Babylon:
+
+   -  The tablet is from 60 years before Hammarabi takes Babylon and
+      creates Babylonia - ... though this is a pedantic argument of the
+      original author's creative choice of words...
+
+-  Argues against Pythagorean triples
+-  Very against the trig table
+
+   -  No record of use of angle measurement
+
+-  In favor of a table of reciprocals
+
+**** Plimpton 322 - Pro Views
+   :PROPERTIES:
+   :CUSTOM_ID: plimpton-322---pro-views
+   :END:
+
+-  The most recent work is August 2017 cite:Mansfield2017
+   #+ATTR_REVEAL: :frag (appear)
+   -  argues that it is an /exact/ *ratio*-based trig table
+   -  no reliance on angles.
+   -  ... due to use of base 60, no need to approximate fractions
+
+
+* Day 5
+** Before class
+** Activities
+** After class
+
+
+** Sketch 7: Measuring the Circle: The story of $\pi$
+
+* Day 6
+** Before class
+** Activities
+** After class
+
+** Sketch 9: Linear Thinking: Solving First Degree Equations
+*** Egyptian basic algebra
+**** Egyptian Story Problems
+   :PROPERTIES:
+   :CUSTOM_ID: egyptian-story-problems
+   :END:
+
+   #+ATTR_REVEAL: :frag (appear)
+   -  The Method of False Position
+   -  Or even Double False Position.
+**** False Position
+   :PROPERTIES:
+   :CUSTOM_ID: false-position
+   :END:
+
+Example 1: A quantity; its fourth is added to it. It becomes 15.
+
+#+ATTR_REVEAL: :frag (appear)
+-  x + (1/4)x = 15
+-  Guess $x=4$.
+-  4 + (1/4)(4) = 4+1 = 5
+-  15/5 = 3
+-  4 x 3 = 12
+
+**** False Position
+   :PROPERTIES:
+   :CUSTOM_ID: false-position-1
+   :END:
+
+Example 2: A quantity; its third and its fifth are added to it. It
+becomes 46.
+
+#+ATTR_REVEAL: :frag (appear)
+-  x + (1/3)x + (1/5)x = 46
+-  Guess $x=15$.
+-  15 + 5 + 3 = 23
+-  46/23 = 2
+-  15 x 2 = 30
+
+**** Double False Position
+   :PROPERTIES:
+   :CUSTOM_ID: double-false-position
+   :END:
+
+Example 3: A purse of 100 dollars is to be divided among four men A, B,
+C, and D, so that B may have four dollars more than A, and C eight
+dollars more than B, and D twice as many as C; what is each one's share
+of the money?
+
+How would you solve it?
+
+#+ATTR_REVEAL: :frag (appear)
+-  $A + B + C + D = 100$
+-  $A + (A+4) + ((A+4) + 8) + (2*((A+4) + 8)) = 100$
+-  ...
+-  $A = 12$
+
+**** Double False Position (Answer)
+   :PROPERTIES:
+   :CUSTOM_ID: double-false-position-answer
+   :END:
+
+Example 3: A purse of 100 dollars is to be divided among four men A, B,
+C, and D, so that B may have four dollars more than A, and C eight
+dollars more than B, and D twice as many as C; what is each one's share
+of the money?
+
+#+ATTR_REVEAL: :frag (appear)
+-  Guess: A gets 6.
+-  So B gets 10
+-  and C gets 18
+-  and then D gets 36
+
+-  That adds to 6 + 10 + 18 + 36 = 70 ... too small!
+-  Off by 100 -- 70 = 30
+
+**** Double False Position (Answer part 2)
+   :PROPERTIES:
+   :CUSTOM_ID: double-false-position-answer-part-2
+   :END:
+
+Example 3: A purse of 100 dollars is to be divided among four men A, B,
+C, and D, so that B may have four dollars more than A, and C eight
+dollars more than B, and D twice as many as C; what is each one's share
+of the money?
+
+#+ATTR_REVEAL: :frag (appear)
+-  Guess: A gets 10.
+-  So B gets 14
+-  and C gets 22
+-  and then D gets 44
+-  That adds to 10 + 14 + 22 + 44 = 90 ... too small!
+-  Off by 100 -- 90 = 10.
+
+**** Double False Position (answer part 3)
+   :PROPERTIES:
+   :CUSTOM_ID: double-false-position-answer-part-3
+   :END:
+
+Process:
+
+#+ATTR_REVEAL: :frag (appear)
+-  Guess
+-  Find error
+-  Repeat
+-  Cross-multiply guesses and errors
+
+   -  $6\cdot 10 = 60, 30 \cdot 10 = 300$
+
+-  Take the difference (if same sign) or the sum (if different)
+
+   -  $300 – 60 = 240$
+
+-  Divide by the difference/sum of the errors
+
+   -  $240/(30 - 10) = 12$
+
+**** Why does it work?
+   :PROPERTIES:
+   :CUSTOM_ID: why-does-it-work
+   :END:
+
+
+**** Sketch 8: The Cossic Art: Writing Algebra with Symbols
+* Day 7
+** Before class
+** Activities
+** After class
+
+** Sketch 28: Any Way You Slice It: Conic Sections
+** Sketch 10: A Square and Things: Quadratic Equations
+*** A Mesopotamian story problem:
+Old Babylonian Story Problem ca. 1700 B.C, the solution to the question: "I have taken the area and two thirds of the side of my square and it is 0;35."
+
+#+BEGIN_QUOTE
+   You take 1 the “coefficient”. Two thirds of 1, the coefficient, is 0;40. Half of this, 0;20, you multiply by 0;20 (and the result) 0;6,40 you add to 0;35 and (the result) 0;41, 40 has 0;50 as its square root. 0;20, which you multiplied by itself, you subtract from 0;50 and 0;30 is the (side of) the square.”
+#+END_QUOTE
+* Day 8
+** Before class
+** Activities
+** After class
+
+** Sketch 5: Less than nothing?: Negative numbers
+** Sketch 11: Intrigue in Renaissance Italy: Solving Cubic Equations
+* Day 9
+** Before class
+** Activities
+** After class
+
+** Sketch 17: Impossible, Imaginary, Useful: Complex numbers
+** Sketch 29: Beyond the Pale: Irrational Numbers
+*** YBC 7289
+Yale Babylonian Collection
+   :PROPERTIES:
+   :CUSTOM_ID: ybc-7289
+   :END:
+
+[[http://www.math.ubc.ca/~cass/Euclid/ybc/analysis.jpg]] [fn:ybc7289]
+presentation note: use two-finger pinch-out trackpad gesture to zoom on the chromebook.
+* Day 10
+** Before class
+** Activities
+** After class
+
+** Sketch 14: On Beauty Bare: Euclid's Plane Geometry
+** Sketch 13: A Marvelous Proof: Fermat's Last Theorem
+* Day 11
+** Before class
+** Activities
+** After class
+** Sketch 3: Nothing Becomes a number: The Story of Zero
+
+* Day 12
+** Before class
+** Activities
+** After class
+** "Nutshell" 26 - 66
+
+* Day 13
+** Before class
+** Activities
+** After class
+** Sketch 15: In Perfect Shape: The Platonic Solids
+
+** Sketch 16: Shapes by Numbers: Coordinate Geometry
+
+* Day 14
+** Before class
+** Activities
+** After class
+** Sketch 18: Half is better: Sine and Cosine
+** Sketch 27: Counting Ratios: Logarithms
+
+* Day 15
+** Before class
+** Activities
+** After class
+** Sketch 26: Out of the Shadows: The Tangent Function
+** Sketch 30: Barely Touching: From Tangents to Derivatives
+
+* Day 16
+** Before class
+** Activities
+** After class
+** Sketch 21: What's in a Game? The Start of Probability Theory
+** Sketch 22: Making Sense of Data: Statistics become a science
+
+* Day 17
+** Before class
+** Activities
+** After class
+** Sketch 23: Machines that Think? Electronic Computers
+** Sketch 24: The Arithmetic of Reasoning: Boolean Algebra
+
+* Day 18
+** Before class
+** Activities
+** After class
+** Sketch 19: Strange New Worlds: The Non-Euclidean Geometry
+** Sketch 20: In the eye of the beholder: projective geometry
+
+* Day 19
+** Before class
+** Activities
+** After class
+** Sketch 6: By tens and tenths: Metric Measurement
+** Sketch 25: Beyond Counting: Infinity and the Theory of Sets
+
+* Day 20
+** Before class
+** Activities
+** After class
+
+
+* History of mathematics in a large nutshell
+
+* Footnotes
+
+bibliography:History.bib
+
+[fn:incanroads] By Manco Capac [CC BY-SA 3.0 (http://creativecommons.org/licenses/by-sa/3.0)], via Wikimedia Commons
+[fn:2] By Fedekuki (Own work) [CC BY-SA 3.0 (http://creativecommons.org/licenses/by-sa/3.0)], via Wikimedia Commons
+[fn:yupanaquipu] By Guaman Poma de Ayala [Public domain], via Wikimedia Commons
+
+[fn:11] © Mark Millmor, https://discoveringegypt.com/egyptian-hieroglyphic-writing/egyptian-mathematics-numbers-hieroglyphs/
+
+[fn:rhind] 1988 James R. Newman, World of Mathematics, Volume 1, Tempus Books of Microsoft Press
+
+[fn:papyrus] By Paul James Cowie (Pjamescowie) [Public domain], via Wikimedia Commons
+
+[fn:cuineiform]  By Hara1603 [Public domain], from Wikimedia Commons
+
+[fn:hind] Hind/Hindustan, Wikipedia, https://en.wikipedia.org/wiki/Names_for_India#Hind_.2F_Hindustan
+
+[fn:ybc7289] YBC 7289 - Photo by Bill Casselman http://www.math.ubc.ca/~cass/Euclid/ybc/ybc.html from the Yale Babylonian Collection.
+
+[fn:plimpton] "Plimpton 322" by photo author unknown - image copied from http://www.math.ubc.ca/~cass/courses/m446-03/pl322/pl322.html. Licensed under Public domain via Wikimedia Commons 
