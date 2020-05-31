@@ -22,20 +22,6 @@
 # and to split
 # #+REVEAL: split
 
-* Some scratch code
-#+begin_src lisp
-;; (defun org-remove-contents (backend)
-;;   "Remove contents of headlines with :ARCHIVE: tag."
-;;   (org-map-entries (lambda ()
-;;                      (forward-line)
-;;                      (let ((beg (point)))
-;;                        (outline-next-visible-heading 1)
-;;                        (backward-char)
-;;                        (delete-region beg (point))))
-;;                    "ARCHIVE" tree))
-(org-map-entries )
-#+end_src
-
 * Day 1
 ** Before class :noexport: :noexport: :noexport: :noexport:
 No readings; welcome to class
