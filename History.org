@@ -5,10 +5,8 @@
 # #+OPTIONS: whn:nil
 # #+EXPORT_FILE_NAME: ~/Downloads/history-class/01WelcomeAndMathInNumber-handout.html
 # For the export to the reveal.js slides
-#+OPTIONS: toc:nil num:nil
+#+OPTIONS: toc:2 num:nil
 #+EXPORT_FILE_NAME: ~/Nextcloud/John Hammond's Euclid Home/public_html/math300/history.html
-#
-#+OPTIONS: toc:nil num:nil
 #+REVEAL_THEME: solarized
 #+REVEAL_TRANS: linear
 #+REVEAL_EXTRA_CSS: slides.css
@@ -24,12 +22,26 @@
 # and to split
 # #+REVEAL: split
 
+* Some scratch code
+#+begin_src lisp
+;; (defun org-remove-contents (backend)
+;;   "Remove contents of headlines with :ARCHIVE: tag."
+;;   (org-map-entries (lambda ()
+;;                      (forward-line)
+;;                      (let ((beg (point)))
+;;                        (outline-next-visible-heading 1)
+;;                        (backward-char)
+;;                        (delete-region beg (point))))
+;;                    "ARCHIVE" tree))
+(org-map-entries )
+#+end_src
+
 * Day 1
-** Before class
+** Before class :noexport: :noexport: :noexport: :noexport:
 No readings; welcome to class
 Reply on Discourse to the About Me post.
-** Activities
-** After class
+** Activities :noexport: :noexport:
+** After class :noexport: :noexport:
 - Read:
   - Sketch 1
   - Sketch 2
@@ -42,7 +54,7 @@ Reply on Discourse to the About Me post.
 ** Syllabus overview
 
 * Day 2
-** Before class
+** Before class :noexport:
 All of this /should be already done before starting class!/
 - Read:
   - Sketch 1
@@ -53,9 +65,9 @@ All of this /should be already done before starting class!/
 - Draw a grid [[https://docs.google.com/drawings/d/1WFRxfpXJwlwzkklCe_3v_Y6ZlBOTymED-OrIbstwywM/edit?usp=sharing][that looks like this or print this out]]
 - Find a lot of small things (pennies, dry corn, pebbles, rice). At least 30 of them.
 
-** Activities
+** Activities :noexport:
 - [[https://docs.google.com/document/d/14VKtMlfQPkJngOhvge18yTVzUW-bOkHdprqIacCHnBY/edit?usp=sharing][The /Yupana/ Incan Abacus]]
-** After class
+** After class :noexport:
 
 ** Sketch 1: Keeping Count: Writing Whole Numbers
 *** Discussing the homework questions
@@ -184,9 +196,9 @@ https://upload.wikimedia.org/wikipedia/commons/f/f0/Nueva_cor%C3%B3nica_y_buen_g
 [[https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Bisotun_Iran_Relief_Achamenid_Period.JPG/800px-Bisotun_Iran_Relief_Achamenid_Period.JPG]] [fn:cuineiform]
 
 * Day 3
-** Before class
-** Activities
-** After class
+** Before class :noexport:
+** Activities :noexport:
+** After class :noexport:
 ** Sketch 2: Reading and Writing Arithmetic: The Basic Symbols
 *** Discussing the homework questions
 ** Sketch 4: Broken Numbers: Writing Fractions
@@ -263,9 +275,9 @@ museum goes as follows:
     - (me: do an example specifically, and also look at the link above)
   - ... Napier would use decimals in his work on logarithms soon after
 * Day 4
-** Before class
-** Activities
-** After class
+** Before class :noexport:
+** Activities :noexport:
+** After class :noexport:
 - Try to find about 70 pennies (we want consistent-sized small circular discs)
 
 ** Sketch 12: A Cheerful Fact: The Pythagorean Theorem
@@ -492,10 +504,10 @@ Tables from  cite:Eves1990 (pgs 45, 46)
 
 
 * Day 5
-** Before class
-** Activities
+** Before class :noexport:
+** Activities :noexport:
 Fill a circle with pennies
-** After class
+** After class :noexport:
 
 
 ** Sketch 7: Measuring the Circle: The story of $\pi$
@@ -516,9 +528,9 @@ Fill a circle with pennies
 - (Let's use blocks to try an Egyptian problem!)
 - If you find a repeating pattern, $\pi$ is rational.
 * Day 6
-** Before class
-** Activities
-** After class
+** Before class :noexport:
+** Activities :noexport:
+** After class :noexport:
 
 ** Sketch 9: Linear Thinking: Solving First Degree Equations
 *** Egyptian basic algebra
@@ -691,11 +703,36 @@ cite:Katz2003
 -  What increase, $s$, should we do for $x$?
 -  $7/6s = 350$ or $s= 300$.
 * Day 7
-** Before class
-** Activities
-** After class
+** Before class :noexport:
+** Activities :noexport:
+** After class :noexport:
 
 ** Sketch 28: Any Way You Slice It: Conic Sections
+*** Omar Khayyam - Solutions to Cubics
+   :PROPERTIES:
+   :CUSTOM_ID: omar-khayyam---solutions-to-cubics
+   :END:
+- Khayyam discovered and extended a geometrical argument for solving cubics
+- Leads to finding the real solution to cubic equations
+
+- In /Treatise on Demonstrations of Problems of al-jabra and
+  al-muqabala/:
+
+  - "he emphasizes that the reader needs to be thoroughly familiar
+    with the work of Euclid, Appolonius, and al-Khwarizmi in order to
+    follow the solutions." cite:Laubenbacher1998
+  - Showed strong mastery of geometry
+
+#+REVEAL: split
+- Classification of solutions of some cubics (from cite:Joseph2001)
+
+| Type               | Method                                   |
+|--------------------+------------------------------------------|
+| $x^3 = c$          | Intersection of two parabolas            |
+| $x^3 + ax = c$     | Intersection of circle and parabola      |
+| $x^3 \pm c = ax$   | Intersection of hyperbola and parabola   |
+| $x^3 = ax + c$     | Intersection of two hyperbolas           |
+
 ** Sketch 10: A Square and Things: Quadratic Equations
 *** Another particular case of al-Kwharizmi: $ax^2 + c = bx$
    :PROPERTIES:
@@ -771,37 +808,12 @@ Old Babylonian Story Problem ca. 1700 B.C, the solution to the question: "I have
 
 [[file:images/euclid_ii_11.png]][fn:http://math.furman.edu/~jpoole/euclidselements/eubk2/props.htm]
 * Day 8
-** Before class
-** Activities
-** After class
+** Before class :noexport:
+** Activities :noexport:
+** After class :noexport:
 
 ** Sketch 5: Less than nothing?: Negative numbers
 ** Sketch 11: Intrigue in Renaissance Italy: Solving Cubic Equations
-*** Omar Khayyam - Solutions to Cubics
-   :PROPERTIES:
-   :CUSTOM_ID: omar-khayyam---solutions-to-cubics
-   :END:
-- Khayyam discovered and extended a geometrical argument for solving cubics
-- Leads to finding the real solution to cubic equations
-
-- In /Treatise on Demonstrations of Problems of al-jabra and
-  al-muqabala/:
-
-  - "he emphasizes that the reader needs to be thoroughly familiar
-    with the work of Euclid, Appolonius, and al-Khwarizmi in order to
-    follow the solutions." cite:Laubenbacher1998
-  - Showed strong mastery of geometry
-
-#+REVEAL: split
-- Classification of solutions of some cubics (from cite:Joseph2001)
-
-| Type               | Method                                   |
-|--------------------+------------------------------------------|
-| $x^3 = c$          | Intersection of two parabolas            |
-| $x^3 + ax = c$     | Intersection of circle and parabola      |
-| $x^3 \pm c = ax$   | Intersection of hyperbola and parabola   |
-| $x^3 = ax + c$     | Intersection of two hyperbolas           |
-
 *** The general solution to the cubic
   :PROPERTIES:
   :CUSTOM_ID: the-solution-to-the-cubic
@@ -988,9 +1000,9 @@ General idea:
 
 
 * Day 9
-** Before class
-** Activities
-** After class
+** Before class :noexport:
+** Activities :noexport:
+** After class :noexport:
 
 ** Sketch 17: Impossible, Imaginary, Useful: Complex numbers
 ** Sketch 29: Beyond the Pale: Irrational Numbers
@@ -1003,9 +1015,9 @@ Yale Babylonian Collection
 [[http://www.math.ubc.ca/~cass/Euclid/ybc/analysis.jpg]] [fn:ybc7289]
 presentation note: use two-finger pinch-out trackpad gesture to zoom on the chromebook.
 * Day 10
-** Before class
-** Activities
-** After class
+** Before class :noexport:
+** Activities :noexport:
+** After class :noexport:
 
 ** Sketch 14: On Beauty Bare: Euclid's Plane Geometry
 ** Sketch 13: A Marvelous Proof: Fermat's Last Theorem
@@ -1232,29 +1244,29 @@ Solution to Book II, problem 8 suggests general method:
 - BBC/Horizon's Documentary on Fermat's Last Theorem. You can find it on YouTube or Vimeo.
 - Accolades for Wiles
 * Day 11
-** Before class
-** Activities
-** After class
+** Before class :noexport:
+** Activities :noexport:
+** After class :noexport:
 ** Sketch 3: Nothing Becomes a number: The Story of Zero
 
 * Day 12
-** Before class
-** Activities
-** After class
+** Before class :noexport:
+** Activities :noexport:
+** After class :noexport:
 ** "Nutshell" 26 - 66
 
 * Day 13
-** Before class
-** Activities
-** After class
+** Before class :noexport:
+** Activities :noexport:
+** After class :noexport:
 ** Sketch 15: In Perfect Shape: The Platonic Solids
 
 ** Sketch 16: Shapes by Numbers: Coordinate Geometry
 
 * Day 14
-** Before class
-** Activities
-** After class
+** Before class :noexport:
+** Activities :noexport:
+** After class :noexport:
 ** Sketch 18: Half is better: Sine and Cosine
 
 *** Hipparchus
@@ -1419,10 +1431,10 @@ Let's compute a few things:
 -  $(\sin 89^\circ 58') \cdot 10,000,000$
 -  $(\sin 89^\circ 57') \cdot 10,000,000$
 * Day 15
-** Before class
+** Before class :noexport:
 Watch [[https://www.youtube.com/watch?v=axZTv5YJssA&feature=youtu.be][Watch the Calculus Controversy cartoon]]
-** Activities
-** After class
+** Activities :noexport:
+** After class :noexport:
 ** Sketch 26: Out of the Shadows: The Tangent Function
 ** Sketch 30: Barely Touching: From Tangents to Derivatives
 
@@ -1504,23 +1516,23 @@ Watch [[https://www.youtube.com/watch?v=axZTv5YJssA&feature=youtu.be][Watch the 
 
 
 * Day 16
-** Before class
-** Activities
-** After class
+** Before class :noexport:
+** Activities :noexport:
+** After class :noexport:
 ** Sketch 21: What's in a Game? The Start of Probability Theory
 ** Sketch 22: Making Sense of Data: Statistics become a science
 
 * Day 17
-** Before class
-** Activities
-** After class
+** Before class :noexport:
+** Activities :noexport:
+** After class :noexport:
 ** Sketch 23: Machines that Think? Electronic Computers
 ** Sketch 24: The Arithmetic of Reasoning: Boolean Algebra
 
 * Day 18
-** Before class
-** Activities
-** After class
+** Before class :noexport:
+** Activities :noexport:
+** After class :noexport:
 ** Sketch 19: Strange New Worlds: The Non-Euclidean Geometry
 
 *** Euclid's /Elements/
@@ -1627,7 +1639,7 @@ Watch [[https://www.youtube.com/watch?v=axZTv5YJssA&feature=youtu.be][Watch the 
 #+REVEAL: split
 - Negative curvature
 #+ATTR_REVEAL: :frag (appear)
-[[https://upload.wikimedia.org/wikipedia/commons/4/4b/Kale-Bundle.jpg]][fn:3]
+[[https://upload.wikimedia.org/wikipedia/commons/4/4b/Kale-Bundle.jpg]][fn:Evan-Amos [CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)]]
 
 **** Does an ant walking on a ball know it's walking on a ball?
 
@@ -1725,19 +1737,18 @@ Watch [[https://www.youtube.com/watch?v=axZTv5YJssA&feature=youtu.be][Watch the 
 ** Sketch 20: In the eye of the beholder: projective geometry
 
 * Day 19
-** Before class
-** Activities
-** After class
+** Before class :noexport:
+** Activities :noexport:
+** After class :noexport:
 ** Sketch 6: By tens and tenths: Metric Measurement
 ** Sketch 25: Beyond Counting: Infinity and the Theory of Sets
 
 * Day 20
-** Before class
-** Activities
-** After class
+** Before class :noexport:
+** Activities :noexport:
+** After class :noexport:
 ** Summary/Wrap-up
 
-* History of mathematics in a large nutshell
 
 * Footnotes
 
