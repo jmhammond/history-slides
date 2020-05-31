@@ -54,6 +54,9 @@ All of this /should be already done before starting class!/
 ** Activities :noexport:
 - [[https://docs.google.com/document/d/14VKtMlfQPkJngOhvge18yTVzUW-bOkHdprqIacCHnBY/edit?usp=sharing][The /Yupana/ Incan Abacus]]
 ** After class :noexport:
+- Do you have modeling clay/playdoh? Can you dig a hole in your yard and get some wet dirt?
+- Grab your 'clay,' a popsicle stick (or regular stick) and watch along to learn to write Cuineiform:
+  https://www.youtube.com/watch?v=zOwP0KUlnZg
 
 ** Sketch 1: Keeping Count: Writing Whole Numbers
 *** Discussing the homework questions
@@ -494,7 +497,7 @@ Tables from  cite:Eves1990 (pgs 45, 46)
 ** Activities :noexport:
 Fill a circle with pennies
 ** After class :noexport:
-
+- Choice of Mathematicians for Biographies is Due Today, Friday (Email by 9pm)
 
 ** Sketch 7: Measuring the Circle: The story of $\pi$
 *** TODO Archimedes and double exhaustion
@@ -1004,6 +1007,8 @@ presentation note: use two-finger pinch-out trackpad gesture to zoom on the chro
 ** Before class :noexport:
 ** Activities :noexport:
 ** After class :noexport:
+- First mathematician biography is Due Today, Friday (Email to me by 9pm)
+- Be working on the Historical timeline overview for this mathematician
 
 ** Sketch 14: On Beauty Bare: Euclid's Plane Geometry
 ** Sketch 13: A Marvelous Proof: Fermat's Last Theorem
@@ -1233,6 +1238,7 @@ Solution to Book II, problem 8 suggests general method:
 ** Before class :noexport:
 ** Activities :noexport:
 ** After class :noexport:
+- History overview due today, Monday (Email by 9pm)
 ** Sketch 3: Nothing Becomes a number: The Story of Zero
 
 * Day 12
@@ -1421,6 +1427,8 @@ Let's compute a few things:
 Watch [[https://www.youtube.com/watch?v=axZTv5YJssA&feature=youtu.be][Watch the Calculus Controversy cartoon]]
 ** Activities :noexport:
 ** After class :noexport:
+- Second mathematician biography is Due Today, Friday (Email to me by 9pm)
+- Be working on the Historical timeline overview for this mathematician
 ** Sketch 26: Out of the Shadows: The Tangent Function
 ** Sketch 30: Barely Touching: From Tangents to Derivatives
 
@@ -1505,6 +1513,7 @@ Watch [[https://www.youtube.com/watch?v=axZTv5YJssA&feature=youtu.be][Watch the 
 ** Before class :noexport:
 ** Activities :noexport:
 ** After class :noexport:
+History overview due today, Monday) (Email by 9pm)
 ** Sketch 21: What's in a Game? The Start of Probability Theory
 ** Sketch 22: Making Sense of Data: Statistics become a science
 
