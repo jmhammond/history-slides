@@ -9,3 +9,5 @@ It also relies on an old version of reveal.js; my version is at least two years 
 
 I'll be updating this frequently to resolve all the TODOs in the org file. TODO will be removed when the section has content. 
 
+Notes to myself:
+- When you want to export *just* the assignment content to copy-paste to Discourse, export the subtree. orgmode is okay to export a :noexport: subtree. `C-c C-e C-s h o`
