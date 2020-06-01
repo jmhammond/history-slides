@@ -37,7 +37,78 @@ Reply on Discourse to the About Me post.
 - Draw a grid [[https://docs.google.com/drawings/d/1WFRxfpXJwlwzkklCe_3v_Y6ZlBOTymED-OrIbstwywM/edit?usp=sharing][that looks like this or print this out]]
 - Find a lot of small things (pennies, dry corn, pebbles, rice). At least 30 of them.
 
-** Syllabus overview
+** Course overview
+*** Me: Go visit Blackboard
+#+ATTR_REVEAL: :frag (appear)
+1. Show off Blackboard structure,
+2. Demo Discourse (we've seen it having posted already, yay!)
+3. Talk through the syllabus
+   - it's a lot
+** A note about course ordering
+   #+ATTR_REVEAL: :frag (appear)
+- Sketches discuss individual concepts at a time
+- We'll be visiting many different cultures/countries in many different time periods
+- This will mean having to remind yourself of what time you're considering
+- ... it's not difficult, just worth noting
+- Also, the order of the sketches is out-of-order to the textbook
+  it to paint a narrative of my choosing, putting together some interconnected themes.
+
+** Let's do a little class!
+
+** Why math?
+   :PROPERTIES:
+   :CUSTOM_ID: why-math
+   :END:
+
+   #+ATTR_REVEAL: :frag (appear)
+-  Economics, Religion, and Bureaucracy
+-  Trade
+-  Armies
+-  Taxes
+-  Calendars
+
+** Number Systems (previewing Sketch 1)
+  :PROPERTIES:
+  :CUSTOM_ID: number-systems
+  :END:
+
+*** Different cultures use(d) different bases and number systems
+   :PROPERTIES:
+   :CUSTOM_ID: different-cultures-used-different-bases-and-number-systems
+   :END:
+
+   #+ATTR_REVEAL: :frag (appear)
+-  Aztecs, Mayans (base 20---vigesimal)
+-  Incas, Indians (base 10---decimal)
+-  Babylonians (base 60---sexagesimal)
+
+*** How do we see numbers in different bases?
+   :PROPERTIES:
+   :CUSTOM_ID: how-do-we-see-numbers-in-different-bases
+   :END:
+
+   #+ATTR_REVEAL: :frag (appear)
+- Pick a base $b$, then you can represent any number, $N$, uniquely by:
+  $$N = a_n b^n + a_{n-1}b^{n-1} + \dots + a_1 b + a_0$$
+
+  For example, in base 10,
+  $$6735 = 6\cdot 10^3 + 7\cdot 10^2 + 3 \cdot 10 + 5$$
+
+- If we want base 2, the number $13 = 1\cdot 2^3 + 1\cdot 2^2 + 1$, we
+  write: $$13_{ten} = 1101_{two} = 1101_{2}$$
+
+#+REVEAL: split
+- Let's convert into different bases to practice:
+  - 782 to base 60
+  - 782 to base 20
+
+*** Positional vs. not positional.
+   :PROPERTIES:
+   :CUSTOM_ID: positional-vs.-not-positional.
+   :END:
+
+- What do you think these terms mean for number system?
+- Can you give an example?
 
 * Day 2
 ** Before class :noexport:
