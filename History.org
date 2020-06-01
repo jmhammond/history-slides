@@ -5,8 +5,9 @@
 # #+OPTIONS: whn:nil
 # #+EXPORT_FILE_NAME: ~/Downloads/history-class/01WelcomeAndMathInNumber-handout.html
 # For the export to the reveal.js slides
-#+OPTIONS: toc:2 num:nil
-#+EXPORT_FILE_NAME: ~/Nextcloud/John Hammond's Euclid Home/public_html/math300/history.html
+# #+OPTIONS: toc:2 num:nil
+#+OPTIONS: toc:nil num:nil
+# #+EXPORT_FILE_NAME: ~/Nextcloud/John Hammond's Euclid Home/public_html/math300/history.html
 #+REVEAL_THEME: solarized
 #+REVEAL_TRANS: linear
 #+REVEAL_EXTRA_CSS: slides.css
