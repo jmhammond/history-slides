@@ -115,6 +115,7 @@ Reply on Discourse to the About Me post.
 All of this /should be already done before starting class!/
 - Read:
   - Sketch 1
+  - Nutshell, pages 5-25
 - Do:
   - Sketch 1 questions 1-3
 - Draw a grid [[https://docs.google.com/drawings/d/1WFRxfpXJwlwzkklCe_3v_Y6ZlBOTymED-OrIbstwywM/edit?usp=sharing][that looks like this or print this out]]
@@ -129,6 +130,8 @@ All of this /should be already done before starting class!/
 - Do:
   - Sketch 2 questions 1, 4, 5
   - Sketch 4 questions 4, 6, 7
+  - The [[https://docs.google.com/document/d/1wVzn8FClW47TPj7Bei7jRBZWQqfugbGq9D8MxBD4wjc/edit?usp=sharing][Citation Activity linked]] here.
+    You don't need to turn anything in - answers will be posted tomorrow - but like all assignments, please do your best. The purpose of this activity is to ensure you are familiar with autogenerating APA formatting and seeing how easy it is to search the library catalog.
 - Do you have modeling clay/playdoh? Can you dig a hole in your yard and get some wet dirt?
 - Grab your 'clay,' a popsicle stick (or regular stick) and watch along to learn to write Cuineiform:
   https://www.youtube.com/watch?v=zOwP0KUlnZg
@@ -246,13 +249,16 @@ https://upload.wikimedia.org/wikipedia/commons/f/f0/Nueva_cor%C3%B3nica_y_buen_g
 - Carved on Behistun Cliff in Iran
 - four-hundred feet above the ground
 - Written in Old Persian (Elamitic), Babylonian, and Persian
-  - (side note) this includes the word[fn:hind] :
+    #+ATTR_REVEAL: :frag (appear)
+  - (side note) Why are our numbers called Hindu-Arabic?[fn:hind] :
+  - it looks like (religion)-(regional), but...
     #+ATTR_REVEAL: :frag (appear)
     - "Hind" هند‎ in Persian
     - "Hindush" 𐏃𐎡𐎯𐎢𐏁 in cuineiform
     - similar word in Egyptian
     - "Hind" refers to people from The Hind (Indus Valley)
     - ... much later Arabic الهند  "Al-Hind" to mean Indian
+    - So it's (region)-(region)
 - Translated in 1846 by Henry Rawlinson
 
 #+REVEAL: split
@@ -271,7 +277,9 @@ https://upload.wikimedia.org/wikipedia/commons/f/f0/Nueva_cor%C3%B3nica_y_buen_g
 - Grab your 'clay,' a popsicle stick (or regular stick) and watch along to learn to write Cuineiform:
   https://www.youtube.com/watch?v=zOwP0KUlnZg
 ** Activities :noexport:
+- Talking Diophantus' algebraic notation
 - Playing with arithmetic in Egypt and Mesopotamia
+- Simon Stevin's decimal fractions
 ** After class :noexport:
 - Read:
   - Sketch 12
@@ -280,6 +288,46 @@ https://upload.wikimedia.org/wikipedia/commons/f/f0/Nueva_cor%C3%B3nica_y_buen_g
   - Note for problem 3, here's [[https://mathcs.clarku.edu/~djoyce/java/elements/bookVI/propVI31.html][Euclid's Elements Online]]
 ** Sketch 2: Reading and Writing Arithmetic: The Basic Symbols
 *** Discussing the homework questions
+*** First, the number system:
+   :PROPERTIES:
+   :CUSTOM_ID: first-the-number-system
+   :END:
+
+-  Alphabetical numbers
+
+[[file:images/greek_alphabet_numerals.png]][fn:ionicnumbers]
+
+*** Diophantus Introduces symbolism to mathematics
+   :PROPERTIES:
+   :CUSTOM_ID: diophantus-introduces-symbolism-to-mathematics
+   :END:
+
+-  Diophantus' Subtraction Symbol: Probably from the Greek word for
+   "lacking" : /leipis/ or $\lambda\epsilon\iota\psi\iota\varsigma$ -
+   symbolized as $\not\Lambda$ (note this is the best I can typeset
+   it... bar through capital lambda)
+
+*** Diophantus' Symbolism
+   :PROPERTIES:
+   :CUSTOM_ID: father-of-algebra
+   :END:
+
+#+ATTR_REVEAL: :frag (appear)
+- unit: "monades" $\stackrel{\circ}{M}$
+- "number" (the unknown): "arithmos" $\varsigma$
+- "squares" (number multiplied by itself) $\Delta^\Upsilon$ "/dynamis/"
+- "cubes" (square multiplied by its side) $K^\Upsilon$ "/kubos/"
+- "square-squares" (square multiplied by itself)
+  $\Delta \Delta^\Upsilon$ "/dynamo-dynamis/"
+- "square-cubes" (squares multiplied by cubes having same side)
+  $\Delta K^\Upsilon$ "/dynamo-kubos/"
+- "cube-cubes" (cube multiplied itself) $K K^\Upsilon$ "/kubo-kubos/"
+
+- Examples (write in our modern notation):
+#+ATTR_REVEAL: :frag (appear)
+   -  $K^\Upsilon \alpha \Delta^\Upsilon \iota \gamma \varsigma \epsilon$
+   -  $K^\Upsilon \alpha \varsigma \eta \not\Lambda \Delta^\Upsilon \epsilon \stackrel{\circ}{M} \alpha$
+
 ** Sketch 4: Broken Numbers: Writing Fractions
 *** Egyptian Fractions and Arithmetic
    :PROPERTIES:
@@ -293,36 +341,26 @@ https://upload.wikimedia.org/wikipedia/commons/f/f0/Nueva_cor%C3%B3nica_y_buen_g
      - Example: Double 1 1/15
 
 *** An Exercise from the Ahmes (Rhind) Papyrus
-   :PROPERTIES:
-   :CUSTOM_ID: an-exercise-from-the-ahmes-rhind-papyrus
-   :END:
+:PROPERTIES:
+:CUSTOM_ID: an-exercise-from-the-ahmes-rhind-papyrus
+:END:
 
+#+ATTR_REVEAL: :frag (appear)
+-  How do you divide 9 loaves of bread between 10 men?
    #+ATTR_REVEAL: :frag (appear)
-   -  How do you divide 9 loaves of bread between 10 men?
-      #+ATTR_REVEAL: :frag (appear)
-      -  Our way: 9 ÷ 10 = 9/10 of a loaf per man
-   -  Mathematically, this is fair, but the guy with 10 tenths is probably not too happy!
+   -  Our way: 9 ÷ 10 = 9/10 of a loaf per man
+-  Mathematically, this is fair, but the guy with 10 tenths is probably not too happy!
 
 *** The Ahmes Bread Problem
-   :PROPERTIES:
-   :CUSTOM_ID: the-ahmes-bread-problem
-   :END:
+:PROPERTIES:
+:CUSTOM_ID: the-ahmes-bread-problem
+:END:
 
-   #+ATTR_REVEAL: :frag (appear)
-   -  The Egyptian way:
-- Example:
-A translation of a Babylonian tablet which is preserved in the British
-museum goes as follows:
-
-#+BEGIN_QUOTE
-  4 is the length and 5 the diagonal. What is the breadth ? Its size is
-  not known. 4 times 4 is 16. 5 times 5 is 25. You take 16 from 25 and
-  there remains 9. What times what shall I take in order to get 9 ? 3
-  times 3 is 9. 3 is the breadth.
-#+END_QUOTE
-      #+ATTR_REVEAL: :frag (appear)
-      -  9 ÷ 10 = 2/3 + 1/5 +1/30
-   -  The nine loaves of bread seem to be more “fairly” distributed this way!
+#+ATTR_REVEAL: :frag (appear)
+-  The Egyptian way:
+  #+ATTR_REVEAL: :frag (appear)
+  -  9 ÷ 10 = 2/3 + 1/5 +1/30
+-  The nine loaves of bread seem to be more “fairly” distributed this way!
 
 *** Mesopotamian Fractions
   #+ATTR_REVEAL: :frag (appear)
@@ -613,7 +651,6 @@ Fill a circle with pennies
 - Choice of Mathematicians for Biographies is Due Today, Friday (Email by 9pm)
 
 ** Sketch 7: Measuring the Circle: The story of $\pi$
-*** TODO Archimedes and double exhaustion
 *** TODO Hippocrates: Quest to Square the Circle
    :]PROPERTIES:
    :CUSTOM_ID: hippocrates-quest-to-square-the-circle
@@ -623,6 +660,7 @@ Fill a circle with pennies
    (crescent moon shape).
 -  The Geogebra activity!
 
+*** TODO Archimedes and double exhaustion
 *** Irrationality of $\pi$
 - Is $\pi$ irrational?
 - Search for digits of $\pi$.
@@ -1885,3 +1923,6 @@ bibliography:History.bib
 
 [fn:pentagonal] By Timrem [Public domain], from Wikimedia Commons
 [fn:friendly] ... actually "friendly" is attributed to Pythagoras according to Iamblicus
+
+
+[fn:ionicnumbers] Greek Numerals http://www.ancientscripts.com/images/greek\_alphabet\_numerals.png
