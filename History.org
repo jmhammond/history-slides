@@ -24,7 +24,7 @@
 # #+REVEAL: split
 
 * Day 1
-** Before class :noexport: :noexport: :noexport: :noexport:
+** Before class :noexport:
 No readings; welcome to class
 Reply on Discourse to the About Me post.
 ** Activities :noexport: :noexport:
@@ -632,7 +632,7 @@ Tables from  cite:Eves1990 (pgs 45, 46)
 -  What neat thing do you observe?
 
 
-* TODO Day 5
+* Day 5
 ** Before class :noexport:
 - Try to find about 70 pennies (we want consistent-sized small circular discs)
 - Read:
@@ -640,40 +640,98 @@ Tables from  cite:Eves1990 (pgs 45, 46)
 - Do:
   - Sketch 7: Problems 1 and 2
 ** Activities :noexport:
-Fill a circle with pennies
+- Fill a circle with pennies
 - Archimedes
 - Hippocrates squaring the circle, previewed above
 ** After class :noexport:
 - Read:
+  - Sketch 8
   - Sketch 9
 - Do:
+  - Sketch 8: Problems 2, 6
   - Sketch 9: Problems 1, 2, 3
 - Choice of Mathematicians for Biographies is Due Today, Friday (Email by 9pm)
 
 ** Sketch 7: Measuring the Circle: The story of $\pi$
-*** TODO Hippocrates: Quest to Square the Circle
-   :]PROPERTIES:
+*** Egyptian approximation - a setup and an assignment
+- Show by experiment (using pennies, for example), that a circle of diameter 9 can essentially be filled by 64 circles of diameter 1.
+- (Begin with one penny in the center, surround it with a circle of 6 pennies, and so on).
+- Use the obvious fact that 64 circles of diameter 1 also fill a square of side 8 to show how the Egyptians may have derived their formula for the area of a circle, $A=(8/9d)^2$ where $d$ is the diameter of the circle.
+
+*** Hippocrates: Quest to Square the Circle
+   :PROPERTIES:
    :CUSTOM_ID: hippocrates-quest-to-square-the-circle
    :END:
 
--  450 B.C. Hippocrates finds the area of a curved figure called a lune
-   (crescent moon shape).
--  The Geogebra activity!
+#+ATTR_REVEAL: :frag (appear)
+- What do we mean by "squaring"?
+- 450 B.C. Hippocrates finds the area of a curved figure called a lune
+  (crescent moon shape).
+- First non-rectilinear area calculation
+- [[https://www.geogebra.org/m/pFrBKxbu][The Geogebra activity!]]
 
-*** TODO Archimedes and double exhaustion
-*** Irrationality of $\pi$
-- Is $\pi$ irrational?
-- Search for digits of $\pi$.
-- Approximations of Egyptians and Archimedes
-- (Let's use disks/pennies to try an Egyptian problem!)
+*** Archimedes and double exhaustion
+#+ATTR_REVEAL: :frag (appear)
+- Inscribing and circumscribing polygons in/around a circle
+- Compare the perimeter of the polygon with diameter of circle
+- Since perimeter is close to circumference of the circle:
+- $\dfrac{\text{perimeter}}{\text{diameter}} \approx \dfrac{\text{circumference}}{\text{diameter}} = \pi$
+- inscribed polygon will be lesser
+- circumscribed with be greater
+- Gives as good an approximation as you could want
+- [[https://www.geogebra.org/m/pbK4tt2b][Here's a Geogebra demo]]
+*** Archimedes' Other works and The Method
+
+#+ATTR_REVEAL: :frag (appear)
+- Born in Syracuse 287 B.C. on the island of Sicily.
+- Unlike any other ancients we've discussed so far, we know relatively
+  a lot.
+- Figures prominently in Plutarch's /Lives of the Noble Grecians and
+  Romans/ (1st century AD)
+- Archimedes also writes prefaces for each book
+- On Floating Bodies
+- On the Equilibrium of Planes
+- Quadrature of the Parabola
+- On the Measurement of the Circle
+- On the Sphere and Cylinder
+- On Spirals
+- The Method
+*** The Method
+   :PROPERTIES:
+   :CUSTOM_ID: the-method
+   :END:
+
+From cite:Gould1955 (*NOTE TO SELF: Don't advance the slide*)
+
+#+CAPTION: Archimedes Sphere Construction
+[[file:images/archmethodsphereconstruction.png]]
+
+#+REVEAL: split
+
+#+CAPTION: Archimedes Sphere Construction
+[[file:images/archmethodsphere.png]]
+
+
+
+
 * TODO Day 6
 ** Before class :noexport:
-- Read:
+- Read:8
+  - Sketch 8
   - Sketch 9
 - Do:
+  - Sketch 8: Problems 2, 6
   - Sketch 9: Problems 1, 2, 3
 ** Activities :noexport:
-** TODO After class :noexport:
+** After class :noexport:
+- Read:
+  - Sketch 28
+  - Sketch 10
+- Do:
+  - Sketch 28: Problems: (none assigned but take a look)
+  - Sketch 10: Problems:  2 (try), 3, 5
+
+** TODO Sketch 8: The Cossic Art: Writing Algebra with Symbols
 
 ** Sketch 9: Linear Thinking: Solving First Degree Equations
 *** Egyptian basic algebra
@@ -714,91 +772,7 @@ becomes 46.
 -  46/23 = 2
 -  15 x 2 = 30
 
-**** Double False Position
-   :PROPERTIES:
-   :CUSTOM_ID: double-false-position
-   :END:
 
-Example 3: A purse of 100 dollars is to be divided among four men A, B,
-C, and D, so that B may have four dollars more than A, and C eight
-dollars more than B, and D twice as many as C; what is each one's share
-of the money?
-
-How would you solve it?
-
-#+ATTR_REVEAL: :frag (appear)
--  $A + B + C + D = 100$
--  $A + (A+4) + ((A+4) + 8) + (2*((A+4) + 8)) = 100$
--  ...
--  $A = 12$
-
-**** Double False Position (Answer)
-   :PROPERTIES:
-   :CUSTOM_ID: double-false-position-answer
-   :END:
-
-Example 3: A purse of 100 dollars is to be divided among four men A, B,
-C, and D, so that B may have four dollars more than A, and C eight
-dollars more than B, and D twice as many as C; what is each one's share
-of the money?
-
-#+ATTR_REVEAL: :frag (appear)
--  Guess: A gets 6.
--  So B gets 10
--  and C gets 18
--  and then D gets 36
-
--  That adds to 6 + 10 + 18 + 36 = 70 ... too small!
--  Off by 100 -- 70 = 30
-
-**** Double False Position (Answer part 2)
-   :PROPERTIES:
-   :CUSTOM_ID: double-false-position-answer-part-2
-   :END:
-
-Example 3: A purse of 100 dollars is to be divided among four men A, B,
-C, and D, so that B may have four dollars more than A, and C eight
-dollars more than B, and D twice as many as C; what is each one's share
-of the money?
-
-#+ATTR_REVEAL: :frag (appear)
--  Guess: A gets 10.
--  So B gets 14
--  and C gets 22
--  and then D gets 44
--  That adds to 10 + 14 + 22 + 44 = 90 ... too small!
--  Off by 100 -- 90 = 10.
-
-**** Double False Position (answer part 3)
-   :PROPERTIES:
-   :CUSTOM_ID: double-false-position-answer-part-3
-   :END:
-
-Process:
-
-#+ATTR_REVEAL: :frag (appear)
--  Guess
--  Find error
--  Repeat
--  Cross-multiply guesses and errors
-
-   -  $6\cdot 10 = 60, 30 \cdot 10 = 300$
-
--  Take the difference (if same sign) or the sum (if different)
-
-   -  $300 – 60 = 240$
-
--  Divide by the difference/sum of the errors
-
-   -  $240/(30 - 10) = 12$
-
-**** Why does it work?
-   :PROPERTIES:
-   :CUSTOM_ID: why-does-it-work
-   :END:
-
-
-**** Sketch 8: The Cossic Art: Writing Algebra with Symbols
 
 *** Linear Systems in Babylon
    :PROPERTIES:
@@ -846,9 +820,21 @@ cite:Katz2003
 -  What increase, $s$, should we do for $x$?
 -  $7/6s = 350$ or $s= 300$.
 * TODO Day 7
-** TODO Before class :noexport:
+** Before class :noexport:
+- Read:
+  - Sketch 28
+  - Sketch 10
+- Do:
+  - Sketch 28: Problems: (none assigned but take a look)
+  - Sketch 10: Problems:  2 (try), 3, 5
 ** TODO Activities :noexport:
-** TODO After class :noexport:
+** After class :noexport:
+- Read:
+  - Sketch 5
+  - Sketch 11
+- Do:
+  - Sketch 5: Problems: 1, 3, 5
+  - Sketch 11: Problems: 1, 3
 
 ** Sketch 28: Any Way You Slice It: Conic Sections
 *** Omar Khayyam - Solutions to Cubics
@@ -951,9 +937,22 @@ Old Babylonian Story Problem ca. 1700 B.C, the solution to the question: "I have
 
 [[file:images/euclid_ii_11.png]][fn:http://math.furman.edu/~jpoole/euclidselements/eubk2/props.htm]
 * TODO Day 8
-** TODO Before class :noexport:
+** Before class :noexport:
+- Read:
+  - Sketch 5
+  - Sketch 11
+- Do:
+  - Sketch 5: Problems: 1, 3, 5
+  - Sketch 11: Problems: 1, 3
 ** TODO Activities :noexport:
-** TODO After class :noexport:
+** After class :noexport:
+- Read:
+  - Sketch 17
+  - Sketch 29
+- Do:
+  - Sketch 17: Problems 6, 7
+  - Sketch 29: (none assigned)
+
 
 ** TODO Sketch 5: Less than nothing?: Negative numbers
 ** Sketch 11: Intrigue in Renaissance Italy: Solving Cubic Equations
@@ -1143,9 +1142,22 @@ General idea:
 
 
 * TODO Day 9
-** TODO Before class :noexport:
+** Before class :noexport:
+- Read:
+  - Sketch 17
+  - Sketch 29
+- Do:
+  - Sketch 17: Problems 6, 7
+  - Sketch 29: (none assigned)
+
 ** TODO Activities :noexport:
-** TODO After class :noexport:
+** After class :noexport:
+- Read:
+  - Sketch 14
+  - Sketch 13
+- Do:
+  - Sketch 14: 1, 4
+  - Sketch 13: 2, 4
 
 ** TODO Sketch 17: Impossible, Imaginary, Useful: Complex numbers
 ** Sketch 29: Beyond the Pale: Irrational Numbers
@@ -1158,11 +1170,21 @@ Yale Babylonian Collection
 [[http://www.math.ubc.ca/~cass/Euclid/ybc/analysis.jpg]] [fn:ybc7289]
 presentation note: use two-finger pinch-out trackpad gesture to zoom on the chromebook.
 * TODO Day 10
-** TODO Before class :noexport:
+** Before class :noexport:
+- Read:
+  - Sketch 14
+  - Sketch 13
+- Do:
+  - Sketch 14: 1, 4
+  - Sketch 13: 2, 4
 ** TODO Activities :noexport:
 ** TODO After class :noexport:
-- First mathematician biography is Due Today, Friday (Email to me by 9pm)
-- Be working on the Historical timeline overview for this mathematician
+- Read:
+  - Sketch 3
+- Do:
+  - Sketch 3: Problems 3, 4, 5
+  - First mathematician biography is Due Today, Friday (Email to me by 9pm)
+  - Be working on the Historical timeline overview for this mathematician
 
 ** TODO Sketch 14: On Beauty Bare: Euclid's Plane Geometry
 ** Sketch 13: A Marvelous Proof: Fermat's Last Theorem
@@ -1389,7 +1411,13 @@ Solution to Book II, problem 8 suggests general method:
 - BBC/Horizon's Documentary on Fermat's Last Theorem. You can find it on YouTube or Vimeo.
 - Accolades for Wiles
 * TODO Day 11
-** TODO Before class :noexport:
+** Before class :noexport:
+- Read:
+  - Sketch 3
+- Do:
+  - Sketch 3: Problems 3, 4, 5
+  - First mathematician biography is Due Today, Friday (Email to me by 9pm)
+  - Be working on the Historical timeline overview for this mathematician
 ** TODO Activities :noexport:
 ** TODO After class :noexport:
 - History overview due today, Monday (Email by 9pm)
