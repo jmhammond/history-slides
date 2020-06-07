@@ -654,6 +654,7 @@ Tables from  cite:Eves1990 (pgs 45, 46)
 
 ** Sketch 7: Measuring the Circle: The story of $\pi$
 *** Egyptian approximation - a setup and an assignment
+#+ATTR_REVEAL: :frag (appear)
 - Show by experiment (using pennies, for example), that a circle of diameter 9 can essentially be filled by 64 circles of diameter 1.
 - (Begin with one penny in the center, surround it with a circle of 6 pennies, and so on).
 - Use the obvious fact that 64 circles of diameter 1 also fill a square of side 8 to show how the Egyptians may have derived their formula for the area of a circle, $A=(8/9d)^2$ where $d$ is the diameter of the circle.
@@ -713,6 +714,24 @@ From cite:Gould1955 (*NOTE TO SELF: Don't advance the slide*)
 
 
 
+*** More different expressions of $\pi$.
+We saw various fractions to represent $\pi$.
+
+#+ATTR_REVEAL: :frag (appear)
+- What about *infinite* fractions
+- Let's talk about /continued fractions/.
+- Term was first used by John Wallis in 1695
+- idea is older
+
+#+REVEAL: split
+[[./images/aContinuedFractionOfPi.png]]
+
+
+#+REVEAL: split
+[[./images/AnotherContinuedFraction.svg]]
+
+*** First use of $\pi$
+
 
 * TODO Day 6
 ** Before class :noexport:
@@ -734,21 +753,13 @@ From cite:Gould1955 (*NOTE TO SELF: Don't advance the slide*)
 ** TODO Sketch 8: The Cossic Art: Writing Algebra with Symbols
 
 ** Sketch 9: Linear Thinking: Solving First Degree Equations
-*** Egyptian basic algebra
-**** Egyptian Story Problems
-   :PROPERTIES:
-   :CUSTOM_ID: egyptian-story-problems
-   :END:
-
-   #+ATTR_REVEAL: :frag (appear)
-   -  The Method of False Position
-   -  Or even Double False Position.
-**** False Position
+*** Egyptian linear algebra: Single and False Position
+**** False Position Example 1
    :PROPERTIES:
    :CUSTOM_ID: false-position
    :END:
 
-Example 1: A quantity; its fourth is added to it. It becomes 15.
+[[https://archive.org/details/TheRhindPapyrusVolume1/page/n83/mode/2up][Ahmes Papyrus, problem 26]]: A quantity; its fourth is added to it. It becomes 15.
 
 #+ATTR_REVEAL: :frag (appear)
 -  x + (1/4)x = 15
@@ -757,12 +768,12 @@ Example 1: A quantity; its fourth is added to it. It becomes 15.
 -  15/5 = 3
 -  4 x 3 = 12
 
-**** False Position
+**** False Position Example 2
    :PROPERTIES:
    :CUSTOM_ID: false-position-1
    :END:
 
-Example 2: A quantity; its third and its fifth are added to it. It
+A quantity; its third and its fifth are added to it. It
 becomes 46.
 
 #+ATTR_REVEAL: :frag (appear)
@@ -772,13 +783,14 @@ becomes 46.
 -  46/23 = 2
 -  15 x 2 = 30
 
+**** TODO Double False Position (another example)
+(This one isn't Egyptian)
 
-
-*** Linear Systems in Babylon
+*** Linear Systems in Mesopotamia
    :PROPERTIES:
    :CUSTOM_ID: linear-systems-in-babylon
    :END:
-
+**** A first example of a linear system
 Solving a system of two equations and two unknowns. As quoted in Katz
 cite:Katz2003
 
@@ -795,10 +807,7 @@ cite:Katz2003
 -  How would you solve it?
 
 
-*** Linear Systems in Babylon
-   :PROPERTIES:
-   :CUSTOM_ID: linear-systems-in-babylon-1
-   :END:
+#+REVEAL: split
 
 -  The scribe's solution:
 
@@ -809,16 +818,30 @@ cite:Katz2003
 4. Multiply 350 by $6/7$ to find 300.
 5. Answer: $x=900+300=1200$ and $y=900-300=600$.
 
-*** Why $6/7$?
+**** Why $6/7$?
    :PROPERTIES:
    :CUSTOM_ID: why-67
    :END:
 
 #+ATTR_REVEAL: :frag (appear)
--  $2/3 (1) - 1/2(-1) = 7/6$,
--  ... so each increase of $x$ increases the output by $7/6$.
--  What increase, $s$, should we do for $x$?
--  $7/6s = 350$ or $s= 300$.
+- $2/3 (1) - 1/2(-1) = 7/6$,
+- ... so each increase of $x$ increases the output by $7/6$.
+- What increase, $s$, should we do for $x$?
+- $7/6s = 350$ or $s= 300$.
+
+
+
+
+*** TODO Another Mesopotamian (non-linear) system
+This from the Hammurabi dynasty as in cite:joseph2011
+#+begin_quote
+Length (/ush/), width (/sag/0. I have multiplied /ush/ and /sag/ thus obtaining the area (/asha/). Then I added to /asha/, the excess of the /ush/ over the /sag/: result 3,03. I have added /ush/ and /sag/: result 27. Required /ush/, /sag/, and /asha/.
+#+end_quote
+
+
+
+**** TODO Move this to another section...
+
 * TODO Day 7
 ** Before class :noexport:
 - Read:

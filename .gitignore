@@ -3,3 +3,4 @@
 *.log
 tmp/
 *.html
+.auctex-auto/*
