@@ -753,7 +753,13 @@ We saw various fractions to represent $\pi$.
 ** TODO Sketch 8: The Cossic Art: Writing Algebra with Symbols
 
 ** Sketch 9: Linear Thinking: Solving First Degree Equations
-*** Egyptian linear algebra: Single and False Position
+*** Basic solving of first degree equations is basic
+#+ATTR_REVEAL: :frag (appear)
+- Berlinghoff and Gouvea write: "Because solving linear equations is relatively easy, few standard history books have sections specifically on that subject."
+- We'll take a look at linear equations, and
+- things that are linear adjacent
+
+*** Egyptian linear algebra: Single and Double False Position
 **** False Position Example 1
    :PROPERTIES:
    :CUSTOM_ID: false-position
@@ -832,15 +838,101 @@ cite:Katz2003
 
 
 
-*** TODO Another Mesopotamian (non-linear) system
-This from the Hammurabi dynasty as in cite:joseph2011
+*** Another Mesopotamian (non-linear) system
+
+The AO 8862 tablet
+#+ATTR_REVEAL: :frag (appear)
+- old tablet - 1700's BC.
+- square prism with problems on four sides
+  [[./images/AO8862.jpg]] [fn: http://ressources.louvrelens.fr/EXPLOITATION/oeuvre-ao-8862.aspx]
+- currently held at the Louvre
+
+
+#+REVEAL: split
+
+Quoted in cite:bunt-jones-bedient1988
 #+begin_quote
-Length (/ush/), width (/sag/0. I have multiplied /ush/ and /sag/ thus obtaining the area (/asha/). Then I added to /asha/, the excess of the /ush/ over the /sag/: result 3,03. I have added /ush/ and /sag/: result 27. Required /ush/, /sag/, and /asha/.
+Length, width. Length and width I have multiplied and thus formed the area. I have further added the excess of the length over the width to the area: 3,3. Further, I have added the length and width: 27. Required: length, width, and area.
 #+end_quote
 
 
+#+ATTR_REVEAL: :frag (appear)
+- (pick some variables and talk, I give it away on the next line:)
+- $xy + y - x = 3,3$ and $x + y = 27$.
 
-**** TODO Move this to another section...
+
+#+REVEAL: split
+The scribe's solution:
+#+ATTR_REVEAL: :frag (appear)
+- (Given) 27 and 3,3, the sums
+- (Result) 15 length, 12 width, 3,0 area.
+- You follow this method:
+- 27 + 3,3 = 3,30
+- 2 + 27 = 29
+- Take half the 29 (14;30)
+- 14;30 $\times$ 14;30 = 3,30;15
+- 3,30;15 - 3,30 = 0;15
+- 0;15 has 0;30 as square root
+
+
+#+REVEAL: split
+(continued)
+#+ATTR_REVEAL: :frag (appear)
+- 0;15 has 0;30 as square root
+- 14;30 + 0;30 = 15 length.
+- 14;30 - 0;30 = 14 width.
+- Subtract the 2 you added to 27 from 14, the width:
+- 12, the real width
+- 15, length, 12, width; I have multiplied
+- 15 $\times$ 12 = 3,0 area
+- 15 - 12 = 3
+- 3,0 + 3 = 3,3
+
+
+
+
+
+*** TODO Indian Linear Indeterminants
+- Āryabhaṭa (born 476 AD) writes /Āryabhaṭīya/ when he is 23
+  #+ATTR_REVEAL: :frag (appear)
+  - The /Āryabhaṭīya/ is an astronomical book
+  - The earliest existing work in Indian mathematics
+  - he days the manuscript and says how old he is.
+  - As translated in cite:clark1930, he thinks well of himself:
+    #+begin_quote
+    By the grace of God the precious sunken jewel of true knowledge has been rescued by me, by means of the boat of my own knowledge, from the ocean which consists of true and false knowledge.
+    #+end_quote
+  - The math chapter is expanded and explained by Bhāskara I
+  - Written in verse (sutras) with puns as memory devices
+
+**** TODO Actually, move this elsewhere. I need to flesh this out
+
+If you see this, dear student, it's because I left it in when I built it.
+
+I'm currently waiting on an interlibrary loan for a 2006 translation of Bhaskara I.
+
+**** Here's a sample of the "Chinese Remainder Theorem"
+
+From cite:clark1930, page 41
+#+begin_quote
+The two distances between two planets moving in opposite directions is divided by the sum of their daily motions. The two distances between two planets moving in the same direction is divided by the difference of their daily motion. The two results will give the time of meeting of the two in the past and future.
+#+end_quote
+
+
+#+ATTR_REVEAL: :frag (appear)
+- Not clear
+
+#+REVEAL: split
+
+#+ATTR_REVEAL: :frag (appear)
+- Discussion From Brahmagupta to help explain it
+
+
+
+
+
+
+*** Chinese Linear Systems
 
 * TODO Day 7
 ** Before class :noexport:
