@@ -800,6 +800,9 @@ becomes 46.
 Solving a system of two equations and two unknowns. As quoted in Katz
 cite:Katz2003
 
+From VAT 8389:
+[[./images/VAT8389.png]] [fn: https://primeviridian.blogspot.com/2015/03/ancient-babylonian-mathematics-tablet.html]
+
 #+BEGIN_QUOTE
   from the Old Babylonian text VAT 8389: One of two fields yields 2/3
   sila per sar, the second yields 1/2 sila per sar (sila and sar are
