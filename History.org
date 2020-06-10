@@ -733,7 +733,7 @@ We saw various fractions to represent $\pi$.
 *** First use of $\pi$
 
 
-* TODO Day 6
+* Day 6
 ** Before class :noexport:
 - Read:8
   - Sketch 8
@@ -742,6 +742,10 @@ We saw various fractions to represent $\pi$.
   - Sketch 8: Problems 2, 6
   - Sketch 9: Problems 1, 2, 3
 ** Activities :noexport:
+Learn more about symbols
+- [[http://jeff560.tripod.com/variables.html][Earliest Uses of Mathematical Symbols]] (website)
+
+- [[https://archive.org/details/historyofmathema031756mbp/page/n399/mode/2up][A History of Mathematical Notation by Florian Cajori, 1926]] (via the Internet Archive)
 ** After class :noexport:
 - Read:
   - Sketch 28
@@ -750,7 +754,11 @@ We saw various fractions to represent $\pi$.
   - Sketch 28: Problems: (none assigned but take a look)
   - Sketch 10: Problems:  2 (try), 3, 5
 
-** TODO Sketch 8: The Cossic Art: Writing Algebra with Symbols
+** Sketch 8: The Cossic Art: Writing Algebra with Symbols
+
+*** Discussing reading and problems
+
+*** If we wish, visit [[https://archive.org/details/historyofmathema031756mbp/page/n401/mode/2up][Florian Cajori's History of Mathematican Notations (1927)]]
 
 ** Sketch 9: Linear Thinking: Solving First Degree Equations
 *** Basic solving of first degree equations is basic
@@ -789,21 +797,70 @@ becomes 46.
 -  46/23 = 2
 -  15 x 2 = 30
 
-**** TODO Double False Position (another example)
-(This one isn't Egyptian)
+**** Double False Position (another example)
+From /Daboll's Schoolmasters' Assistant/ 1837 quoted in cite:bunt-jones-bedient1988
+#+begin_quote
+A, B, and C built a house which cost $500, of which A paid a certain sum; B paid 10 dollars more than A and C paid as much as A and B both; how much did each man pay?
+#+end_quote
+
+Process:
+- Guess
+- Find error
+- Repeat
+
+#+REVEAL: split
+
+#+ATTR_REVEAL: :frag (appear)
+- Cross-multiply guesses and errors
+- Take the difference (if same sign) or the sum (if different)
+- Divide by the difference/sum of the errors
+- Answer.
+
+**** A final... er... questionable question
+
+Cited in cite:bunt-jones-bedient1988 from /The American Tutor's Asistant/ 1817
+
+#+begin_quote
+When first the marriage know was ty'd\\
+Between my wife and me,\\
+My age was to that of my bride \\
+As three times three to three\\
+But now when ten and half ten years,\\
+We man and wife have been,\\
+Her age to mine exactly bears,\\
+As eight is to sixteen;\\
+
+Now tell, I pray, from what I've said,\\
+What were our ages when we wed?
+#+end_quote
+
+#+ATTR_REVEAL: :frag (appear)
+Let's solve it (one more click reveals answer)
+
+
+#+REVEAL: split
+#+ATTR_REVEAL: :frag (appear)
+#+begin_quote
+Thy age when marry'd must had been
+Just forty-five; thy wife's fifteen
+#+end_quote
+
+#+ATTR_REVEAL: :frag (appear)
+Ew.
+
 
 *** Linear Systems in Mesopotamia
    :PROPERTIES:
    :CUSTOM_ID: linear-systems-in-babylon
    :END:
 **** A first example of a linear system
-Solving a system of two equations and two unknowns. As quoted in Katz
-cite:Katz2003
-
 From VAT 8389:
 [[./images/VAT8389.png]] [fn: https://primeviridian.blogspot.com/2015/03/ancient-babylonian-mathematics-tablet.html]
 
 #+REVEAL: split
+
+Solving a system of two equations and two unknowns. As quoted in Katz
+cite:Katz2003
 
 #+BEGIN_QUOTE
   from the Old Babylonian text VAT 8389: One of two fields yields 2/3
@@ -939,7 +996,7 @@ The two distances between two planets moving in opposite directions is divided b
 
 *** Chinese Linear Systems
 
-* TODO Day 7
+* Day 7
 ** Before class :noexport:
 - Read:
   - Sketch 28
@@ -947,7 +1004,7 @@ The two distances between two planets moving in opposite directions is divided b
 - Do:
   - Sketch 28: Problems: (none assigned but take a look)
   - Sketch 10: Problems:  2 (try), 3, 5
-** TODO Activities :noexport:
+** Activities :noexport:
 ** After class :noexport:
 - Read:
   - Sketch 5
@@ -1073,6 +1130,65 @@ Old Babylonian Story Problem ca. 1700 B.C, the solution to the question: "I have
   - Sketch 17: Problems 6, 7
   - Sketch 29: (none assigned)
 
+
+** The World is Round.
+*** Okay, some people thought it was flat
+
+#+ATTR_REVEAL: :frag (appear)
+- Mesopotamian tablet BM 92687 (about 6th century BC)
+- The oldest world map is flat cite:Horowitz1988
+  [[https://upload.wikimedia.org/wikipedia/commons/b/bc/The_Babylonian_map_of_the_world%2C_from_Sippar%2C_Mesopotamia..JPG]] [fn: Osama Shukir Muhammed Amin FRCP(Glasg) / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)]
+
+#+REVEAL: split
+
+There were other ancient flat-Earthers
+#+ATTR_REVEAL: :frag (appear)
+- Greece - Homer
+- Ancient Norse/Germanic people.
+  - /Yggdrasil/, the world tree, is actually the center of the disk
+
+#+ATTR_REVEAL: :frag (appear)
+But the Earth is round.
+
+#+REVEAL: split
+
+Eratostothenes (276-194 BC)
+#+ATTR_REVEAL: :frag (appear)
+- Learns about the sun at noon in Syrene, Egypt lighting up a well
+  so the sun is straight up
+- The next year, same day, in Alexandria at noon the sun cast a shadow of a vertical pole
+  [[http://keyah.asu.edu/images/SunAngle.jpg]]
+
+#+REVEAL: split
+
+#+ATTR_REVEAL: :frag (appear)
+- Ideas why this suggests the Earth is round?
+- Here's a picture:
+  [[http://keyah.asu.edu/images/CurvedShadow.jpg]]
+
+#+REVEAL: split
+
+#+ATTR_REVEAL: :frag (appear)
+- How can we compute the circumference of the Earth?
+- (using kilometers, rather than stadia, which he used)
+ [[http://keyah.asu.edu/images/CurvedShadow2.jpg]]
+
+#+REVEAL: split
+- He's pretty close
+
+
+#+REVEAL: split
+Later, 1037AD, al-Biruni applied trig (from India?) to find the circumference within 1% of the correct value!
+
+- using the astrolabe (thanks Hypatia) helps
+
+
+#+REVEAL: split
+Why did Columbus think he found Asia?
+#+ATTR_REVEAL: :frag (appear)
+- using maps that were too small
+- measured circumference 25% too small
+- oops
 
 ** TODO Sketch 5: Less than nothing?: Negative numbers
 ** Sketch 11: Intrigue in Renaissance Italy: Solving Cubic Equations
