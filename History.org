@@ -1113,7 +1113,7 @@ Old Babylonian Story Problem ca. 1700 B.C, the solution to the question: "I have
 #+END_QUOTE
 
 [[file:images/euclid_ii_11.png]][fn:http://math.furman.edu/~jpoole/euclidselements/eubk2/props.htm]
-* TODO Day 8
+* Day 8
 ** Before class :noexport:
 - Read:
   - Sketch 5
@@ -1377,7 +1377,7 @@ General idea:
    -  We can solve every cubic using Cardano's method.
 
 
-* TODO Day 9
+* Day 9
 ** Before class :noexport:
 - Read:
   - Sketch 17
@@ -1395,7 +1395,146 @@ General idea:
   - Sketch 14: 1, 4
   - Sketch 13: 2, 4
 
-** TODO Sketch 17: Impossible, Imaginary, Useful: Complex numbers
+** Sketch 17: Impossible, Imaginary, Useful: Complex numbers
+*** Another Cardano example:
+   :PROPERTIES:
+   :CUSTOM_ID: another-cardano-example
+   :END:
+
+#+ATTR_REVEAL: :frag (appear)
+-  Solve $x^3 - 15x = 4$
+-  Cardano's formula: $m = -15$, $n=4$.
+-  ...
+-  $x=\sqrt[3]{2+\sqrt{-121}} - \sqrt[3]{-2+\sqrt{-121}}$
+
+*** "But $\sqrt{-121}$ is meaningless," you say.
+   :PROPERTIES:
+   :CUSTOM_ID: but-sqrt-121-is-meaningless-you-say.
+   :END:
+
+-  This is /casus irreducibilis/
+-  $\sqrt{-121}$ has no geometric meaning
+   -  there is no square whose area is -121
+-  Let's play for a moment, though:
+   #+ATTR_REVEAL: :frag (appear)
+   -  Cube $2 + \sqrt{-1}$.
+   -  $(2 + \sqrt{-1})^3 = 8 + 12\sqrt{-1} - 6 - \sqrt{-1}$
+   -  $= 2 + 11\sqrt{-1}$
+   -  $= 2 + \sqrt{-121}$
+
+#+ATTR_REVEAL: :frag (appear)
+-  So $\sqrt[3]{2 + \sqrt{-121}} = 2 + \sqrt{-1}$
+-  Similarly, $\sqrt[3]{-2 + \sqrt{-121}} = -2 + \sqrt{-1}$
+
+
+#+REVEAL: split
+
+#+ATTR_REVEAL: :frag (appear)
+-  So $\sqrt[3]{2 + \sqrt{-121}} = 2 + \sqrt{-1}$
+-  Similarly, $\sqrt[3]{-2 + \sqrt{-121}} = -2 + \sqrt{-1}$
+-  Coming back to Cardano's solution to $x^3- 15x = 4$
+   #+ATTR_REVEAL: :frag (appear)
+   -  $x=\sqrt[3]{2+\sqrt{-121}} - \sqrt[3]{-2+\sqrt{-121}}$
+   -  $x=(2+\sqrt{-1}) - (-2 + \sqrt{-1})$
+   -  $x=4$
+-  So using $\sqrt{-121}$ as an object gives a /real/ solution.
+-  Mind-blow.
+-  Cardano called the solutions /sophistic/ (from /sophism/ meaning an argument designed to deceive)
+
+
+*** Arithmetic of Rafael Bombelli
+   :PROPERTIES:
+   :CUSTOM_ID: arithmetic-of-rafael-bombelli
+   :END:
+
+#+ATTR_REVEAL: :frag (appear)
+-  Wrote /l'Algebra/ in 1572
+   #+ATTR_REVEAL: :frag (appear)
+   -  Goal was to make algebra, inspired by /Ars Magna/, easier to understand
+   -  He wrote that Cardano wasn't clear (/ma nel dire f' oscuro/) cite:Waerden1985
+   - Include his newly discovered work by Diophantus
+   # -  We saw in the homework his method to write: $$\displaystyle \sqrt[3]{\sqrt{325} + 18} - \sqrt[3]{\sqrt{325} - 18} = 3$$
+#   -  Write: $$\displaystyle \sqrt[3]{\sqrt{325} + 18} - \sqrt[3]{\sqrt{325} - 18} = 3$$
+
+#+REVEAL: split
+
+
+#+ATTR_REVEAL: :frag (appear)
+- He explained the solution to $x^3 = 15x +4$, as quoted in
+  cite:Waerden1985
+  - "At first, the thing seemed to me to be based more on sophism than on truth, but I searched until I found the proof"
+- He was the first to observe that solutions with square roots of negatives appear in "conjugate pairs"
+  - he didn't call it that, though
+- Notation for $\sqrt{-1}$, and rules to work with it:
+  - Our $\sqrt{-1}$ is /piú di meno/ and our $-\sqrt{-1}$ is /meno di meno/
+  - Symbolically: /R.q.0m.1/ and /m.R.q.0m.1/
+- This was the subject of chapter 2 of /l'Algebra/
+#+ATTR_REVEAL: :frag (appear)
+#+REVEAL: split
+From cite:BarrowGreen2019:
+#+BEGIN_QUOTE
+This will seem to be more artificial than real, and I held the same opinion myself, until I found the geometrical demonstration"
+...
+Plus times plus of minus, makes plus of minus
+Minus times plus of minus, makes minus of minus
+Plus times minus of minus, makes minus of minus
+Minus times minus of minus, makes plus of minus
+Plus of minus times plus of minus, makes minus
+Plus of minus times minus of minus, makes plus
+Minus of minus times minus of minus, makes minus
+#+END_QUOTE
+
+
+#+REVEAL: split
+
+#+ATTR_REVEAL: :frag (appear)
+- Chapter 1 is about computing radicals
+- Quote about the particular topic, but gives the feel:
+- (this is really fun - it illustrates how math's a bit different today)
+
+#+ATTR_REVEAL: :frag (appear)
+#+BEGIN_QUOTE
+  ...In short, I shall set forth the method which is the most pleasing to me today and it will rest in men's judgement to appraise what they see: meanwhile I shall continue my discourse going now to the discussion itself
+#+END_QUOTE
+
+*** Approximating radicals
+   :PROPERTIES:
+   :CUSTOM_ID: approximating-radicals
+   :END:
+
+Translation from cite:Arcavi1991:
+
+#+BEGIN_QUOTE
+  Let us first assume that if we wish to find the approximate root of 13 that this will be 3 with 4 left over. This remainder should be divided by 6 (double the 3 given above) which gives $2/3$. This is the first fraction which is to be added to the 3, making 3 $2/3$ which is the approximate root of 13. Since the square of this number is 13 $4/9$ it is $4/9$ too large, and if one wishes a closer approximation, the 6 which is the double of the 3 should be added to the fraction $2/3$, giving 6 $2/3$ and this number should be divided into the $4$ which is the difference between 13 and 9, ...
+#+END_QUOTE
+
+
+#+REVEAL: split
+#+ATTR_REVEAL: :frag (appear)
+-  This is the method which is /most pleasing/ to him.
+-  Don't despair! He explains what he's doing in later paragraphs!
+   (Quotes as in cite:Arcavi1991)
+
+*** Approximating radicals
+   :PROPERTIES:
+   :CUSTOM_ID: approximating-radicals-1
+   :END:
+
+#+ATTR_REVEAL: :frag (appear)
+-  Let us suppose we are required to find the root of 13. The nearest square is 9, which has root 3. I let the approximate root of 13 be 3 plus 1 tanto /unknown/.
+-  Its square is 9 plus 6 tanti p. 1 power. We set this equal to 13.
+-  Subtracting 9 from either side of the equation we are left with 4 equal to 6 tanti plus one power.
+-  Many people have neglected the power and merely set 6 tanti, equal to 4. The tanto then comes to $2/3$.
+-  and the approximate value of the root is 3 $2/3$ since it has been set equal to 3 p. 1 tanto.
+
+#+REVEAL: split
+
+#+ATTR_REVEAL: :frag (appear)
+-  However, taking the power into account, if the tanto is equal to $2/3$, the power will be $2/3$ of a tanto, which, added to the 6 tanti, will give us 6 and $2/3$ tanti, which are equal to 4.
+-  So the tanto will be equal to $3/5$, and since the appropximate is 3 p. 1 tanto it comes to 3 $3/5$.
+-  But if the tanto is equal to 3 $3/5$, the power will be $3/5$ of a tanto and we obtain 6 $3/5$ tanti equal to 4 ...
+-  /e cosi procedendo si puo approssimare a una cosa insensible/ “and this process may be carried to within an imperceptible difference.”
+
 ** Sketch 29: Beyond the Pale: Irrational Numbers
 *** YBC 7289
 Yale Babylonian Collection
@@ -1656,6 +1795,16 @@ Solution to Book II, problem 8 suggests general method:
   - Be working on the Historical timeline overview for this mathematician
 ** TODO Activities :noexport:
 ** TODO After class :noexport:
+- Read: Nutshell 22 - 66
+- Do:
+  - This section doesn't have homework questions, so this gives us a great opportunity!
+    - Since we've now seen a "Large Nutshell" overview of math, let's take a moment to find the topic project that we (you) will be presenting. This is the [[https://docs.google.com/document/d/1NT5PZqf7E75kvPy1GXeAJBysQZ-Tx6jBioYrmwxxZXE/edit#bookmark=id.gbn7ed2zceub][MTA Project of the syllabus]].
+      - What topic in math is really interesting to you?
+      - What would you like to read more about?
+      - Find the relevant sketch in MTA and look at the Projects section at the end.
+      - Pick a project you'd like to cover and [[https://docs.google.com/spreadsheets/d/1_vNEo_lcZtNpSvIEpqwQoGFFHdc_HC8CzLUvCFDZM5M/edit?usp=sharing][claim it on this spreadsheet.]]
+      - [[mailto:hammond@math.wichita.edu][Send me an email]] after you're done.
+
 - History overview due today, Monday (Email by 9pm)
 ** TODO Sketch 3: Nothing Becomes a number: The Story of Zero
 
