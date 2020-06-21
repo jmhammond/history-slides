@@ -1833,7 +1833,7 @@ Solution to Book II, problem 8 suggests general method:
 ** TODO "Nutshell" 26 - 66
 
 * TODO Day 13
-** TODO Before class :noexport:
+** Before class :noexport:
 - Read:
   - Sketch 15
   - Sketch 16
@@ -2146,7 +2146,32 @@ Watch [[https://www.youtube.com/watch?v=axZTv5YJssA&feature=youtu.be][Watch the 
 ** TODO Activities :noexport:
 ** TODO After class :noexport:
 History overview due today, Monday) (Email by 9pm)
+- Read:
+  - Sketch 23
+  - Sketch 24
+- Do:
+  - Sketch 23:
+  - Sketch 24:
+
 ** TODO Sketch 21: What's in a Game? The Start of Probability Theory
+
+Notes on Pacal/Fermat
+
+- Keith Devlin cite:devlin2010 brief summary (article available here: https://www-jstor-org.proxy.wichita.edu/stable/20876705; can post pdf)
+  This article specifically notes the difficulty that Pascal had with trying to solve it.
+
+  Quote from the article "some of them [mathematicians] even went so far as to declare the that the problem could not be solved. Now where have you heard that before?"
+- English translation of their correspondence:
+  https://www.york.ac.uk/depts/maths/histstat/pascal.pdf
+
+  Letters also appear in cite:smith_source_1929
+
+
+Buffon Needle problem simulator
+- https://mste.illinois.edu/activity/buffon/
+- there's also a 1974 article linked here https://www-jstor-org.proxy.wichita.edu/stable/27959621
+
+
 ** TODO Sketch 22: Making Sense of Data: Statistics become a science
 
 * TODO Day 17
