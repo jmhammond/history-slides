@@ -2150,8 +2150,8 @@ History overview due today, Monday) (Email by 9pm)
   - Sketch 23
   - Sketch 24
 - Do:
-  - Sketch 23:
-  - Sketch 24:
+  - Sketch 23: Look through the questions and projects and do any that seem interesting. You might already be familiar with the material of all the questions.
+  - Sketch 24: 1, 4, (5 if you feel adventurous)
 
 ** TODO Sketch 21: What's in a Game? The Start of Probability Theory
 
@@ -2179,7 +2179,48 @@ Buffon Needle problem simulator
 ** TODO Activities :noexport:
 ** TODO After class :noexport:
 ** TODO Sketch 23: Machines that Think? Electronic Computers
+For more information
+History of Computing in ComputerWorld 1981
+https://archive.org/details/TheHistoryOfComputing/mode/2up
+
+- Pascaline - how it works:
+https://www.youtube.com/watch?v=3h71HAJWnVU
+Recommend to watch it on at least 1.5 speed because he talks really slowly
+
+- Babbage's difference engine with relaxing music
+  https://www.youtube.com/watch?v=be1EM3gQkAY
+
+  - This video demos the math behind the machine
+    https://www.youtube.com/watch?v=PFMBU17eo_4
+
+- ENIAC
+  [[https://www.computerhistory.org/revolution/birth-of-the-computer/4/78][Really great photo collection from the Computer museum]]
+  - setting it up
+    https://www.computerhistory.org/revolution/birth-of-the-computer/4/78/316
+  - operating it
+    https://www.computerhistory.org/revolution/birth-of-the-computer/4/78/321
+  - implemented in a circuit chip in 1995:
+    https://www.computerhistory.org/revolution/birth-of-the-computer/4/78/327
 ** TODO Sketch 24: The Arithmetic of Reasoning: Boolean Algebra
+*** George Boole
+Laws of Thought
+https://www.gutenberg.org/files/15114/15114-pdf.pdf
+
+*** De Morgan:
+Formal Logic by de Morgan
+https://archive.org/details/formallogicorthe00demouoft
+
+
+Trig and double algebra
+https://archive.org/details/ost-math-trigonometry_and_double_algebra/page/n7/mode/2up
+
+Memoirs (by his wife)
+https://archive.org/details/memoirofaugustus00demouoft/page/n11/mode/2up
+
+A Budget of Paradoxes
+https://archive.org/details/budgetofparadoxe00demouoft/page/22/mode/2up
+
+
 
 * TODO Day 18
 ** TODO Before class :noexport:
