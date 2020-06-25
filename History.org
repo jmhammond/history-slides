@@ -2176,8 +2176,21 @@ Buffon Needle problem simulator
 
 * TODO Day 17
 ** TODO Before class :noexport:
+History overview due today, Monday) (Email by 9pm)
+- Read:
+  - Sketch 23
+  - Sketch 24
+- Do:
+  - Sketch 23: Look through the questions and projects and do any that seem interesting. You might already be familiar with the material of all the questions.
+  - Sketch 24: 1, 4, (5 if you feel adventurous)
 ** TODO Activities :noexport:
 ** TODO After class :noexport:
+- Read:
+  - Sketch 19
+  - Sketch 20
+- Do:
+  - Sketch 19: 4; If you have a globe explore 1, 2, and 3
+  - Sketch 20: 1, 2;
 ** TODO Sketch 23: Machines that Think? Electronic Computers
 For more information
 History of Computing in ComputerWorld 1981
@@ -2224,8 +2237,36 @@ https://archive.org/details/budgetofparadoxe00demouoft/page/22/mode/2up
 
 * TODO Day 18
 ** TODO Before class :noexport:
+- Read:
+  - Sketch 19
+  - Sketch 20
+- Do:
+  - Sketch 19: 4; If you have a globe explore 1, 2, and 3
+  - Sketch 20: 1, 2;
+
+Do you crochet? You can make a hyperbolic plane!
+
+The pattern is incredibly simple: as long as you consistently increase the same for every row, you'll achieve a hyperbolic surface (constant negative curvature).
+
+I've made several different increase counts. Let's do the simplest version:
+
+1. Chain 20.
+2. 4sc, inc.
+3. repeat row 2 until it's as big as you want. The finished project will look like coral.
+
+Note on notation: "sc" is single crochet, and when I say "inc" I mean two sc in one stitch.
 ** TODO Activities :noexport:
 ** TODO After class :noexport:
+- Watch / read the MTA Projects - comment and discuss!
+- Read:
+  - Sketch 6
+  - Sketch 26
+- Do:
+  - Sketch 6: 1, 2
+  - Sketch 25: 3
+
+
+
 ** Sketch 19: Strange New Worlds: The Non-Euclidean Geometry
 
 *** Euclid's /Elements/
@@ -2433,15 +2474,393 @@ https://archive.org/details/budgetofparadoxe00demouoft/page/22/mode/2up
 ** TODO Before class :noexport:
 ** TODO Activities :noexport:
 ** TODO After class :noexport:
+**WE FINISHED MTA**
+- We read the book cover to cover. Great job!
+
+... actually... In lieu of a reading assignment, let me post the following philosophical question - "What is math?"
+
+Think about it, and let's post our discussion below!
 ** TODO Sketch 6: By tens and tenths: Metric Measurement
 ** TODO Sketch 25: Beyond Counting: Infinity and the Theory of Sets
+- Video of Penny and I talking about cardinality.
+  https://youtu.be/jq2MFLkpYHA
+
 
 * TODO Day 20
-** TODO Before class :noexport:
-** TODO Activities :noexport:
-** TODO After class :noexport:
+** Before class :noexport:
+** Activities :noexport:
+** After class :noexport:
 ** TODO Summary/Wrap-up
 
+*** What have we learned?
+  :PROPERTIES:
+  :CUSTOM_ID: what-have-we-learned
+  :END:
+
+#+ATTR_REVEAL: :frag (appear)
+-  What's an interesting thing you learned?
+-  How might you use it in a classroom?
+-  How has your appreciation of math changed?
+
+
+#+ATTR_REVEAL: :frag (appear)
+- Mary Elizabeth
+- Addy
+- Caitlyn
+- Adriana
+
+#+REVEAL: split
+
+-  What's an interesting thing you learned?
+-  How might you use it in a classroom?
+-  How has your appreciation of math changed?
+
+#+ATTR_REVEAL: :frag (appear)
+- Siska
+- Christina
+- Jasmine (if you're there)
+- Ashlyn (remotely)
+
+
+*** TODO Brief Summary
+  :PROPERTIES:
+  :CUSTOM_ID: brief-summary
+  :END:
+
+**** Content Areas:
+   :PROPERTIES:
+   :CUSTOM_ID: content-areas
+   :END:
+
+#+ATTR_REVEAL: :frag (appear)
+- Numeration systems
+  #+ATTR_REVEAL: :frag (appear)
+  - Symbols, place-value
+  - Different bases
+    #+ATTR_REVEAL: :frag (appear)
+    - Base 10: Indians, Arabs, Chinese, Incans, basically the world
+      now
+    - Base 20: Aztecs, Mayans*
+    - Base 60: Mesopotamians
+  - Algorithms for computations
+  - Existence or nonexistence of zero
+
+#+REVEAL: split
+
+#+ATTR_REVEAL: :frag (appear)
+-  Early math in Egypt and Mesopotamia
+   #+ATTR_REVEAL: :frag (appear)
+   -  Practical problems in Egypt
+      -  Papyri read like procedural textbooks
+   -  Learning for its own sake in Mesopotamia
+      -  Tablets of "scribal homework"
+   -  Early quadratic formula
+   -  Maybe early trig table
+      -  Arguments against Plimpton (Eleanor Robson 2001)
+      -  Arguments for (Mansfield 2017)
+   -  Leading to Greek Mathematics
+
+#+REVEAL: split
+
+#+ATTR_REVEAL: :frag (appear)
+- Greek Math
+  #+ATTR_REVEAL: :frag (appear)
+  - Geometry focus!
+  - Numbers are line segments
+    - But basic number theory (studied in school) comes from this
+  - Major works (for school purposes)
+    - Euclid's /Elements/
+      #+ATTR_REVEAL: :frag (appear)
+      - Algebra in book II,
+      - All geometry through your June semester
+      - Even 3D geometry of solids ("Non-Euclidean" Geometry)
+
+#+REVEAL: split
+
+#+ATTR_REVEAL: :frag (appear)
+-  Major works (for school purposes)
+   #+ATTR_REVEAL: :frag (appear)
+   -  Appolonius' /Conics/
+      -  Conic sections
+      -  Eventually used to solve some cubic equations
+      -  Structures we do in algebra
+   -  Ptolemy's /Almagest/
+      -  Major contributer to early astronomy and so trig
+
+
+#+REVEAL: split
+-  Major works (for school purposes)
+   -  Diophantus' /Arithmetica/
+      #+ATTR_REVEAL: :frag (appear)
+      -  Gives us first symbolic algebra
+      -  Something Hypatia builds on
+      -  Keeps Fermat busy
+      -  gives Euler something to do
+      -  inspires Sophie Germain
+      -  inspires Andrew Wiles
+      -  Leads to in some sense a new area of math
+
+
+
+#+REVEAL: split
+
+-  Arab Math
+   #+ATTR_REVEAL: :frag (appear)
+   -  Preserves most things before
+   -  Improves on everything before!
+   -  Invent algebra closer to the form we know it.
+      -  Al-Khwarizmi, Omar Khayyam, Thabit ibn Qurra, among others
+
+#+REVEAL: split
+
+-  Algebra
+   #+ATTR_REVEAL: :frag (appear)
+   -  Italians did Math Battles
+   -  Solution to the cubic
+      -  Cardano and Tartaglia
+         -  Cardano's /Ars Magna/
+   -  Solution to the quartic
+      -  Ferrari (using Cardano's methods)
+   -  Later algebra "abstract algebra" in France and modern day
+
+#+REVEAL: split
+
+- Calculations:
+  #+ATTR_REVEAL: :frag (appear)
+  - Chord table of Hipparchus
+  - Napier
+    - Logarithms
+    - Napier's Bones
+  - Slide Rules (Oughtred)
+  - Pascal's Pascaline
+  - Leibniz's Steeped Reckoner
+  - Charles Babbage
+    - Difference Engine (actual) and
+    - Analytic Engine (hypothetic)
+  - Ada Lovelace on the Analytical engine
+  - Alan Turing, /Bombe/ and theoretical machines
+
+
+#+REVEAL: split
+# -  Calculus Before Calculus
+
+#    -  Sums of arithmetic progression
+
+#       -  Fermat, Pascal, Bernoulli
+
+
+#+ATTR_REVEAL: :frag (appear)
+-  Calculus
+   #+ATTR_REVEAL: :frag (appear)
+   -  Newton and Leibniz
+   -  Binomial Theorem
+   -  Fundamental Theorem of Algebra for Partial Fractions Decomp
+   -  Series of the Bernoullis
+   -  Euler
+
+#+ATTR_REVEAL: :frag (appear)
+-  Changes in the late 19th Century
+   #+ATTR_REVEAL: :frag (appear)
+   -  Cantor and infinity
+   -  Non-Euclidean Geometry
+      -  Bolyai, Lobachevsky, Gauss, Riemann, and others
+
+**** A major take away:
+   :PROPERTIES:
+   :CUSTOM_ID: a-major-take-away
+   :END:
+
+#+ATTR_REVEAL: :frag (appear)
+- Math is created by people
+- People are flawed
+- People knew a lot of things long ago
+  #+ATTR_REVEAL: :frag (appear)
+  - The world is round, Siska.
+  - Hydraulics and engineering are things Greeks and Arabs did
+    - including steam engines
+  - But some things took a long time to come around
+    #+ATTR_REVEAL: :frag (appear)
+    - square roots are okay
+    - zero
+    - negative numbers aren't scary
+
+*** The Three Classical Problems
+  :PROPERTIES:
+  :CUSTOM_ID: the-three-classical-problems
+  :END:
+
+**** Three Classical Problems:
+   :PROPERTIES:
+   :CUSTOM_ID: three-classical-problems
+   :END:
+
+Using only the tools of the compass and an unmarked straight-edge
+
+-  Trisection of an arbitrary angle
+-  Squaring the circle
+-  Duplication of the cube
+
+**** Are these theoretically important?
+   :PROPERTIES:
+   :CUSTOM_ID: are-these-theoretically-important
+   :END:
+
+#+ATTR_REVEAL: :frag (appear)
+-  No.
+   #+ATTR_REVEAL: :frag (appear)
+   -  There were no theorems that depended on their truth.
+-  ... but attempts to solve them led to advancements.
+
+**** Can it be done?
+   :PROPERTIES:
+   :CUSTOM_ID: can-it-be-done
+   :END:
+
+- Trisection of the angle:
+ #+ATTR_REVEAL: :frag (appear)
+  - For some angles, sure.
+  - If I use other tools? Sure.
+  - with a compass and straight-edge? No
+    - Proved in 1837 by Wantzel
+    - Requires "abstract algebra"
+
+#+REVEAL: split
+- Duplicating the cube
+  #+ATTR_REVEAL: :frag (appear)
+  - Also no.
+  - 1837 (same person - same work)
+
+- Squaring the circle
+  #+ATTR_REVEAL: :frag (appear)
+  - No.
+    #+ATTR_REVEAL: :frag (appear)
+    - Proved in 1882 by Lindemann
+    - He showed $\pi$ is transcendental
+    - (transcendental numbers can't be constructed. More abstract algebra)
+
+**** The problems led to:
+   :PROPERTIES:
+   :CUSTOM_ID: the-problems-led-to
+   :END:
+
+#+ATTR_REVEAL: :frag (appear)
+-  Studying conic sections
+-  Solving cubic equations
+  #+ATTR_REVEAL: :frag (appear)
+   -  Duplicating the cube (e.g. $x^3 = 2$)
+   -  Trisection of angle ($8x^3 - 6x -1 = 0$)
+     - (I have an example of this specific one below)
+
+#+REVEAL: split
+-  Developing abstract algebra
+   -  Constructable numbers
+   -  Field extensions
+
+**** Here's an example of a simple angle: $60^\circ$:
+   :PROPERTIES:
+   :CUSTOM_ID: for-my-own-future-sanity-60circ-is-a-nice-angle-but
+   :END:
+
+The question:
+#+ATTR_REVEAL: :frag (appear)
+- "Show that $8x^3 - 6x -1 = 0$ has no rational solution"
+- is asking, "can I construct $20^\circ$?"
+- $\cos 60^\circ = 1/2$
+- $\cos (20^\circ + 20^\circ + 20^\circ) = 1/2$
+- $4 \cos^3 (20^\circ) - 3\cos(20^\circ ) = 1/2$
+- Let $x=\cos 20^\circ$
+- $4x^3 - 3x = 1/2$
+- $8x^3 - 6x -1 = 0$
+- this has no rational solution. So, no, I can't construct it.
+
+**** The vagueness of the parallel postulate
+#+ATTR_REVEAL: :frag (appear)
+- Led to a lot of people trying to prove or disprove it
+- Big names:
+  - Ptolemy, Proclus
+  - Omar Khayyam, Nasir al-Din al-Tusi
+  - Johann Lambert
+    - (Lambert is the one who proved $\pi$ is irrational)
+  - Carl Friedrich Gauss, Nokolai Lobachevsky, Janos Bolyai
+- Leads to the necessarily geometric tools for Albert Einstein's General Relativity
+
+*** Modern Times
+  :PROPERTIES:
+  :CUSTOM_ID: modern-times
+  :END:
+
+**** Hilbert's Problems
+   :PROPERTIES:
+   :CUSTOM_ID: hilberts-problems
+   :END:
+
+#+ATTR_REVEAL: :frag (appear)
+-  In 1900, David Hilbert posed 23 problems at the International Congress of Mathematicians
+-  Various problems, for example,
+   #+ATTR_REVEAL: :frag (appear)
+   1. The continuum hypothesis (anything between counting numbers and the set of real numbers?)
+      # $\aleph_0$ and $\textbf{c}$?)
+   2. The Riemann Hypothesis
+-  Many solved, from 1900, 1920's, 1930's, 1950's, 1960's 1970's,
+   1990's.
+   #+ATTR_REVEAL: :frag (appear)
+   -  One was too vague, dismissed
+   -  4 unresolved
+   -  8 partially solved
+   -  10 solved
+-  Spurred development in many, many areas of math.
+
+**** The Millennium Problems
+   :PROPERTIES:
+   :CUSTOM_ID: the-millennium-problems
+   :END:
+
+#+ATTR_REVEAL: :frag (appear)
+- Seven problems posed in 2000 by the Clay Mathematics Institute
+- Solved (one):
+  - Poincare conjecture (solved in 2006 by Grigori Perelman)
+    - Won the Fields Medal, but declined it
+
+- 6 Unsolved:
+  - The Riemann Hypothesis
+  - P vs. NP
+  - ...
+
+
+
+# ** A computational aside:
+
+
+# #+ATTR_REVEAL: :frag (appear)
+# - Computer circuits are a sequence of 0 and 1's
+# - ... but they're tiny, they're electrical
+# - ... they can make physical mistakes
+# - ... (interference, gamma radiation, ...)
+# - How reliably can we trust that a circuit will return the correct answer?
+# - Paper from June of this year Hao Huang
+
+*** This might not be you. And that's okay
+
+#+ATTR_REVEAL: :frag (appear)
+- You might not be a super math nerd.
+- I'm not
+
+*** Maybe one of your students?
+
+#+ATTR_REVEAL: :frag (appear)
+- famous (and not famous) mathematicians were once kids
+- share your enthusiasm
+- Let's inspire people
+- And let's have fun.
+
+*** It's been a great month with guys
+
+#+ATTR_REVEAL: :frag (appear)
+- I was nervous about an online discussion & math class
+- You guys were great; rolled with it; improved it
+- Thanks for your insight and your passion.
+- Keep doing great work, and good luck in your future!
+- Thanks for a fun class.
 
 * Footnotes
 
