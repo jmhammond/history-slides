@@ -20,6 +20,7 @@
 # Comments to myself:
 # #+ATTR_REVEAL: :frag (appear)
 
+#+ATTR_REVEAL: :frag (appear)
 # and to split
 # #+REVEAL: split
 
@@ -2490,7 +2491,7 @@ Think about it, and let's post our discussion below!
 ** Before class :noexport:
 ** Activities :noexport:
 ** After class :noexport:
-** TODO Summary/Wrap-up
+** Summary/Wrap-up
 
 *** What have we learned?
   :PROPERTIES:
@@ -2572,7 +2573,7 @@ Think about it, and let's post our discussion below!
     - Euclid's /Elements/
       #+ATTR_REVEAL: :frag (appear)
       - Algebra in book II,
-      - All geometry through your June semester
+      - All geometry through your July semester
       - Even 3D geometry of solids ("Non-Euclidean" Geometry)
 
 #+REVEAL: split
@@ -2633,12 +2634,12 @@ Think about it, and let's post our discussion below!
     - Napier's Bones
   - Slide Rules (Oughtred)
   - Pascal's Pascaline
-  - Leibniz's Steeped Reckoner
+  - Leibniz's Stepped Reckoner
   - Charles Babbage
     - Difference Engine (actual) and
     - Analytic Engine (hypothetic)
   - Ada Lovelace on the Analytical engine
-  - Alan Turing, /Bombe/ and theoretical machines
+  # - Alan Turing, /Bombe/ and theoretical machines
 
 
 #+REVEAL: split
@@ -2725,11 +2726,11 @@ Using only the tools of the compass and an unmarked straight-edge
     - Requires "abstract algebra"
 
 #+REVEAL: split
+#+ATTR_REVEAL: :frag (appear)
 - Duplicating the cube
   #+ATTR_REVEAL: :frag (appear)
   - Also no.
   - 1837 (same person - same work)
-
 - Squaring the circle
   #+ATTR_REVEAL: :frag (appear)
   - No.
