@@ -1,5 +1,5 @@
 # history-slides
-Math 300: Evolution of Mathematics
+Math 531: History of Mathematics
 
 I'm doing all my course structure development and slide notes within a single orgmode file. In order to replicate/use thing, you'd need:
 
