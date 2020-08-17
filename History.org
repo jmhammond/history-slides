@@ -1,13 +1,7 @@
-#+TITLE: Math History Notes for Math 300 Summer 2020
+#+TITLE: Math History Notes for Math 531 Fall 2020
 #+AUTHOR: John Hammond
 
-# For the export to twbs
-# #+OPTIONS: whn:nil
-# #+EXPORT_FILE_NAME: ~/Downloads/history-class/01WelcomeAndMathInNumber-handout.html
-# For the export to the reveal.js slides
-# #+OPTIONS: toc:2 num:nil
 #+OPTIONS: toc:nil num:nil
-# #+EXPORT_FILE_NAME: ~/Nextcloud/John Hammond's Euclid Home/public_html/math300/history.html
 #+REVEAL_THEME: solarized
 #+REVEAL_TRANS: linear
 #+REVEAL_EXTRA_CSS: slides.css
@@ -44,6 +38,7 @@ Reply on Discourse to the About Me post.
 1. Show off Blackboard structure,
 2. Demo Discourse (we've seen it having posted already, yay!)
 3. Talk through the syllabus
+   - (well, you already watched the video, let's talk overview and answer questions live)
    - it's a lot
 ** A note about course ordering
    #+ATTR_REVEAL: :frag (appear)
