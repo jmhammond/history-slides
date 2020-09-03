@@ -13,9 +13,6 @@
 
 # Comments to myself:
 # #+ATTR_REVEAL: :frag (appear)
-
-#+ATTR_REVEAL: :frag (appear)
-# and to split
 # #+REVEAL: split
 
 * Day 1
@@ -727,8 +724,9 @@ We saw various fractions to represent $\pi$.
 [[./images/AnotherContinuedFraction.svg]]
 
 *** First use of $\pi$
-
-
+- William Jones in 1706 wrote /Synpsis Palmoariorum Matheseos/ or /A New Introduction to the Mathematics/
+  - "In a short and Easie Method"
+- [[https://archive.org/details/SynopsisPalmariorumMatheseosOrANewIntroductionToTheMathematics/page/n261/mode/2up][Here's the book]]
 * Day 6
 ** Before class :noexport:
 - Read:8
@@ -809,13 +807,13 @@ Process:
 #+ATTR_REVEAL: :frag (appear)
 - Cross-multiply guesses and errors
 - Take the difference (if same sign) or the sum (if different)
+  - Here I mean subtract the whole numbers or add the whole numbers (signless)
 - Divide by the difference/sum of the errors
 - Answer.
 
 **** A final... er... questionable question
 
 Cited in cite:bunt-jones-bedient1988 from /The American Tutor's Asistant/ 1817
-
 #+begin_quote
 When first the marriage know was ty'd\\
 Between my wife and me,\\
@@ -825,7 +823,6 @@ But now when ten and half ten years,\\
 We man and wife have been,\\
 Her age to mine exactly bears,\\
 As eight is to sixteen;\\
-
 Now tell, I pray, from what I've said,\\
 What were our ages when we wed?
 #+end_quote
@@ -902,8 +899,8 @@ The AO 8862 tablet
 #+ATTR_REVEAL: :frag (appear)
 - old tablet - 1700's BC.
 - square prism with problems on four sides
-  [[./images/AO8862.jpg]] [fn: http://ressources.louvrelens.fr/EXPLOITATION/oeuvre-ao-8862.aspx]
 - currently held at the Louvre
+  [[./images/AO8862.jpg]] [fn: http://ressources.louvrelens.fr/EXPLOITATION/oeuvre-ao-8862.aspx]
 
 
 #+REVEAL: split
@@ -950,12 +947,12 @@ The scribe's solution:
 
 
 
-*** TODO Indian Linear Indeterminants
+*** Indian Linear Proportions - The Rule of Three
 - Āryabhaṭa (born 476 AD) writes /Āryabhaṭīya/ when he is 23
   #+ATTR_REVEAL: :frag (appear)
   - The /Āryabhaṭīya/ is an astronomical book
   - The earliest existing work in Indian mathematics
-  - he days the manuscript and says how old he is.
+  - he dates the manuscript and says how old he is.
   - As translated in cite:clark1930, he thinks well of himself:
     #+begin_quote
     By the grace of God the precious sunken jewel of true knowledge has been rescued by me, by means of the boat of my own knowledge, from the ocean which consists of true and false knowledge.
@@ -963,11 +960,81 @@ The scribe's solution:
   - The math chapter is expanded and explained by Bhāskara I
   - Written in verse (sutras) with puns as memory devices
 
-**** TODO Actually, move this elsewhere. I need to flesh this out
+#+REVEAL: split
+- The Rule of Three:
+  Āryabhaṭa writes: (cite:keller_2006)
+  #+begin_quote
+  Now, when one has multiplied that fruit quantity in the Rule of Three by the desire quantity\\
+  What has been obtained from that divided by the measure should be this fruit of the desire \\
+  The denominators are respectively multiplied to the multipliers and the divisor.
 
-If you see this, dear student, it's because I left it in when I built it.
+  #+end_quote
+#+ATTR_REVEAL: :frag (appear)
+- Huh???
 
-I'm currently waiting on an interlibrary loan for a 2006 translation of Bhaskara I.
+#+REVEAL: split
+- Bhaskara clarifies: (cite:keller_2006)
+  #+begin_quote
+In order to bring about a Rule of Three the wise should know that in the dispositions \\
+The two similar quantities are at the beginning and the end. The dissimilar quantity is in the middle.
+  #+end_quote
+
+  - physically arrange, like one a table;
+  - two right numbers are multiplied. The left divides that result.
+
+#+REVEAL: split
+- Here's an example (I'm making up):
+I bought five beers for $9. How much beer can be obtained for $1?
+
+#+ATTR_REVEAL: :frag (appear)
+- Write similars on outside, dissimilar inside:
+- $9  5  $1
+- Multiply the two right numbers and divide by the left number.
+  5 * $1 / $9 = 5/9
+- not a whole beer, but some!
+
+
+#+REVEAL: split
+- Here's an example from Bhaskara cite:keller_2006
+  #+begin_quote
+  A lot of cattle is said to be made of eight tamed, three to be tamed. \\
+  Out of one thousand and one, how many have been tames and how many are the others?
+  #+end_quote
+
+#+ATTR_REVEAL: :frag (appear)
+- This time, to get "similars" we need total collection of cows; 8+3=11 in the lot; 1001 in total:
+- Write similars on outside, dissimilar inside:
+- Tamed and untamed 11;  tamed 8; total 1001
+- Multiply the two right numbers and divide by the left number.
+- 725; units? Tamed! (the units of the middle)
+- So there are 1001-725 = 273 untamed.
+
+
+#+REVEAL: split
+- One more example? Merchants and earnings! (cite:keller_2006)
+  #+begin_quote
+Merchants with respective investments of a half, a third and one eighth \\
+have a profit of seventy minus one. What are their respective profits?
+  #+end_quote
+
+**** Contrast with an Egyptian "Rule of Three" problem
+- Problem 72 of the Ahmes Papyrus (written about 2000 years before Āryabhaṭa)
+  - written in modern phrasing, quoted in cite:joseph2011
+    #+begin_quote
+100 loaves of /pesu/ 10 are to be exchanged for a certain number of loaves of /pesu/ 45. What is this certain number?
+    #+end_quote
+    Note that /pesu/ means weakness, so high /pesu/ is lower quality bread.
+
+#+REVEAL: split
+
+#+ATTR_REVEAL: :frag (appear)
+- Find excess of 45 over 35; 10
+- Divide 35 by 10; 3.5
+- Multiply 3.5 by 100; 350
+- Add 350 + 100; 450 is the answer
+- Method suggests knowing $\dfrac{y}{x} = \dfrac{g}{p} \equiv \dfrac{y-x}{x} = \dfrac{g-p}{p}$
+
+
 
 **** Here's a sample of the "Chinese Remainder Theorem"
 
