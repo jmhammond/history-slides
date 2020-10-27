@@ -2308,7 +2308,16 @@ Watch [[https://www.youtube.com/watch?v=axZTv5YJssA&feature=youtu.be][Watch the 
 *** Bhaskara I on computing shadows
 - Working proportions of shadows of gnomons
   - think about 'shadow of tree' type from trig class
-- pg 127 of cite:Keller_2006
+- pg 74 of cite:Keller_2006
+#+REVEAL: split
+- "Say the shadows of the two gnomons which stand respectively at eighty from the foot of a light on a pole whose height is seventy two; and at twenty from <a light whose height is> thirty"
+  [[./images/gnomonshadows.png]]
+#+REVEAL: split
+"Setting Down:"
+- Distance between the gnomon and base is 80;
+- this multiplied by the gnomon is 960.
+- The base is 72, the gnomon 12; their difference is 60
+- The multiplied 960 is divided by this; "the shadow is obtained: 16."
 
 *** Let's look at all trig functions
 
