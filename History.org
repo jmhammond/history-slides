@@ -1176,6 +1176,8 @@ Old Babylonian Story Problem ca. 1700 B.C, the solution to the question: "I have
 #+END_QUOTE
 
 [[file:images/euclid_ii_11.png]][fn:http://math.furman.edu/~jpoole/euclidselements/eubk2/props.htm]
+
+Let's do the construction on GeoGebra and then discuss it!
 * Day 8
 ** Before class :noexport:
 - Read:
@@ -1607,6 +1609,86 @@ Yale Babylonian Collection
 
 [[http://www.math.ubc.ca/~cass/Euclid/ybc/analysis.jpg]] [fn:ybc7289]
 presentation note: use two-finger pinch-out trackpad gesture to zoom on the chromebook.
+
+** The Fundamental Theorem of Algebra
+   :PROPERTIES:
+   :CUSTOM_ID: the-fundamental-theorem-of-algebra
+   :END:
+
+#+ATTR_REVEAL: :frag (appear)
+-  Essential statement: Every polynomial of degree $n$ has $n$ complex roots.
+-  Jean d'Alembert (1717-1783)
+-  Why pursue this theorem?
+
+** Finding a counter-example.
+   :PROPERTIES:
+   :CUSTOM_ID: finding-a-counter-example.
+   :END:
+
+#+ATTR_REVEAL: :frag (appear)
+-  Leibniz (as quoted in cite:Laubenbacher1998, page 216):
+   $$x^4 + a^4 = (x^2 + a^2\sqrt{-1})(x^2 - a^2\sqrt{-1})$$
+-  “Therefore, $\int dx /(x^4 + a^4)$ cannot be reduced to the squaring of the circle or the hyperbola by our analysis above, but founds a new kind of its own”
+
+** Finding a counter-example.
+   :PROPERTIES:
+   :CUSTOM_ID: finding-a-counter-example.-1
+   :END:
+
+#+ATTR_REVEAL: :frag (appear)
+-  Nikolaus Bernoulli factors it.
+-  But this Bernoulli suggests in 1742 cite:DunhamArticle1990:
+   $$x^4 - 4x^3  + 2x^2 + 4x + 4$$ can't be factored.
+-  Euler factors it.
+-  Euler attempts a proof in 1749
+-  Gauss finally resolves it in 1799.
+   -  Proves that every polynomial with real coefficients can be factored into linear and quadratic factors
+   -  his first of /four/ proofs of the FTA (then 1816, 1816, and 1849)
+
+** Finding a Formula - Roots of higher-degree polynomials.
+  :PROPERTIES:
+  :CUSTOM_ID: finding-a-formula---roots-of-higher-degree-polynomials.
+  :END:
+
+** Niels Abel
+   :PROPERTIES:
+   :CUSTOM_ID: niels-abel
+   :END:
+
+Brief Bio
+
+#+ATTR_REVEAL: :frag (appear)
+-  1802-1829 (Norway)
+-  Died of tuberculosis.
+-  Invented group theory
+-  No general algebraic formula for degree 5 polynomials (1824)
+
+** Evariste Galois
+   :PROPERTIES:
+   :CUSTOM_ID: evariste-galois
+   :END:
+
+#+ATTR_REVEAL: :frag (appear)
+-  1811-1832 (France)
+-  Bad student
+-  Political revolutionary
+-  Mathematician
+
+** Galois - Mathematician
+   :PROPERTIES:
+   :CUSTOM_ID: galois---mathematician
+   :END:
+
+-  Also invented group theory: (Quote in cite:Laubenbacher1998):
+#+BEGIN_QUOTE
+  Jump above calculations; group the operations, classify them according to their complexities rather than their appearances; this, I believe, is the mission of future mathematicians; this is the road on which I am embarking in this work
+#+END_QUOTE
+
+-  Field called Galois Theory
+-  Solutions to polynomial equations (among his final 60 page work)
+
+
+
 * TODO Day 10
 ** Before class :noexport:
 - Read:
@@ -1870,6 +1952,62 @@ Solution to Book II, problem 8 suggests general method:
 
 - History overview due today, Monday (Email by 9pm)
 ** TODO Sketch 3: Nothing Becomes a number: The Story of Zero
+*** Mayan God of Zero and ritual sacrific (page 88 starts)
+The Mayan gods of the underworld were governed by the god of death - the God of Zero.
+
+#+attr_reveal: :frag (appear)
+#+begin_quote
+A human would be dressed in the regalia of the God of Zero, and then sacrified by having his lower jaw town off
+#+end_quote
+
+*** Roman ways of avoiding zero.
+Pliney the Elder.
+#+attr_reveal: :frag (appear)
+- 60AD, Pliney is writing an astronomy work and dividing the sky in $360^\circ$ as has been long done.
+- However, he starts his positioning from $1^\circ$.
+- Romans counted Tuesday as three days after Sunday is Tuesday
+  ... because Sunday is counted as 1 day.
+- Those musical among us use C to E as a "major third" because there are three notes: C, D, E even though there's only two note increase from C to E.
+
+*** Fibonacci isn't sold on zero
+
+/Liber Abaci/ begins with:
+
+(English quote from cite:Sigler:2002:FLA)
+#+begin_quote
+The nine Indian figures are
+9 8 7 6 5 4 3 2 1.
+With these nine figures, and with the sign 0 which the Arabs call zephir any number whatsoever is written.
+#+end_quote
+
+#+attr_reveal: :frag (appear)
+in writing this, we are getting the Hindu-Arabic numbers brought to the west in 1202, but he's not including 0 as a first-class number.
+
+*** Double-entry bookkeeping
+
+#+attr_reveal: :frag (appear)
+- Basic idea: debits and credits and balance
+- Luca Pocioli in 1494 formalized
+- Pacioli's bookkeeping showed readers that 0 is a /value/ not just a /sign/. It has literal, tangible value like other numbers.
+
+*** John Napier and ab=0?
+#+attr_reveal: :frag (appear)
+- Napier solving ab=0
+- This is absolutely obvious to us, and our students do it rote without any thought.
+- ... but
+- Multiplication is repeated addition.
+  5*7 = 7*7*7*7*7. Fine.
+  a*b = a*a*a*a...*a b times or similarly b*b*b*...*b a times.
+- Multiplication is just repeated addition.
+- So all that's really happening in $ab$ is that we're adding many things together.
+
+#+reveal: split
+#+attr_reveal: :frag (appear)
+- ... but that addition sums to 0.
+- This is a balanced ledger.
+- This is a conservation of energy law.
+- It requires us to hold that 0 is a value and that everything else should be in balance.
+- This blew my mind!
 
 * TODO Day 12
 ** Before class :noexport:
@@ -1882,8 +2020,6 @@ Solution to Book II, problem 8 suggests general method:
       - Find the relevant sketch in MTA and look at the Projects section at the end.
       - Pick a project you'd like to cover and [[https://docs.google.com/spreadsheets/d/1_vNEo_lcZtNpSvIEpqwQoGFFHdc_HC8CzLUvCFDZM5M/edit?usp=sharing][claim it on this spreadsheet.]]
       - [[mailto:hammond@math.wichita.edu][Send me an email]] after you're done.
-
-- ~~History overview due today, Monday (Email by 9pm)~~
 ** TODO Activities :noexport:
 ** After class :noexport:
 - Read:
@@ -1894,6 +2030,46 @@ Solution to Book II, problem 8 suggests general method:
   - Sketch 16: question 3 (use a ruler and plot points)
    
 ** TODO "Nutshell" 26 - 66
+*** The Algorists vs Abacists
+Hundreds year long controversy to adopt Hindu-Arabic numerals
+
+#+attr_reveal: :frag (appear)
+- Woodcut by Gregor Reisch in /Margarita Philosophica/
+It's called The Allegory of Arithmetic 1503
+
+Shows Boethius using Hindu Arabic numbers to do calculations while Pythagoras is using a counting board (and looks a bit concerned)  (it is thought Pythagoras invented the Greek abacus)
+
+[[https://upload.wikimedia.org/wikipedia/commons/1/13/Houghton_Typ_520.03.736_-_Margarita_philosophica.jpg]] [fn: Houghton Library / Public domain]
+
+#+reveal: split
+
+
+- Abacists favored Roman numerals and work with a physical counting device
+- Algorists favored the Arabic numerals and algorithms
+
+#+attr_reveal: :frag (appear)
+- Accountants against the change:
+  #+attr_reveal: :frag (appear)
+  - The numbers are highly susceptible to fraud (change a digit)
+  - Too easy to use: cite:Stone1972
+    #+begin_quote
+    [T]he flexibility of the new system would lead to inaccuracies and errors due to the less painstaking effors on the part of the accountant.
+    #+end_quote
+
+#+reveal: split
+#+attr_reveal: :frag (appear)
+- Why so difficult? Let's look at an abacus computation: cite:Reynolds1993
+  [[./images/romanabaci-Reynolds1993.png]]
+
+#+reveal: split
+#+attr_reveal: :frag (appear)
+- cite:Reynolds1993 makes the further point that using a single symbol to "represent two, three, or even four stones and - worse - sometimes used a symbol where there way no stone at all!"
+  [[./images/romanabaci-Reynolds1993b.png]]
+
+#+reveal: split
+#+attr_reveal: :frag (appear)
+ - In 1299, Florence, Italy a law was passed that forbid bankers to using the Hindu-Arabic numbers (cite:Reynolds1993)
+ - In 1348, University of Padua listed book prices "/non per cifras, sed per literas clara/" that is, "not by figures, but by clear letters"  (cite:Reynolds1993)
 
 * TODO Day 13
 ** Before class :noexport:
@@ -1923,7 +2099,7 @@ Solution to Book II, problem 8 suggests general method:
 
 ** TODO Sketch 15: In Perfect Shape: The Platonic Solids
 
-** TODO Sketch 16: Shapes by Numbers: Coordinate Geometry
+** DONE Sketch 16: Shapes by Numbers: Coordinate Geometry
 
 * TODO Day 14
 ** Before class :noexport:
@@ -1964,7 +2140,7 @@ Solution to Book II, problem 8 suggests general method:
     - Greek fractions weren't convenient otherwise
   - ... gives diameter of about 6875'
   - and radius of about 3438'
-    - [ ] or $57^\circ 60'$
+    - or $57^\circ 60'$
 
 *** Cladius Ptolemy's /Almagest/
    :PROPERTIES:
@@ -2006,6 +2182,8 @@ Solution to Book II, problem 8 suggests general method:
 *** Ptolemy's Theorem and sums of chords
 For any quadrilateral inscribed in a circle:
 $$BD\cdot AC = AB \cdot CD + BC \cdot AD$$ [[./images/PtolemyTheorem.png]][fn:By Dicklyon (Wikipedia en Inglés) [Public domain], via Wikimedia Commons]
+#+reveal: split
+
 #+attr_reveal: :frag (appear)
 - The side-lengths of the quadrilateral are chords
 - ...
@@ -2118,6 +2296,33 @@ Watch [[https://www.youtube.com/watch?v=axZTv5YJssA&feature=youtu.be][Watch the 
 - Second mathematician biography is Due Today, Friday (Email to me by 9pm)
 - Be working on the Historical timeline overview for this mathematician
 ** TODO Sketch 26: Out of the Shadows: The Tangent Function
+*** Direct Shadow and Inverse Shadow
+[[./images/shadows.gif]]
+*** Getting by with calculations:
+#+attr_reveal: :frag (appear)
+- inverse shadow: $\displaystyle \frac{\sin \theta}{\sin( 90^\circ - \theta)}$
+- shadow: $\displaystyle \frac{\sin( 90^\circ - \theta)}{\sin \theta}$
+*** Bhaskara I on gnomons
+- Thoughts on Details Proper Construction
+  + pg. 122 of cite:Keller_2006  (he amuses me)
+*** Bhaskara I on computing shadows
+- Working proportions of shadows of gnomons
+  - think about 'shadow of tree' type from trig class
+- pg 127 of cite:Keller_2006
+
+*** Let's look at all trig functions
+
+#+attr_reveal: :frag (appear)
+- Al-Biruni's trigonmetric lengths
+- Imagine sun is in bottom left quadrant
+  [[https://www.geogebra.org/classic/g8tzvkwa]]
+*** I'm going to use our notation
+Tangent isn't 'tangent' or a function, but I'm calling it that; it would be thought of as a shadow
+*** Al-Biruni's Half angle tangent:
+[[./images/halftangentangle.gif]]
+#+attr_reveal: :frag (appear)
+- Formula $\tan(\theta/2)$
+- $\displaystyle \tan\left(\frac{\theta}{2}\right) = \frac{\sin\theta}{1 + \cos \theta}$
 ** Sketch 30: Barely Touching: From Tangents to Derivatives
 
 *** "Precalculus"
