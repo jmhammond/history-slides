@@ -2642,16 +2642,18 @@ History overview due today, Monday) (Email by 9pm)
 - Do:
   - Sketch 19: 4; If you have a globe explore 1, 2, and 3
   - Sketch 20: 1, 2;
-** TODO Sketch 23: Machines that Think? Electronic Computers
+** Sketch 23: Machines that Think? Electronic Computers
 *** Idyllic world
 #+ATTR_REVEAL: :frag (appear)
 - Aristotle Quote (quoted in cite:Ifrah2000 pg 105)
-  > Suppose every instrument could by command or by anticipation of the need execute its function on its own; suppose that spindles could weave of their own accord, and plectra strike the strings of zithers by themselves; then craftsmen would have no need of hand-work, and masters have no need of slaves.
+  #+begin_quote
+  Suppose every instrument could by command or by anticipation of the need execute its function on its own; suppose that spindles could weave of their own accord, and plectra strike the strings of zithers by themselves; then craftsmen would have no need of hand-work, and masters have no need of slaves.
+  #+end_quote
 
 *** Computing Devices
 #+ATTR_REVEAL: :frag (appear)
 - Abacus
-- Napier's Bones
+- [[https://www.mathematik.uni-marburg.de/~thormae/lectures/ti1/code/napierbones/napierbones.html][Napier's Bones]] (interactive html5)
 - These don't mechanize computing
   #+ATTR_REVEAL: :frag (appear)
   + They help us count
@@ -2680,7 +2682,9 @@ History overview due today, Monday) (Email by 9pm)
 - 1525 - a pedometer
   #+ATTR_REVEAL: :frag (appear)
   + Invented by Jean Errard de Bel-le-Duc (cite:Ifrah2000 pg 124):
-    > A new geographical instrument which, attached to a horse's saddle, uses the horse's steps to display the length of the journey one has made ... by which one can exactly measure the circuit of a place or the length of a journey"
+    #+begin_quote
+    A new geographical instrument which, attached to a horse's saddle, uses the horse's steps to display the length of the journey one has made ... by which one can exactly measure the circuit of a place or the length of a journey"
+    #+end_quote
   + He made the old-timey FitBit!
 
 #+ATTR_REVEAL: :frag (appear)
@@ -2765,7 +2769,77 @@ Recommend to watch it on at least 1.5 speed because he talks really slowly
   - implemented in a circuit chip in 1995:
     https://www.computerhistory.org/revolution/birth-of-the-computer/4/78/327
 
-** TODO Sketch 24: The Arithmetic of Reasoning: Boolean Algebra
+** Sketch 24: The Arithmetic of Reasoning: Boolean Algebra
+*** Binary thinking
+#+ATTR_REVEAL: :frag (appear)
+- Leibniz invents binary number system - using 0's and 1's
+  published in 1703 /Explication de l'Arithmétique Binaire/
+- Has addition, subtraction, multiplication, and division
+- Acknowledges the earlier work of Fuxi and the "mystery of lines"
+  (Note: Fuxi is said to be the inventor of Chinese writing)
+
+#+REVEAL: split
+- Leibniz' binary system was philosophical - Laplace wrote (as in cite:Ifrah2000, pg 89):
+
+  #+ATTR_REVEAL: :frag (appear)
+  #+begin_quote
+  In the binary system which he invented, Leibniz south to perceive the Creation. He imagined that the Unity stood for God and Zero for the Void, that the Supreme Being had drawn every existing thing out of the void just as unity and zero suffice to represent every possible number in the system...
+  #+end_quote
+ 
+  #+ATTR_REVEAL: :frag (appear)
+  #+begin_quote
+  ... I mention this merely to show how childish fancies can cloud the visions of even the most distinguished men.
+  #+end_quote
+
+*** /Yijing/ the Book of Changes
+#+ATTR_REVEAL: :frag (appear)
+- /Yijing/ and /yin/ and /yang/
+  #+ATTR_REVEAL: :frag (appear)
+  - /yin/ is "female" and represented by a broken line: - -
+  - /yang/ is "male" and represented by a contiuous line: ---
+- Use trigrams (three lines) or hexagrams (six lines)
+
+#+REVEAL: split
+#+ATTR_REVEAL: :frag (appear)
+- Summer, the South, the sky, the Sun
+  #+begin_src
+  ---
+  ---
+  ---
+  #+end_src
+- Winter, the North, the Earth, the Moon:
+  #+begin_src
+  - -
+  - -
+  - -
+  #+end_src
+- (boolean negations)
+
+#+REVEAL: split
+#+ATTR_REVEAL: :frag (appear)
+- Thunder, the Northeast, coming of Spring:
+  #+begin_src
+- -
+---
+- -
+  #+end_src
+- Wind, the Southwest, end of Summer:
+  #+begin_src
+---
+- -
+---
+  #+end_src
+#+REVEAL: split
+#+ATTR_REVEAL: :frag (appear)
+
+#+REVEAL: split
+#+ATTR_REVEAL: :frag (appear)
+- trigrams represent $2^3 = 8$ possibilties
+- hexagrams represent $2^6 = 64$ possibilities
+- the ability to /negate/ terms, as well as combine them
+  - we'd call them /join/ and /meet/
+  - ... or call them /and/ and /or/
+
 *** George Boole
 Laws of Thought
 https://www.gutenberg.org/files/15114/15114-pdf.pdf
