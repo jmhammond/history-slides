@@ -2304,7 +2304,7 @@ Watch [[https://www.youtube.com/watch?v=axZTv5YJssA&feature=youtu.be][Watch the 
 - shadow: $\displaystyle \frac{\sin( 90^\circ - \theta)}{\sin \theta}$
 *** Bhaskara I on gnomons
 - Thoughts on Details Proper Construction
-  + pg. 122 of cite:Keller_2006  (he amuses me)
+  + pg. 70 of cite:Keller_2006  (he amuses me)
 *** Bhaskara I on computing shadows
 - Working proportions of shadows of gnomons
   - think about 'shadow of tree' type from trig class
@@ -2323,6 +2323,7 @@ Watch [[https://www.youtube.com/watch?v=axZTv5YJssA&feature=youtu.be][Watch the 
 
 #+attr_reveal: :frag (appear)
 - Al-Biruni's trigonmetric lengths
+- ... Let's construct all the lines first; then look at the revelant segments
 - Imagine sun is in bottom left quadrant
   [[https://www.geogebra.org/classic/g8tzvkwa]]
 *** I'm going to use our notation
@@ -2334,12 +2335,11 @@ Tangent isn't 'tangent' or a function, but I'm calling it that; it would be thou
 - $\displaystyle \tan\left(\frac{\theta}{2}\right) = \frac{\sin\theta}{1 + \cos \theta}$
 ** Sketch 30: Barely Touching: From Tangents to Derivatives
 
-*** "Precalculus"
-  :PROPERTIES:
-  :CUSTOM_ID: early-names
-  :END:
+
+*** Early "integration" - area and volume problems
 
 #+attr_reveal: :frag (appear)
+- Hippocrates : Quadrature of the Lune
 - Eudoxus (408-355 B.C.)
   - Pioneered the Exhaustion Proof
 - Archimedes (287-212 B.C.)
@@ -2373,7 +2373,7 @@ Tangent isn't 'tangent' or a function, but I'm calling it that; it would be thou
    - Why?
    - Wine barrels!
    - Gauging rods were not always an accurate way to measure volume of wine barrels.
- - Areas in elliptical orbits
+ - Areas in elliptical orbits (second law of planetary motion)
 
 **** Bonaventura Cavalieri (1598-1647)
    :PROPERTIES:
@@ -2382,13 +2382,15 @@ Tangent isn't 'tangent' or a function, but I'm calling it that; it would be thou
 
  #+attr_reveal: :frag (appear)
  - Exchanged letters with Galileo Galilei
- - Developed a new way to break objects into "infinitesimals"
+ - Developed a new way to break objects into "indivisibles"
    #+attr_reveal: :frag (appear)
    - Curves/lines are a collection of points
    - Areas/planes are a collection of lines
    - Volumes/solids are a collection of planes
+   - Likely directlly motivated by Kepler's work
+- Computed areas of 'higher parabolas' $x^n$
  - Controversial ideas
-   - Infinity was uncomfortable
+   - it doesn't help the word was "verbose and not clearly written" cite:Eves1990
  - Galileo did not endorse his ideas
    - Thought it could lead to a paradox
 
@@ -2398,17 +2400,82 @@ Tangent isn't 'tangent' or a function, but I'm calling it that; it would be thou
   #+attr_reveal: :frag (appear)
   - define coordinate axes
   - represent a geometric curve on the axes in terms of variable expression
-- Method for finding tangent line to some curves
+- Method for finding tangent line to some curves; 'higher parabolas' $x^n$
 
 **** Pierre de Fermat (1601-1665)
 #+attr_reveal: :frag (appear)
 - Invented "analytic geometry"  (also)
+- found area under some geometric curves; 'higher parabolas' $x^n$
+- found connection between area and tangent questions for some curves
+  + that's the fundamental theorem, but didn't quite connect the dots!
+*** Early Differentiation
+#+attr_reveal: :frag (appear)
+- Fermat is foundational in this:
 - Found maximum and minimum values of curves
   #+attr_reveal: :frag (appear)
   - places where the slope of the tangent line is 0
   - we call this "Fermat's theorem" in calculus
-- found area under some geometric curves
-- found connection between area and tangent questions for some curves
+- Example: (using Viete's notation of vowels are variables):
+- Divide a quantity into two parts such their product is a maximum
+
+#+REVEAL: split
+#+attr_reveal: :frag (appear)
+- Let $B$ be a given quantity; denote points on a curve by by $A$ and $B-A$. Assume $E$ is a really small variable (like $\epsilon$):
+- $$(A-E)[B-(A-E)] = A(B-A)$$
+- because $E$ is really, really small. Basically but not zero..
+- Algebra...
+- $$2AE - BE - E^2 =0$$
+- Divide through by E (which isn't zero, remember?)
+- $$2A - B - E = 0$$
+- Now set $E = 0$; (it wasn't zero before! Promise!)
+- $$2A = B$$
+- The maximum of the curve occurs when $A = B/2$.
+
+- This is $\displaystyle \lim_{\epsilon \to 0} \frac{f(x+\epsilon) - f(x)}{\epsilon} = 0$
+
+#+REVEAL: split
+#+attr_reveal: :frag (appear)
+- Fermat's Method of finding tangents to curves given a Cartesian equation by finding *subtangents*
+  - the horizontal distance on the $x$ axis from the $x$ point to where the tangent would intersect. On the picture below, this tracing the value $a$ to the left.
+  [[./images/fermat_tangents.jpg]]  [fn:fermat_tangent]
+  - assume we're at point $(x,y)$ and want to find the subtangent $a$; $e$ is a small infinitessimal quantity
+  - Use The fact that we have similar triangles (whose hypotenuses) are the tangent:
+    $$ \frac{a}{y} = \frac{e}{\text{vertical}}$$
+
+#+REVEAL: split
+#+attr_reveal: :frag (appear)
+- The Cartesian coordinates are given here; and now pretend it's on the curve
+[[./images/fermat_tangents2.jpg]]
+#+REVEAL: split
+#+attr_reveal: :frag (appear)
+- Set $f(x + e, y + \frac{ey}{a}) = 0$
+- Algebra... divide everything by $e$ (it's not zero!)
+- Then pretend that $e$ was zero the whole time and solve for $a$.
+
+#+REVEAL: split
+#+attr_reveal: :frag (appear)
+- Specific Fermat example is for the 'folium of Descartes' (letter to Mersenne in June 1638)
+  $$x^3 + y^3 = nxy$$   (this picture has $n=5$)
+- [[./images/foliumOfDescartes.jpg]]
+
+#+REVEAL: split
+#+attr_reveal: :frag (appear)
+- Set $f(x + e, y + \frac{ey}{a}) = 0$
+- $(x+e)^3 + y^3(1+\frac{e}{a})^3 - ny(x+e)(1+\frac{e}{a}) = 0$
+- ... tedious algebra...
+- $e\left( 3x^2 + \frac{3y^3}{a} - \frac{nxy}{a} - ny\right) + e^2 \left( 3x + \frac{3y^3}{a} - \frac{ny}{a}  \right) + e^3 \left( 1 + \frac{y^3}{a^3}\right) = 0$
+- divide everything by $e$
+- ... set $e = 0$ and solve for $a$
+- $\displaystyle a = -\frac{3y^3 - nxy}{3x^2-ny}$
+
+#+REVEAL: split
+#+attr_reveal: :frag (appear)
+- If $(x, y) = (1, 0.20164)$ and $n=5$, we find the subtangent to be $a= 0.493827$. Plotting the actual tangent to the curve, we find:
+  [[./images/fermat_tangent3.png]]
+
+*** Next time... I want to do Leibniz' fundamental theorem of calculus.
+Probably. I want to work it out to understand it better.
+[[./images/leibniz_ftc.jpg]]
 
 
 * TODO Day 16
@@ -2430,13 +2497,13 @@ History overview due today, Monday) (Email by 9pm)
   - Sketch 23: Look through the questions and projects and do any that seem interesting. You might already be familiar with the material of all the questions.
   - Sketch 24: 1, 4, (5 if you feel adventurous)
 
-** TODO Sketch 21: What's in a Game? The Start of Probability Theory
+** Sketch 21: What's in a Game? The Start of Probability Theory
 
 Notes on Pacal/Fermat
 
-- Keith Devlin cite:devlin2010 brief summary (article available here: https://www-jstor-org.proxy.wichita.edu/stable/20876705; can post pdf)
-  This article specifically notes the difficulty that Pascal had with trying to solve it.
-
+#+ATTR_REVEAL: :frag (appear)
+- Keith Devlin cite:devlin2010 brief summary
+  #+ATTR_REVEAL: :frag (appear)
   Quote from the article "some of them [mathematicians] even went so far as to declare the that the problem could not be solved. Now where have you heard that before?"
 - English translation of their correspondence:
   https://www.york.ac.uk/depts/maths/histstat/pascal.pdf
@@ -2444,12 +2511,119 @@ Notes on Pacal/Fermat
   Letters also appear in cite:smith_source_1929
 
 
-Buffon Needle problem simulator
-- https://mste.illinois.edu/activity/buffon/
-- there's also a 1974 article linked here https://www-jstor-org.proxy.wichita.edu/stable/27959621
+#+REVEAL: split
+- Buffon Needle problem simulator
+  + https://mste.illinois.edu/activity/buffon/
+  + there's also a 1974 article linked here https://www-jstor-org.proxy.wichita.edu/stable/27959621
 
 
-** TODO Sketch 22: Making Sense of Data: Statistics become a science
+** Sketch 22: Making Sense of Data: Statistics become a science
+Discussing cite:Salsburg2002
+
+**** Lady Tasting Tea
+#+ATTR_REVEAL: :frag (appear)
+- Tea party at Cambridge in the 1920s
+- A lady says she can tell whether milk is added before or after
+- Ronald Fisher comes up with scheme to test this!
+- Can't use one cup. Why?
+- Can't use two cups, why?
+  #+ATTR_REVEAL: :frag (appear)
+  + could guess one and opposite
+  + entirely correct or entirely wrong
+- Or what if she made a mistake one time?
+- Need more cups
+
+
+**** Briefly about Ronald Fisher
+#+ATTR_REVEAL: :frag (appear)
+- Works at Rothamsted Agricultural Experimental Station
+- They had gathered 90 years of fertilizer data
+  + Rothamsted uses formulas to "adjust" data to compare year to year
+  + calls these 'fertility indexes'
+- Fisher looks at it
+- Fisher looks at rival companies
+#+REVEAL: split
+#+ATTR_REVEAL: :frag (appear)
+- Fisher notices it's the same non-sense
+- Publishes in 1921 that there is no difference what index is used
+  #+ATTR_REVEAL: :frag (appear)
+  + in fact, weather was a better predictor than fertilizer
+- 90 years of data collection was worthless
+
+**** Experimental Design
+#+ATTR_REVEAL: :frag (appear)
+- Fisher writes /The Design of Experiments/ in 1935
+- Chapter 2 is about the lady tasting tea
+- Come up with a mathematical model for what you're measuring
+- then collect data
+- Includes several exmaples including agriculture, but the book is hard
+- It grows in popularity
+
+**** Lady tasting tea?
+#+ATTR_REVEAL: :frag (appear)
+- Fisher describes the story but doesn't say it's true
+- someone who is there says it is
+- ... and they say she got every cup right.
+
+**** Sir Francis Galton and measurement
+#+ATTR_REVEAL: :frag (appear)
+- Galton discovered uniqueness of fingerprints
+- Wanted to study inheritance of intelligence
+- ... no good meaure in the 1890s
+- Founds a biometrical laboratory to measure parts that are measurable
+- Discovers regression to the mean (specifically tall and short)
+  #+ATTR_REVEAL: :frag (appear)
+  + realized can't /not/ revert to the mean
+  + if tall people always had tall children on average...
+- discovered mathematical relationship for reversion to the mean
+  + called it the coefficient of correlation
+**** Pearson and Distributions
+#+ATTR_REVEAL: :frag (appear)
+- If you conduct experiement, get scatter of numbers
+- ... e.g. measuring speed of light or gravity
+- or heights or arm length, or ....
+- Karl Peason says these things form a mathematical /distribution/
+- there are our numbers that completely describe it
+
+#+REVEAL: split
+#+ATTR_REVEAL: :frag (appear)
+- called /parameters/ from Greek for 'almost measure'
+  #+ATTR_REVEAL: :frag (appear)
+  + mean: central value around which measurements scatter
+  + standard deviation: how far most scatter about the mean
+  + symmetry: degree to which measurements cluster on one side of the mean
+  + kurtosis: how far rare measurements scatter from the mean
+- Pearson believes that there are /true/ values for anything being measured
+  #+ATTR_REVEAL: :frag (appear)
+  + e.g. there is a /human male height/ which is the true mean of all possible measures
+  + he's not right (Fisher shows this later)
+
+
+**** Galton founds /Biometrika/
+#+ATTR_REVEAL: :frag (appear)
+- Golton wants to study more and more
+- Pearson takes over in 1897 and sends women compute the four numbers
+  + these women are called /calculators/
+- Galton and Pearson founds the journal /Biometrika/
+  #+ATTR_REVEAL: :frag (appear)
+  - Galton invests to much it's the first journal with color print
+#+REVEAL: split
+#+ATTR_REVEAL: :frag (appear)
+- Goal is to prove Darwin's theory of evolution
+- Show a change in the four parameters of species
+- Didn't quite do it, but...
+- Did show via measurements of cranial capacity of ancient skulls vs. modern, little change
+- Did disprove claims by Australians that aborigines aren't human (they are)
+
+**** ... didn't show survival of the fittest
+#+ATTR_REVEAL: :frag (appear)
+- Scientists accept it now as correct
+- No longer looking for four parameters to try to prove it
+- Pearson's ideas, though, live on:
+  + economics, sociology, psychology, quantum physics, etc
+  + we use these distributions and parameters to study a lot
+
+
 
 * TODO Day 17
 ** TODO Before class :noexport:
@@ -2469,7 +2643,106 @@ History overview due today, Monday) (Email by 9pm)
   - Sketch 19: 4; If you have a globe explore 1, 2, and 3
   - Sketch 20: 1, 2;
 ** TODO Sketch 23: Machines that Think? Electronic Computers
-For more information
+*** Idyllic world
+#+ATTR_REVEAL: :frag (appear)
+- Aristotle Quote (quoted in cite:Ifrah2000 pg 105)
+  > Suppose every instrument could by command or by anticipation of the need execute its function on its own; suppose that spindles could weave of their own accord, and plectra strike the strings of zithers by themselves; then craftsmen would have no need of hand-work, and masters have no need of slaves.
+
+*** Computing Devices
+#+ATTR_REVEAL: :frag (appear)
+- Abacus
+- Napier's Bones
+- These don't mechanize computing
+  #+ATTR_REVEAL: :frag (appear)
+  + They help us count
+  + We still have to do manual work
+
+*** Why did it take so long?
+#+ATTR_REVEAL: :frag (appear)
+- Greeks had mechnics (Archimedes, for example)
+- Heron built steam-powered machines
+- One theory from cite:Ifrah2000:
+  #+ATTR_REVEAL: :frag (appear)
+  - lack of a positional number system with zero
+  - lack of a need to do tons of computations
+
+#+REVEAL: split
+#+ATTR_REVEAL: :frag (appear)
+- Science progressed (exploded) in the 16th and 17th centuries
+  + see also Newton, the Bernoullis, Lagrange, Laplace, ...
+- doing science was tied to mathematical computation
+
+
+
+*** Early computing machines
+
+#+ATTR_REVEAL: :frag (appear)
+- 1525 - a pedometer
+  #+ATTR_REVEAL: :frag (appear)
+  + Invented by Jean Errard de Bel-le-Duc (cite:Ifrah2000 pg 124):
+    > A new geographical instrument which, attached to a horse's saddle, uses the horse's steps to display the length of the journey one has made ... by which one can exactly measure the circuit of a place or the length of a journey"
+  + He made the old-timey FitBit!
+
+#+ATTR_REVEAL: :frag (appear)
+- First automatic calculator: the "calculating clock" 1623 by German astronomer Wilhelm Schickard (1592-1635)
+  #+ATTR_REVEAL: :frag (appear)
+  - Here's a working model built from Strickhard's notes in 1960
+  #+ATTR_REVEAL: :frag (appear)
+  [[http://ds-wordpress.haverford.edu/bitbybit/wp-content/uploads/2012/07/Chapter_1-19.jpg]]
+
+#+REVEAL: split
+#+ATTR_REVEAL: :frag (appear)
+- Strickard described it to Kepler in 1623 (letter dated September 20, 1623)
+- Only copy of the machine was burned in a fire on February 22, 1624.
+ 
+#+REVEAL: split
+#+ATTR_REVEAL: :frag (appear)
+- Pascaline 1642 - how it works (linked on discourse):
+  Recommend to watch it on at least 1.5 speed because he talks really slowly
+  https://www.youtube.com/watch?v=3h71HAJWnVU
+
+- Leibniz stepped-reckoner 1694
+
+#+REVEAL: split
+#+ATTR_REVEAL: :frag (appear)
+- lots of time passes, lots of machines
+- [[https://history-computer.com/MechanicalCalculators/19thCentury/Colmar.html][Thomas de Colmar's Arithmometer]] in 1822
+  #+ATTR_REVEAL: :frag (appear)
+  - reliable, functional, successful commercially
+  - marketed in many countries with different names:
+    #+ATTR_REVEAL: :frag (appear)
+    - "Saxonia, Archimedes, Unitas, TIM"
+    - "Time is Money"
+
+#+REVEAL: split
+#+ATTR_REVEAL: :frag (appear)
+- ... side track
+- Keyboards were invented in the mid-1800's
+- but were fiddly; error prone
+- (side note: why QWERTY?)
+- First printer invented in 1872
+- First calculator with a keyboard and printer in 1882
+  #+ATTR_REVEAL: :frag (appear)
+  + Marketed at a cash register
+  + help solve disputes with customers
+
+*** Of course, Babbage
+- Babbage's difference engine with relaxing music
+  https://www.youtube.com/watch?v=be1EM3gQkAY
+
+- This video demos the math behind the machine
+  https://www.youtube.com/watch?v=PFMBU17eo_4
+
+*** And ENIAC
+  [[https://www.computerhistory.org/revolution/birth-of-the-computer/4/78][Really great photo collection from the Computer museum]]
+  - setting it up
+    https://www.computerhistory.org/revolution/birth-of-the-computer/4/78/316
+  - operating it
+    https://www.computerhistory.org/revolution/birth-of-the-computer/4/78/321
+  - implemented in a circuit chip in 1995:
+    https://www.computerhistory.org/revolution/birth-of-the-computer/4/78/327
+
+*** For more information
 History of Computing in ComputerWorld 1981
 https://archive.org/details/TheHistoryOfComputing/mode/2up
 
@@ -2491,6 +2764,7 @@ Recommend to watch it on at least 1.5 speed because he talks really slowly
     https://www.computerhistory.org/revolution/birth-of-the-computer/4/78/321
   - implemented in a circuit chip in 1995:
     https://www.computerhistory.org/revolution/birth-of-the-computer/4/78/327
+
 ** TODO Sketch 24: The Arithmetic of Reasoning: Boolean Algebra
 *** George Boole
 Laws of Thought
@@ -3166,3 +3440,5 @@ bibliography:History.bib
 
 
 [fn:ionicnumbers] Greek Numerals http://www.ancientscripts.com/images/greek\_alphabet\_numerals.png
+
+[fn:fermat_tangent] cite:Eves1990 pg 391
